@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "enabledMcpjsonServers": ["law", "dart", "kordoc", "assembly"],
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "mcp__law",
+      "mcp__dart",
+      "mcp__kordoc",
+      "mcp__assembly",
+      "mcp__Claude_Browser",
+      "WebFetch",
+      "WebSearch",
+      "Bash(py *)",
+      "Bash(python *)",
+      "Bash(python3 *)",
+      "Bash(node --version)",
+      "Bash(git --version)",
+      "Bash(git pull *)",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File *check-keys.ps1)",
+      "PowerShell(py *)",
+      "PowerShell(& py *)",
+      "PowerShell(python *)",
+      "PowerShell(python3 *)",
+      "PowerShell(node --version)",
+      "PowerShell(git --version)",
+      "PowerShell(git pull *)",
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File *check-keys.ps1)",
+      "PowerShell(winget --version)",
+      "PowerShell(pdftotext -v)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(Get-ChildItem *)",
+      "Bash(winget --version)",
+      "Bash(pdftotext -v)"
+    ],
+    "ask": ["mcp__assembly__assembly_live_captions_record"],
+    "deny": [
+      "Read(/.env)",
+      "Read(/.env.*)",
+      "Edit(/.env)",
+      "Edit(/.env.*)",
+      "Edit(/.mcp.json)",
+      "Edit(/.claude/skills/**)"
+    ]
+  }
+}

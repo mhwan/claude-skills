@@ -1,0 +1,348 @@
+{
+  "schema": "fiw.todo/1",
+  "issues": [
+    {
+      "key": "new:c0118",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0118:1",
+          "id": "01100701.20261012152451001",
+          "title": "[속보] 김제 지평선축제 식중독 의심 신고 720명으로 늘어…91명 입원 치료",
+          "outlet": "세계일보",
+          "date": "2026-10-12",
+          "url": "https://www.segye.com/newsView/20261012515942",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1310,
+            "src_chars": 1310,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0118:2",
+          "id": "01100101.20261012141726001",
+          "title": "김제 지평선축제 식중독 의심 신고 757명···살모넬라균 검출",
+          "outlet": "경향신문",
+          "date": "2026-10-12",
+          "url": "https://www.khan.co.kr/article/202610121416001",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1073,
+            "src_chars": 1073,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0118:3",
+          "id": "01101001.20261012160956001",
+          "title": "김제 지평선축제 ‘식중독 의심’ 720명 신고…시 “피해 보상”",
+          "outlet": "한겨레",
+          "date": "2026-10-12",
+          "url": "https://www.hani.co.kr/arti/area/honam/1281974.html",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1023,
+            "src_chars": 1023,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0118:f1",
+          "title": "'식중독 의심' 720명 나온 김제 지평선축제…91명 입원 치료 중",
+          "date": "2026-10-12",
+          "url": "https://www.kyeonggi.com/article/20261012580202",
+          "excerpt": "",
+          "outlet": "경기일보"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0135",
+      "section": "assembly",
+      "articles": [
+        {
+          "ref": "c0135:1",
+          "id": "07100502.20261014171131001",
+          "title": "수산발전기금 25년간 기업 기부 전무",
+          "outlet": "환경일보",
+          "date": "2026-10-14",
+          "url": "https://www.hkbs.co.kr/news/articleView.html?idxno=835383",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1708,
+            "src_chars": 1708,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0135:2",
+          "id": "02100201.20261013150947001",
+          "title": "수산발전기금 설치 후 25년간 기업 기부금 0원…홍보 실적도 '0건'",
+          "outlet": "머니투데이",
+          "date": "2026-10-13",
+          "url": "https://www.mt.co.kr/policy/2026/10/13/2026101314520334521",
+          "body": "",
+          "title_body_conflicts": [
+            "0"
+          ],
+          "body_check": {
+            "chars": 1254,
+            "src_chars": 1254,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0135:3",
+          "id": "01100611.20261008150035001",
+          "title": "[단독] FTA 어업인 지원 수산발전기금…“25년간 기업 기부금 0원”",
+          "outlet": "서울신문",
+          "date": "2026-10-08",
+          "url": "https://www.seoul.co.kr/news/newsView.php?id=20261008500157",
+          "body": "",
+          "title_body_conflicts": [
+            "0"
+          ],
+          "body_check": {
+            "chars": 1320,
+            "src_chars": 1320,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0135:f1",
+          "title": "서삼석 의원 “어민 지원 수산발전기금, 25년간 기업 기부금 0원”",
+          "date": "2026-10-13",
+          "url": "http://www.breaknews.com/1242602",
+          "excerpt": "",
+          "outlet": "브레이크뉴스"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0150",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0150:1",
+          "id": "04101008.20261021152233001",
+          "title": "베트남 가는 용가리치킨…'K닭고기 가공품' 베트남 첫 수출",
+          "outlet": "이데일리",
+          "date": "2026-10-21",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04175446645615216",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1538,
+            "src_chars": 1538,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0150:2",
+          "id": "02100201.20261021150333001",
+          "title": "'용가리치킨' 베트남 식탁 오른다…하림, 닭고기가공품 첫 선적",
+          "outlet": "머니투데이",
+          "date": "2026-10-21",
+          "url": "https://www.mt.co.kr/economy/2026/10/21/2026102114351023272",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1029,
+            "src_chars": 1029,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0150:3",
+          "id": "07100501.20261021150230001",
+          "title": "K-닭고기가공품 베트남 첫 수출…내년까지 70톤 공급",
+          "outlet": "전자신문",
+          "date": "2026-10-21",
+          "url": "http://www.etnews.com/20261021000343",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 625,
+            "src_chars": 625,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0158",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0158:1",
+          "id": "02100311.20261015233434001",
+          "title": "제분업체 6곳 또 ‘짬짜미 혐의’ 이번엔 1.4조 규모 사료 원료",
+          "outlet": "서울경제",
+          "date": "2026-10-15",
+          "url": "https://www.sedaily.com/article/20101628?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [
+            "1.4"
+          ],
+          "body_check": {
+            "chars": 1125,
+            "src_chars": 1125,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0158:2",
+          "id": "01400201.20261014150347001",
+          "title": "8년 넘게 '밀가루 부산물' 1.4조 원대 담합… 6개 제분사들 심판대에",
+          "outlet": "대전일보",
+          "date": "2026-10-14",
+          "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2306935",
+          "body": "",
+          "title_body_conflicts": [
+            "1.4"
+          ],
+          "body_check": {
+            "chars": 817,
+            "src_chars": 817,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0158:3",
+          "id": "02100101.20261014144437001",
+          "title": "제분업체 6곳, 사료 원료값 8년간 담합…과징금 최대 2100억원",
+          "outlet": "매일경제",
+          "date": "2026-10-14",
+          "url": "http://www.mk.co.kr/article/12175580",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 965,
+            "src_chars": 965,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0158:f1",
+          "title": "제분업체 6곳 또 ‘짬짜미 혐의’ 이번엔 1.4조 규모 사료 원료",
+          "date": "2026-10-14",
+          "url": "https://www.sedaily.com/article/20101628?ref=kpf",
+          "excerpt": "",
+          "outlet": "서울경제"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0168",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0168:1",
+          "id": "02100201.20261001093408001",
+          "title": "[단독]\"흰 우유 남아돌아\" 원유 2.6만톤 줄인다...물량 협상 타결",
+          "outlet": "머니투데이",
+          "date": "2026-10-01",
+          "url": "https://www.mt.co.kr/living/2026/10/01/2026100109154142981",
+          "body": "",
+          "title_body_conflicts": [
+            "2.6"
+          ],
+          "body_check": {
+            "chars": 1460,
+            "src_chars": 1460,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0168:2",
+          "id": "02100351.20261001170725002",
+          "title": "“흰우유 원유 2만6000톤 줄인다”...음용유 줄이고 가공유 확대",
+          "outlet": "이투데이",
+          "date": "2026-10-01",
+          "url": "https://www.etoday.co.kr/news/view/2631652",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1052,
+            "src_chars": 1052,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0168:3",
+          "id": "02100801.20261001100814001",
+          "title": "남아도는 흰우유에 음용유 2.6만t 감축…'원유 쿼터' 협상 타결",
+          "outlet": "아시아경제",
+          "date": "2026-10-01",
+          "url": "https://view.asiae.co.kr/article/2026100110025844649",
+          "body": "",
+          "title_body_conflicts": [
+            "2.6"
+          ],
+          "body_check": {
+            "chars": 1744,
+            "src_chars": 1744,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    }
+  ],
+  "excluded_no_link": [],
+  "market": [],
+  "lwf_mentions": {
+    "c0118:1": false,
+    "c0118:2": false,
+    "c0118:3": false,
+    "c0135:1": false,
+    "c0135:2": false,
+    "c0135:3": false,
+    "c0150:1": false,
+    "c0150:2": false,
+    "c0150:3": false,
+    "c0158:1": false,
+    "c0158:2": false,
+    "c0158:3": false,
+    "c0168:1": false,
+    "c0168:2": false,
+    "c0168:3": false
+  }
+}

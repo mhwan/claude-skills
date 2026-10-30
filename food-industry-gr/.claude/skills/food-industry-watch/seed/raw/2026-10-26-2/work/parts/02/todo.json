@@ -1,0 +1,457 @@
+{
+  "schema": "fiw.todo/1",
+  "issues": [
+    {
+      "key": "new:c0140",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0140:1",
+          "id": "08100401.20260902095402004",
+          "title": "흑염소 함량 거짓 표시·광고한 업체 15곳 적발",
+          "outlet": "YTN",
+          "date": "2026-09-02",
+          "url": "https://www.ytn.co.kr/_ln/0103_202609020953583767",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 339,
+            "src_chars": 339,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0140:2",
+          "id": "08100301.20260903080827001",
+          "title": "흑염소 추출액 뻥튀기했다…줄줄이 적발된 업체들 보니",
+          "outlet": "SBS",
+          "date": "2026-09-03",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008735112&plink=ORI&cooper=ETC",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 495,
+            "src_chars": 495,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0140:3",
+          "id": "08100101.20260902125857001",
+          "title": "‘흑염소 함량 뻥튀기’ 무더기 적발",
+          "outlet": "KBS",
+          "date": "2026-09-02",
+          "url": "https://news.kbs.co.kr/news/view.do?ncd=8652701&amp;ref=DA",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 222,
+            "src_chars": 222,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0140:f1",
+          "title": "흑염소 함량 1%를 81%로 표시…무더기 적발",
+          "date": "2026-09-02",
+          "url": "https://news.kbs.co.kr/news/view.do?ncd=8652977&amp;ref=DA",
+          "excerpt": "",
+          "outlet": "KBS"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0142",
+      "section": "assembly",
+      "articles": [
+        {
+          "ref": "c0142:1",
+          "id": "01100501.20260921210350001",
+          "title": "명절 노린 축산물 원산지 속임 여전…5건 중 1건 명절에 적발",
+          "outlet": "문화일보",
+          "date": "2026-09-21",
+          "url": "https://www.munhwa.com/article/11618700?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1056,
+            "src_chars": 1056,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0142:2",
+          "id": "01100611.20260921220355001",
+          "title": "명절 대목 노린 축산물 원산지 속임 여전···5건 중 1건은 ‘설·추석’ 적발",
+          "outlet": "서울신문",
+          "date": "2026-09-21",
+          "url": "https://go.seoul.co.kr/news/newsView.php?id=20260921500384",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 942,
+            "src_chars": 942,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0142:3",
+          "id": "01600901.20260920111616001",
+          "title": "문금주 의원, 축산물 원산지 속임, 5건 중 1건은 '명절 대목'에 집중",
+          "outlet": "전라일보",
+          "date": "2026-09-20",
+          "url": "http://www.jeollailbo.com/news/articleView.html?idxno=811640",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 950,
+            "src_chars": 950,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0142:f1",
+          "title": "정부 단속에도 명절 대목 노린 축산물 원산지 속임 여전",
+          "date": "2026-09-20",
+          "url": "https://www.munhwa.com/article/11618351?ref=kpf",
+          "excerpt": "",
+          "outlet": "문화일보"
+        },
+        {
+          "ref": "c0142:f2",
+          "title": "문금주 “명절 노린 축산물 원산지 속임 여전”",
+          "date": "2026-09-20",
+          "url": "http://www.kjdaily.com/news_view.php?n=687333&tmp=20260920&s=2",
+          "excerpt": "",
+          "outlet": "광주매일신문"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0148",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0148:1",
+          "id": "07100501.20260915175941001",
+          "title": "더본코리아 연돈카레, 당류 '0g' 표시…수거검사서 부적합",
+          "outlet": "전자신문",
+          "date": "2026-09-15",
+          "url": "http://www.etnews.com/20260915000434",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 621,
+            "src_chars": 621,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0148:2",
+          "id": "02100351.20260915160107001",
+          "title": "“당류 0g이라더니”…더본코리아 ‘연돈카레’ 식약처 검사서 부적합",
+          "outlet": "이투데이",
+          "date": "2026-09-15",
+          "url": "https://www.etoday.co.kr/news/view/2625778",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1484,
+            "src_chars": 1484,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0148:3",
+          "id": "02100701.20260915105802001",
+          "title": "더본코리아, ‘연돈 카레’ 당류 0g 함량 표기 위반 행정처분",
+          "outlet": "헤럴드경제",
+          "date": "2026-09-15",
+          "url": "https://biz.heraldcorp.com/article/10873801",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 808,
+            "src_chars": 808,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0208",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0208:1",
+          "id": "01600601.20260830183257003",
+          "title": "CJ제일제당 남원공장 생산중단, 남원지역사회 파장",
+          "outlet": "새전북신문",
+          "date": "2026-08-30",
+          "url": "https://sjbnews.com/news/news.php?number=886346",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1293,
+            "src_chars": 1293,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0208:2",
+          "id": "04102008.20260828143956001",
+          "title": "남원시, CJ제일제당 남원공장 생산중단 대비 적극 대응",
+          "outlet": "쿠키뉴스",
+          "date": "2026-08-28",
+          "url": "https://www.kukinews.com/article/view/kuk202608280094",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1252,
+            "src_chars": 1252,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0208:3",
+          "id": "01600601.20260831183715001",
+          "title": "[사설] CJ 남원공장 생산 중단되다니",
+          "outlet": "새전북신문",
+          "date": "2026-08-31",
+          "url": "https://sjbnews.com/news/news.php?number=886394",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1633,
+            "src_chars": 1633,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0273",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0273:1",
+          "id": "01200401.20260910165130001",
+          "title": "오뚜기 안양공장 납품업체서 60대 손가락 절단",
+          "outlet": "인천일보",
+          "date": "2026-09-10",
+          "url": "https://www.incheonilbo.com/news/articleView.html?idxno=1331737",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 543,
+            "src_chars": 543,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0273:2",
+          "id": "06101202.20260911125400001",
+          "title": "오뚜기 안양공장서 60대 노동자 손가락 절단 사고",
+          "outlet": "주간한국",
+          "date": "2026-09-11",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7183757",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1108,
+            "src_chars": 1108,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0273:3",
+          "id": "08100401.20260910181802001",
+          "title": "오뚜기 안양공장 납품업체 직원 손가락 절단 사고",
+          "outlet": "YTN",
+          "date": "2026-09-10",
+          "url": "https://www.ytn.co.kr/_ln/0103_202609101817264111",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 322,
+            "src_chars": 322,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0275",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0275:1",
+          "id": "02100311.20260912073058001",
+          "title": "“마라탕에 꼭 넣어 먹었는데 어쩌나”…중국산 목이버섯서 ‘17배 잔류농약’ 나왔다",
+          "outlet": "서울경제",
+          "date": "2026-09-12",
+          "url": "https://www.sedaily.com/article/20090083?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 843,
+            "src_chars": 843,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0275:2",
+          "id": "02100801.20260911161253001",
+          "title": "\"마라탕에 넣어 먹었는데 어쩌나\"…기준치 '17배' 농약 검출된 중국산 목이버섯",
+          "outlet": "아시아경제",
+          "date": "2026-09-11",
+          "url": "https://view.asiae.co.kr/article/2026091115464962367",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 907,
+            "src_chars": 907,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0275:3",
+          "id": "02100201.20260910211011001",
+          "title": "마라탕·짬뽕에 꼭 넣어먹었는데…'농약 17배' 이 식품 판매중단",
+          "outlet": "머니투데이",
+          "date": "2026-09-10",
+          "url": "https://www.mt.co.kr/living/2026/09/10/2026091020352525713",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 858,
+            "src_chars": 858,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0333",
+      "section": "assembly",
+      "articles": [
+        {
+          "ref": "c0333:1",
+          "id": "01600801.20260923091100001",
+          "title": "먹거리 담합 15조원인데…과징금은 12%뿐",
+          "outlet": "전남일보",
+          "date": "2026-09-23",
+          "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000068263",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 952,
+            "src_chars": 952,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0333:2",
+          "id": "01100701.20260923091036001",
+          "title": "설탕·밀가루 왜 비싼가 했더니…\"기업 담합으로 15조원 매출\"",
+          "outlet": "세계일보",
+          "date": "2026-09-23",
+          "url": "https://www.segye.com/newsView/20260923503547",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 924,
+            "src_chars": 924,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0333:3",
+          "id": "01200101.20260923093950001",
+          "title": "설탕·밀가루 등 국민 밥상 담합 15조원…과징금 10%대 그쳐",
+          "outlet": "경기일보",
+          "date": "2026-09-23",
+          "url": "https://www.kyeonggi.com/article/20260923580035",
+          "body": "",
+          "title_body_conflicts": [
+            "10"
+          ],
+          "body_check": {
+            "chars": 1087,
+            "src_chars": 1087,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    }
+  ],
+  "excluded_no_link": [],
+  "market": [],
+  "lwf_mentions": {
+    "c0140:1": false,
+    "c0140:2": false,
+    "c0140:3": false,
+    "c0142:1": false,
+    "c0142:2": false,
+    "c0142:3": false,
+    "c0148:1": false,
+    "c0148:2": false,
+    "c0148:3": false,
+    "c0208:1": false,
+    "c0208:2": false,
+    "c0208:3": false,
+    "c0273:1": false,
+    "c0273:2": false,
+    "c0273:3": false,
+    "c0275:1": false,
+    "c0275:2": false,
+    "c0275:3": false,
+    "c0333:1": false,
+    "c0333:2": false,
+    "c0333:3": false
+  }
+}

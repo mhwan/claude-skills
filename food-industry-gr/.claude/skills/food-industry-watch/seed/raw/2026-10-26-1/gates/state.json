@@ -1,0 +1,10 @@
+{
+  "schema": "fiw.gate/1",
+  "gate": "state",
+  "exit": 0,
+  "checked": 8,
+  "findings": [],
+  "classified": {},
+  "skipped": [],
+  "input_hash": null
+}

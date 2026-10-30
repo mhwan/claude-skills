@@ -1,0 +1,433 @@
+{
+  "schema": "fiw.todo/1",
+  "issues": [
+    {
+      "key": "I-0018",
+      "section": "assembly",
+      "articles": [
+        {
+          "ref": "c1043:1",
+          "id": "07100502.20260918155144001",
+          "title": "식약처, 소비자단체와 유전자변형식품 표시제도 소통",
+          "outlet": "환경일보",
+          "date": "2026-09-18",
+          "url": "https://www.hkbs.co.kr/news/articleView.html?idxno=833895",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1111,
+            "src_chars": 1111,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0426:1",
+          "id": "01100301.20260910130407001",
+          "title": "외국산콩 가공식품 GMO노출 무방비",
+          "outlet": "내일신문",
+          "date": "2026-09-10",
+          "url": "https://www.naeil.com/news/read/601782?ref=bigkinds",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1210,
+            "src_chars": 1210,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0426:2",
+          "id": "06101202.20260907171130001",
+          "title": "송옥주 의원 \"GMO완전표시제에 두부·된장 포함해야\"",
+          "outlet": "주간한국",
+          "date": "2026-09-07",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7182904",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1062,
+            "src_chars": 1062,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "I-0018:f1",
+          "title": "“GMO 완전표시제, 연내 전면 실시” 대통령 한마디에 난감해진 식약처",
+          "date": "2026-07-30",
+          "url": "https://www.chosun.com/national/national_general/2026/07/30/Y4AUUZHPBJEPRNADBBM6XCY6LU/?utm_source=bigkinds&utm_medium=original&utm_campaign=news",
+          "excerpt": ""
+        }
+      ],
+      "prior": {
+        "title": "GMO 완전 표시제 품목별 적용 시기, 대통령 일괄 도입 검토 주문",
+        "last_sentences": [
+          "식약처는 올해 12월 31일부터 간장류, 내년 12월 31일부터 당류와 식용유지류에 GMO 완전 표시제를 적용하기로 하고 지난 8일 이를 고시했다.",
+          "제도가 시행되면 원료로 유전자변형 농축수산물을 한 번이라도 쓴 제품은 최종 제품에서 유전자변형 성분이 검출되지 않더라도 GMO 표시를 해야 한다.",
+          "이재명 대통령은 국무회의에서 품목별로 적용 시기를 나누는 데 의문을 제기하며 올해 말부터 일괄 도입하는 방안 검토를 주문했다.",
+          "기사는 고시를 바꾸려면 식품업계와 소비자단체 등의 의견을 다시 수렴하고 규제 강화에 해당하면 규제심사도 거쳐야 한다고 전했다."
+        ]
+      },
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0464",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0464:1",
+          "id": "02100701.20260910180254001",
+          "title": "송미령 “CPTPP 가입 결정된 것 아냐…농업 생산기반 무너지면 수용 어려워”",
+          "outlet": "헤럴드경제",
+          "date": "2026-09-10",
+          "url": "https://biz.heraldcorp.com/article/10869631",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 2523,
+            "src_chars": 2523,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "I-0021",
+      "section": "assembly",
+      "articles": [
+        {
+          "ref": "c0481:1",
+          "id": "01500601.20260914145859001",
+          "title": "농어촌상생기금 10년간 3천255억원…1조원 목표 3분의 1 그쳐",
+          "outlet": "매일신문",
+          "date": "2026-09-14",
+          "url": "https://www.imaeil.com/page/view/2026091313063949188",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 990,
+            "src_chars": 990,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "I-0021:f1",
+          "title": "1조 농어촌기금, 또 기업 팔 비트는 국회",
+          "date": "2026-08-11",
+          "url": "https://www.hankyung.com/article/2026081150361",
+          "excerpt": ""
+        }
+      ],
+      "prior": {
+        "title": "농해수위, 농어촌상생협력기금 운용 시한 10년 연장 추진",
+        "last_sentences": [
+          "국회 농해수위가 올해 말 일몰 예정인 농어촌상생협력기금 운용 시한을 2037년까지 10년 더 연장하기로 가닥을 잡았다.",
+          "농림축산식품법안심사소위원회는 11일 관련 특별법 개정안을 논의했으나 의결하지 않았고, 오는 25일 소위를 다시 열어 처리하기로 의견을 모았다.",
+          "발의된 윤준병 의원안에는 10년 연장에 더해 기금 목표액을 2조원으로 늘리자는 내용까지 담겼다.",
+          "기사는 재계가 국회의 시한 연장을 기업을 향한 기부 압박으로 보고 당혹스러워하는 분위기라고 전했다."
+        ]
+      },
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0525",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0525:1",
+          "id": "01100401.20260918172227001",
+          "title": "할랄 의무화 한 달 앞…식약처, K-푸드·뷰티 수출길 돕는다",
+          "outlet": "동아일보",
+          "date": "2026-09-18",
+          "url": "https://www.donga.com/news/Economy/article/all/20260918/134697590/2",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 898,
+            "src_chars": 898,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0525:2",
+          "id": "01100751.20260918162705002",
+          "title": "식약처, 인니와 할랄 협력 강화…\"K-푸드·뷰티 수출 지원\"",
+          "outlet": "아시아투데이",
+          "date": "2026-09-18",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260918010007178",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 976,
+            "src_chars": 976,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0567",
+      "section": "assembly",
+      "articles": [
+        {
+          "ref": "c0567:1",
+          "id": "01500201.20260923153002001",
+          "title": "프레시백·보냉재 위생기준 법제화…김기웅, 개정안 발의",
+          "outlet": "경북일보",
+          "date": "2026-09-23",
+          "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4085128",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 901,
+            "src_chars": 901,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0567:2",
+          "id": "01500601.20260922131335001",
+          "title": "'세척 기준 없는 프레시백' 위생관리 법제화… 野 김기웅 의원 법안 발의",
+          "outlet": "매일신문",
+          "date": "2026-09-22",
+          "url": "https://www.imaeil.com/page/view/2026092213113819881",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 583,
+            "src_chars": 583,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "I-0025",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0594:1",
+          "id": "02100311.20260922233457001",
+          "title": "‘설탕·밀가루 담합’ 과징금, 법원서 줄줄이 제동",
+          "outlet": "서울경제",
+          "date": "2026-09-22",
+          "url": "https://www.sedaily.com/article/20093476?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1202,
+            "src_chars": 1202,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0594:2",
+          "id": "02100311.20260922070318001",
+          "title": "法, 설탕·밀가루 과징금 잇단 집행정지…식품업계 ‘수천억 제재’ 법정 다툼",
+          "outlet": "서울경제",
+          "date": "2026-09-22",
+          "url": "https://www.sedaily.com/article/20093656?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1472,
+            "src_chars": 1472,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0594:3",
+          "id": "02100311.20260921150611001",
+          "title": "‘설탕·밀가루 담합’ 과징금, 법원서 줄줄이 제동",
+          "outlet": "서울경제",
+          "date": "2026-09-21",
+          "url": "https://www.sedaily.com/article/20093476?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1202,
+            "src_chars": 1202,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "I-0025:f1",
+          "title": "설탕시장 ‘큰손’ 롯데 앞에 두고…제당 3사 ‘담합 플레이’ [공정위 심판정 톡톡]",
+          "date": "2026-08-20",
+          "url": "https://www.kukinews.com/article/view/kuk202608200105",
+          "excerpt": ""
+        }
+      ],
+      "prior": {
+        "title": "공정위 설탕담합 의결서, 롯데칠성 공급가격이 B2B 설탕시장 기준가격 역할",
+        "last_sentences": [
+          "지난 3월 최종 의결로 CJ제일제당과 삼양사, 대한제당에 총 3959억9100만원의 과징금과 시정명령이 부과됐다.",
+          "기사는 의결서를 토대로 담합에 참여하지 않은 롯데칠성음료가 국내 최대 설탕 수요처라고 전했다.",
+          "공정위는 롯데칠성 공급가격이 국내 B2B 설탕시장의 기준가격 역할을 했다고 봤다.",
+          "공정위 조사 결과 제당사들은 가격 인상 시기와 폭을 논의하고 대형 거래처와의 협상 상황을 공유했으며, 이런 방식은 2021년부터 2023년까지 여러 차례 가격 인상 과정에서 반복됐다."
+        ]
+      },
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0659",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0659:1",
+          "id": "04102008.20260831183653001",
+          "title": "비비고 국물요리 내일부터 5900→8500원…편의점 가격 확 뛰는 까닭",
+          "outlet": "쿠키뉴스",
+          "date": "2026-08-31",
+          "url": "https://www.kukinews.com/article/view/kuk202608310183",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1202,
+            "src_chars": 1202,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0805",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0805:1",
+          "id": "02100351.20260907170542003",
+          "title": "제로음료도 ‘설탕세’ 사정권…가격 인상 압력 커지나",
+          "outlet": "이투데이",
+          "date": "2026-09-07",
+          "url": "https://www.etoday.co.kr/news/view/2622609",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1443,
+            "src_chars": 1443,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c1025",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c1025:1",
+          "id": "02100351.20260917163735001",
+          "title": "식약처, 건조대파 농약 잔류허용기준 국제기준 채택…라면 수출 비관세장벽 완화",
+          "outlet": "이투데이",
+          "date": "2026-09-17",
+          "url": "https://www.etoday.co.kr/news/view/2626914",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1054,
+            "src_chars": 1054,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c1076",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c1076:1",
+          "id": "04100078.20260921113408001",
+          "title": "고기 라면 중국 수출길 열린다…식약처, K-푸드 수출 장벽 해소",
+          "outlet": "뉴스핌",
+          "date": "2026-09-21",
+          "url": "https://www.newspim.com/news/view/20260921000554",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1279,
+            "src_chars": 1279,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    }
+  ],
+  "excluded_no_link": [],
+  "market": [],
+  "lwf_mentions": {
+    "c1043:1": false,
+    "c0426:1": false,
+    "c0426:2": false,
+    "c0464:1": false,
+    "c0481:1": false,
+    "c0525:1": false,
+    "c0525:2": false,
+    "c0567:1": false,
+    "c0567:2": false,
+    "c0594:1": false,
+    "c0594:2": false,
+    "c0594:3": false,
+    "c0659:1": false,
+    "c0805:1": false,
+    "c1025:1": false,
+    "c1076:1": false
+  }
+}

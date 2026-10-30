@@ -1,0 +1,14 @@
+{
+  "schema": "gr.gov-notice-watch/1",
+  "agencies": [
+    {"name": "식품의약품안전처", "aliases": ["식약처"], "korea_kr": "A00027", "lawmaking": "1471000"},
+    {"name": "농림축산식품부", "aliases": ["농식품부"], "korea_kr": "A00008", "lawmaking": "1543000"},
+    {"name": "보건복지부", "aliases": ["복지부"], "korea_kr": "A00012", "lawmaking": "1352000"},
+    {"name": "공정거래위원회", "aliases": ["공정위"], "korea_kr": "C00001", "lawmaking": "1130000"}
+  ],
+  "food_related": {
+    "include": ["식품", "식료품", "음료", "주류", "축산", "농산물", "수산물", "원산지", "급식", "건강기능식품", "가공", "식중독", "위생", "가맹", "유통", "담합"],
+    "exclude": ["의약품", "의약외품", "의료기기", "의료제품", "화장품", "마약"],
+    "no_match_other": ["보건복지부"]
+  }
+}

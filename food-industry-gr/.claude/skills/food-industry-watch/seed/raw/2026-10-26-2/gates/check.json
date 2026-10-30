@@ -1,0 +1,38 @@
+{
+  "schema": "fiw.gate/1",
+  "gate": "check",
+  "exit": 3,
+  "checked": 8557,
+  "findings": [
+    {
+      "where": "mfds_notice/44286",
+      "kind": "C8",
+      "detail": "comment period not parsed — non-food by keyword (exclude:의료제품), listed under 그 밖 without a period"
+    },
+    {
+      "where": "mfds_notice/44265",
+      "kind": "C8",
+      "detail": "comment period not parsed — non-food by keyword (exclude:의약품), listed under 그 밖 without a period"
+    },
+    {
+      "where": "mfds_notice/44251",
+      "kind": "C8",
+      "detail": "comment period not parsed — non-food by keyword (exclude:의약품), listed under 그 밖 without a period"
+    },
+    {
+      "where": "mfds_notice/44232",
+      "kind": "C8",
+      "detail": "comment period not parsed — non-food by keyword (exclude:의약품), listed under 그 밖 without a period"
+    },
+    {
+      "where": "mfds_notice/44231",
+      "kind": "C8",
+      "detail": "comment period not parsed — non-food by keyword (exclude:의료기기), listed under 그 밖 without a period"
+    }
+  ],
+  "classified": {
+    "C8": 5
+  },
+  "skipped": [],
+  "input_hash": "1dd4ccc3d707839f02a287265426016897178fdb4f0535858a6e7210a0a020f8"
+}

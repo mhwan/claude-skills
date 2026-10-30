@@ -1,0 +1,188 @@
+{
+  "schema": "fiw.todo/1",
+  "issues": [
+    {
+      "key": "new:c1097",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c1097:1",
+          "id": "01100501.20260923112739001",
+          "title": "담합제재 더 세진다… ‘조사 이후’ 자진신고, 과징금 0→25%",
+          "outlet": "문화일보",
+          "date": "2026-09-23",
+          "url": "https://www.munhwa.com/article/11619216?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1461,
+            "src_chars": 1461,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    }
+  ],
+  "excluded_no_link": [],
+  "market": [
+    {
+      "topic": "수출·해외",
+      "articles": [
+        {
+          "ref": "c0239:1",
+          "id": "02100701.20260903130122003",
+          "title": "K-푸드+ 수출 82.5억달러 ‘역대 최대’…정부, 160억달러 달성 총력전",
+          "outlet": "헤럴드경제",
+          "date": "2026-09-03",
+          "url": "https://biz.heraldcorp.com/article/10861213",
+          "body": "",
+          "title_body_conflicts": [
+            "82.5"
+          ],
+          "body_check": {
+            "chars": 2040,
+            "src_chars": 2040,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0239:2",
+          "id": "01500701.20260903171535001",
+          "title": "7월까지 K-푸드+ 수출 83억 달러…올해 160억 달러 달성 총력전",
+          "outlet": "부산일보",
+          "date": "2026-09-03",
+          "url": "https://www.busan.com/view/busan/view.php?code=2026090317101563352",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1470,
+            "src_chars": 1470,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0239:3",
+          "id": "04100078.20260903130423001",
+          "title": "7월까지 K-푸드+ 수출 82억달러 '역대 최대'…포도 1억달러 도전",
+          "outlet": "뉴스핌",
+          "date": "2026-09-03",
+          "url": "https://www.newspim.com/news/view/20260903000271",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 4088,
+            "src_chars": 4088,
+            "ends_sentence": true
+          }
+        }
+      ]
+    },
+    {
+      "topic": "원가·환율·가격",
+      "articles": [
+        {
+          "ref": "c0884:1",
+          "id": "02100101.20260910105022001",
+          "title": "대체 얼마나 부족하길래…“가격 3배 뛸수도” 서민먹거리 두부 ‘비상’",
+          "outlet": "매일경제",
+          "date": "2026-09-10",
+          "url": "http://www.mk.co.kr/article/12149149",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 2316,
+            "src_chars": 2316,
+            "ends_sentence": true
+          }
+        }
+      ]
+    },
+    {
+      "topic": "투자·설비",
+      "articles": [
+        {
+          "ref": "c0003:1",
+          "id": "01100501.20260907162133002",
+          "title": "CJ제일제당, 싱가포르에 ‘글로벌 테크니컬 센터’ 개관…조미소재 사업 확대",
+          "outlet": "문화일보",
+          "date": "2026-09-07",
+          "url": "https://www.munhwa.com/article/11615119?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 759,
+            "src_chars": 759,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0003:2",
+          "id": "02100311.20260908233315001",
+          "title": "CJ제일제당, 차세대 조미소재 사업 속도",
+          "outlet": "서울경제",
+          "date": "2026-09-08",
+          "url": "https://www.sedaily.com/article/20087930?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 715,
+            "src_chars": 715,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0003:3",
+          "id": "02100861.20260908101705001",
+          "title": "CJ제일제당, 싱가포르에 ‘글로벌 테크니컬 센터’ 개관⋯ 조미소재 사업 속도",
+          "outlet": "브릿지경제",
+          "date": "2026-09-08",
+          "url": "https://www.viva100.com/article/20260907500449",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1093,
+            "src_chars": 1093,
+            "ends_sentence": true
+          }
+        }
+      ]
+    },
+    {
+      "topic": "실적·주가",
+      "articles": [
+        {
+          "ref": "c0852:1",
+          "id": "06101202.20260908114445001",
+          "title": "롯데웰푸드, 상반기 영업익 98% 증가…중장기 성장 전략 공유",
+          "outlet": "주간한국",
+          "date": "2026-09-08",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7183027",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 603,
+            "src_chars": 603,
+            "ends_sentence": true
+          }
+        }
+      ]
+    }
+  ],
+  "lwf_mentions": {
+    "c1097:1": false,
+    "c0239:1": false,
+    "c0239:2": false,
+    "c0239:3": false,
+    "c0884:1": false,
+    "c0003:1": false,
+    "c0003:2": false,
+    "c0003:3": false,
+    "c0852:1": true
+  }
+}

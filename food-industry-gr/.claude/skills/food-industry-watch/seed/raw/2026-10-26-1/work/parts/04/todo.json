@@ -1,0 +1,264 @@
+{
+  "schema": "fiw.todo/1",
+  "issues": [],
+  "excluded_no_link": [],
+  "market": [
+    {
+      "topic": "수출·해외",
+      "articles": [
+        {
+          "ref": "c0196:1",
+          "id": "04100608.20260818092701001",
+          "title": "CJ, 식품·콘텐츠·뷰티 시너지..2028년 북미 매출 12조원 비전 선포",
+          "outlet": "브레이크뉴스",
+          "date": "2026-08-18",
+          "url": "http://www.breaknews.com/1229389",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 4598,
+            "src_chars": 4598,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0068:1",
+          "id": "04101008.20260813094540001",
+          "title": "CJ제일제당 미초, 日서 연매출 1500억원…일상 음료로 확장",
+          "outlet": "이데일리",
+          "date": "2026-08-13",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=04054086645546992",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1120,
+            "src_chars": 1120,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0658:1",
+          "id": "02100801.20260812071150001",
+          "title": "친환경 규제에 유럽 수출길 막힐라…EU 포장재 규정 강화, 긴장하는 K라면",
+          "outlet": "아시아경제",
+          "date": "2026-08-12",
+          "url": "https://view.asiae.co.kr/article/2026081114394276104",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 2129,
+            "src_chars": 2129,
+            "ends_sentence": true
+          }
+        }
+      ]
+    },
+    {
+      "topic": "저당·제로",
+      "articles": [
+        {
+          "ref": "c0427:1",
+          "id": "07100501.20260820110134002",
+          "title": "[마켓트렌드] “한 끼도 간식도 건강하게”…식품업계, 저당·고단백 일상화",
+          "outlet": "전자신문",
+          "date": "2026-08-20",
+          "url": "http://www.etnews.com/20260820000086",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 2110,
+            "src_chars": 2110,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0427:2",
+          "id": "10100301.20260820174328001",
+          "title": "[식품 이슈] \"폭염에 지친 몸 가볍게 관리\"…저당·고단백 식음료 확대",
+          "outlet": "스포츠한국",
+          "date": "2026-08-20",
+          "url": "https://sports.hankooki.com/news/articleView.html?idxno=6938298",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1342,
+            "src_chars": 1342,
+            "ends_sentence": true
+          }
+        }
+      ]
+    },
+    {
+      "topic": "원가·환율·가격",
+      "articles": [
+        {
+          "ref": "c0467:1",
+          "id": "08100101.20260814090730001",
+          "title": "폭염에 채소류 값 껑충·가공식품도 인상…“장 보기 겁나요”",
+          "outlet": "KBS",
+          "date": "2026-08-14",
+          "url": "https://news.kbs.co.kr/news/view.do?ncd=8636981&amp;ref=DA",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1002,
+            "src_chars": 1002,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0630:1",
+          "id": "02100701.20260810121031001",
+          "title": "해바라기유도 ‘껑충’…유지류 가격 초비상 [푸드360]",
+          "outlet": "헤럴드경제",
+          "date": "2026-08-10",
+          "url": "https://biz.heraldcorp.com/article/10835611",
+          "body": "",
+          "title_body_conflicts": [
+            "360"
+          ],
+          "body_check": {
+            "chars": 1376,
+            "src_chars": 1376,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0615:1",
+          "id": "02100601.20260809165921001",
+          "title": "코코아값 반토막에도 초콜릿 가격은 그대로인 까닭",
+          "outlet": "한국경제",
+          "date": "2026-08-09",
+          "url": "https://www.hankyung.com/article/2026080927151",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 833,
+            "src_chars": 833,
+            "ends_sentence": true
+          }
+        }
+      ]
+    },
+    {
+      "topic": "투자·설비",
+      "articles": [
+        {
+          "ref": "c0011:1",
+          "id": "01100101.20260728224316001",
+          "title": "CJ제일제당, 전분당 사업 매각 추진…“한계 사업 정리”",
+          "outlet": "경향신문",
+          "date": "2026-07-28",
+          "url": "https://www.khan.co.kr/article/202607282242001",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 456,
+            "src_chars": 456,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0011:2",
+          "id": "01100701.20260730060401003",
+          "title": "새 판 짜는 CJ제일제당… 전분당 사업 매각 추진",
+          "outlet": "세계일보",
+          "date": "2026-07-30",
+          "url": "https://www.segye.com/newsView/20260729516008",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 607,
+            "src_chars": 607,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0011:3",
+          "id": "02100861.20260730095650001",
+          "title": "CJ제일제당, 전분당 사업 매각 추진… “미래 성장성·수익성 재검토”",
+          "outlet": "브릿지경제",
+          "date": "2026-07-30",
+          "url": "https://www.viva100.com/article/20260729500159",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 705,
+            "src_chars": 705,
+            "ends_sentence": true
+          }
+        }
+      ]
+    },
+    {
+      "topic": "실적·주가",
+      "articles": [
+        {
+          "ref": "c0034:1",
+          "id": "02100861.20260815164305001",
+          "title": "삼양식품, 2분기 영업익 1762억원⋯전년비 46.7%↑",
+          "outlet": "브릿지경제",
+          "date": "2026-08-15",
+          "url": "https://www.viva100.com/article/20260814500689",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 853,
+            "src_chars": 853,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0392:1",
+          "id": "01100401.20260814172137001",
+          "title": "풀무원, 2분기 영업익 246억 원…전년比 26% 증가",
+          "outlet": "동아일보",
+          "date": "2026-08-14",
+          "url": "https://www.donga.com/news/Economy/article/all/20260814/134480570/1",
+          "body": "",
+          "title_body_conflicts": [
+            "26"
+          ],
+          "body_check": {
+            "chars": 401,
+            "src_chars": 401,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0284:1",
+          "id": "02100101.20260814180634002",
+          "title": "농심 2분기 영업익 48% 늘어 593억",
+          "outlet": "매일경제",
+          "date": "2026-08-14",
+          "url": "https://www.mk.co.kr/article/12128262",
+          "body": "",
+          "title_body_conflicts": [
+            "48"
+          ],
+          "body_check": {
+            "chars": 578,
+            "src_chars": 578,
+            "ends_sentence": true
+          }
+        }
+      ]
+    }
+  ],
+  "lwf_mentions": {
+    "c0196:1": false,
+    "c0068:1": false,
+    "c0658:1": false,
+    "c0427:1": false,
+    "c0427:2": false,
+    "c0467:1": false,
+    "c0630:1": false,
+    "c0615:1": true,
+    "c0011:1": false,
+    "c0011:2": false,
+    "c0011:3": false,
+    "c0034:1": false,
+    "c0392:1": false,
+    "c0284:1": false
+  }
+}

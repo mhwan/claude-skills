@@ -1,0 +1,395 @@
+{
+  "schema": "fiw.todo/1",
+  "issues": [
+    {
+      "key": "new:c0140",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0140:1",
+          "id": "01100751.20260729164859001",
+          "title": "서울·경기 중식당 12곳, '밀가루 담합' 7개 제분사 상대 손배소 제기",
+          "outlet": "아시아투데이",
+          "date": "2026-07-29",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260729010010910",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 708,
+            "src_chars": 708,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0140:2",
+          "id": "04100078.20260730113550001",
+          "title": "중식당 12곳, 제당 3사 상대 '설탕 담합' 손배소 제기",
+          "outlet": "뉴스핌",
+          "date": "2026-07-30",
+          "url": "https://www.newspim.com/news/view/20260730000618",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1436,
+            "src_chars": 1436,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0140:3",
+          "id": "02100101.20260729175216001",
+          "title": "\"밀가루 담합, 탈탈 털어야\" 제분업체에 소송건 중식당",
+          "outlet": "매일경제",
+          "date": "2026-07-29",
+          "url": "https://www.mk.co.kr/article/12110757",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 536,
+            "src_chars": 536,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0140:f1",
+          "title": "수도권 중식당들, '밀가루 담합' 7개 제분사 상대 손배소",
+          "date": "2026-07-29",
+          "url": "https://www.ytn.co.kr/_ln/0103_202607290916077723",
+          "excerpt": "",
+          "outlet": "YTN"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0189",
+      "section": "assembly",
+      "articles": [
+        {
+          "ref": "c0189:1",
+          "id": "01400351.20260804220131001",
+          "title": "윤준병 국회의원, ‘기내식·선식 원산지 표시 의무화법’ 대표 발의",
+          "outlet": "중도일보",
+          "date": "2026-08-04",
+          "url": "https://www.joongdo.co.kr/web/view.php?key=20260804010000881",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1269,
+            "src_chars": 1269,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0189:2",
+          "id": "02100101.20260803162307002",
+          "title": "민주 윤준병 “기내식·선식도 원산지 표시해야...집단급식에 해당”",
+          "outlet": "매일경제",
+          "date": "2026-08-03",
+          "url": "http://www.mk.co.kr/article/12115261",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 922,
+            "src_chars": 922,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0189:3",
+          "id": "01400351.20260825220205001",
+          "title": "윤준병 국회의원, ‘양육비 선지급 현실화법’ 대표 발의",
+          "outlet": "중도일보",
+          "date": "2026-08-25",
+          "url": "https://www.joongdo.co.kr/web/view.php?key=20260825010007162",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1260,
+            "src_chars": 1260,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0189:f1",
+          "title": "윤준병, ‘기내식·선식 원산지 표시 의무화법’ 추진",
+          "date": "2026-08-03",
+          "url": "https://www.sportsseoul.com/news/read/1626199",
+          "excerpt": "",
+          "outlet": "스포츠서울"
+        },
+        {
+          "ref": "c0189:f2",
+          "title": "윤준병 국회의원, ‘농지 처분절차 일원화법’ 대표 발의",
+          "date": "2026-08-14",
+          "url": "https://www.joongdo.co.kr/web/view.php?key=20260814010004414",
+          "excerpt": "",
+          "outlet": "중도일보"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0205",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0205:1",
+          "id": "01400201.20260821143809001",
+          "title": "컵라면 가격 줄인상…농심·오뚜기 이어 팔도도 평균 5.5% 인상",
+          "outlet": "대전일보",
+          "date": "2026-08-21",
+          "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2295811",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 706,
+            "src_chars": 706,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0205:2",
+          "id": "01100401.20260821144546001",
+          "title": "컵라면 가격 줄인상…농심, 오뚜기 이어 팔도도 5.5% 올린다",
+          "outlet": "동아일보",
+          "date": "2026-08-21",
+          "url": "https://www.donga.com/news/Economy/article/all/20260821/134519236/1",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1339,
+            "src_chars": 1339,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0205:3",
+          "id": "01200101.20260821134720001",
+          "title": "'왕뚜껑' 컵라면 가격 오른다…팔도, 평균 5.5% 인상",
+          "outlet": "경기일보",
+          "date": "2026-08-21",
+          "url": "https://www.kyeonggi.com/article/20260821580092",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 952,
+            "src_chars": 952,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0259",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0259:1",
+          "id": "01200101.20260817130135001",
+          "title": "내년 9월부터 산란계 사육면적 50% 확대…계사 신·증축 지원",
+          "outlet": "경기일보",
+          "date": "2026-08-17",
+          "url": "https://www.kyeonggi.com/article/20260817580072",
+          "body": "",
+          "title_body_conflicts": [
+            "50"
+          ],
+          "body_check": {
+            "chars": 890,
+            "src_chars": 890,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0259:2",
+          "id": "02100201.20260817110154001",
+          "title": "내년 9월부터 산란계 사육면적 1.5배↑…정부, 사육시설 확충 지원",
+          "outlet": "머니투데이",
+          "date": "2026-08-17",
+          "url": "https://www.mt.co.kr/economy/2026/08/17/2026081710160975276",
+          "body": "",
+          "title_body_conflicts": [
+            "1.5"
+          ],
+          "body_check": {
+            "chars": 1529,
+            "src_chars": 1529,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0259:3",
+          "id": "04101008.20260817110220001",
+          "title": "산란계 사육면적 50% 확대 앞두고…계사 신·증축 지원",
+          "outlet": "이데일리",
+          "date": "2026-08-17",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=01384166645548304",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1459,
+            "src_chars": 1459,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0341",
+      "section": "assembly",
+      "articles": [
+        {
+          "ref": "c0341:1",
+          "id": "01100201.20260805154210001",
+          "title": "‘미쉐린 맛집’이라 믿었는데…식품위생법 위반 업소 3년간 17곳",
+          "outlet": "국민일보",
+          "date": "2026-08-05",
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000000963&code=61121111&cp=kd",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 707,
+            "src_chars": 707,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0341:2",
+          "id": "02100311.20260805114040001",
+          "title": "‘미쉐린 맛집’ 믿고 갔는데…3년간 17곳 식품위생법 위반 적발",
+          "outlet": "서울경제",
+          "date": "2026-08-05",
+          "url": "https://www.sedaily.com/article/20075971?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1202,
+            "src_chars": 1202,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0473",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0473:1",
+          "id": "01100101.20260804103724001",
+          "title": "1조2000억대 ‘돼지고기 담합’ 적발…도드람 등 유통사·임직원 무더기 재판행",
+          "outlet": "경향신문",
+          "date": "2026-08-04",
+          "url": "https://www.khan.co.kr/article/202608041036001",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1532,
+            "src_chars": 1532,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0473:2",
+          "id": "01100101.20260804210903002",
+          "title": "“돼지고기값 20%나 올렸다”…6년간 1조2000억 담합 적발",
+          "outlet": "경향신문",
+          "date": "2026-08-04",
+          "url": "https://www.khan.co.kr/article/202608042107005",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1198,
+            "src_chars": 1198,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0499",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0499:1",
+          "id": "01501001.20260728175431001",
+          "title": "농식품부, 식품업계 원가부담 완화 지원…가격 인상 최소화 유도",
+          "outlet": "대구신문",
+          "date": "2026-07-28",
+          "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=555110",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1047,
+            "src_chars": 1047,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    }
+  ],
+  "excluded_no_link": [],
+  "market": [],
+  "lwf_mentions": {
+    "c0140:1": false,
+    "c0140:2": false,
+    "c0140:3": false,
+    "c0189:1": false,
+    "c0189:2": false,
+    "c0189:3": false,
+    "c0205:1": false,
+    "c0205:2": false,
+    "c0205:3": false,
+    "c0259:1": false,
+    "c0259:2": false,
+    "c0259:3": false,
+    "c0341:1": false,
+    "c0341:2": false,
+    "c0473:1": false,
+    "c0473:2": false,
+    "c0499:1": false
+  }
+}

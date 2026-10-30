@@ -1,0 +1,56 @@
+{
+  "schema": "fiw.collect/1",
+  "source": "assembly_schedule",
+  "run_id": "2026-10-26-2",
+  "period": {
+    "from": "2026-08-27",
+    "to": "2026-09-26"
+  },
+  "inclusion": "upcoming_4w",
+  "method": "browser",
+  "status": "ok",
+  "probe": {
+    "rows": 30,
+    "ok": true
+  },
+  "requests": [
+    {
+      "target": "열린국회정보 위원회 일정",
+      "total": 1918,
+      "received": 1000,
+      "pages": 1,
+      "status": "ok"
+    }
+  ],
+  "error": null,
+  "items": [
+    {
+      "date": "2026-11-11",
+      "time": "15:00",
+      "committee": "농림축산식품해양수산위원회",
+      "meeting": "전체회의",
+      "url": "https://agri.na.go.kr/cmmit/schl/cmitSchl/view.do?menuNo=2000048&cmtCnclDivCd=001&cmtSchSn=10121438"
+    },
+    {
+      "date": "2026-11-10",
+      "time": "10:00",
+      "committee": "농림축산식품해양수산위원회",
+      "meeting": "예산결산심사소위원회",
+      "url": "https://agri.na.go.kr/cmmit/schl/cmitSchl/view.do?menuNo=2000048&cmtCnclDivCd=002&cmtSchSn=10121437"
+    },
+    {
+      "date": "2026-11-05",
+      "time": "10:00",
+      "committee": "농림축산식품해양수산위원회",
+      "meeting": "전체회의",
+      "url": "https://agri.na.go.kr/cmmit/schl/cmitSchl/view.do?menuNo=2000048&cmtCnclDivCd=001&cmtSchSn=10121436"
+    },
+    {
+      "date": "2026-11-03",
+      "time": "10:00",
+      "committee": "농림축산식품해양수산위원회",
+      "meeting": "농림축산식품법안심사소위원회",
+      "url": "https://agri.na.go.kr/cmmit/schl/cmitSchl/view.do?menuNo=2000048&cmtCnclDivCd=002&cmtSchSn=10121435"
+    }
+  ]
+}

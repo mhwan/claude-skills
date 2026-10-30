@@ -1,0 +1,478 @@
+{
+  "schema": "fiw.watch/1",
+  "provisional": [
+    "bigkinds.queries",
+    "stage1",
+    "food_related"
+  ],
+  "own_company": "롯데웰푸드",
+  "companies": [
+    {
+      "name": "롯데웰푸드"
+    },
+    {
+      "name": "롯데칠성음료"
+    },
+    {
+      "name": "CJ제일제당"
+    },
+    {
+      "name": "동원F&B"
+    },
+    {
+      "name": "풀무원"
+    },
+    {
+      "name": "오리온"
+    },
+    {
+      "name": "해태제과"
+    },
+    {
+      "name": "크라운제과"
+    },
+    {
+      "name": "빙그레"
+    },
+    {
+      "name": "해태아이스크림"
+    },
+    {
+      "name": "매일유업"
+    },
+    {
+      "name": "농심",
+      "exclude_compounds": [
+        "농심(農心)",
+        "농심(農心",
+        "농심 (農心)"
+      ]
+    },
+    {
+      "name": "오뚜기"
+    },
+    {
+      "name": "삼양식품"
+    },
+    {
+      "name": "삼양사"
+    },
+    {
+      "name": "SPC",
+      "aliases": [
+        "SPC그룹",
+        "SPC삼립"
+      ],
+      "requires_any": [
+        "SPC그룹",
+        "SPC삼립",
+        "파리바게뜨",
+        "삼립",
+        "던킨",
+        "배스킨라빈스"
+      ]
+    },
+    {
+      "name": "대상",
+      "aliases": [
+        "대상그룹"
+      ],
+      "requires_any": [
+        "청정원",
+        "대상그룹",
+        "대상㈜",
+        "대상(주)"
+      ]
+    }
+  ],
+  "associations": [
+    {
+      "name": "한국식품산업협회"
+    }
+  ],
+  "agencies": [
+    {
+      "name": "식품의약품안전처",
+      "aliases": [
+        "식약처"
+      ]
+    },
+    {
+      "name": "농림축산식품부",
+      "aliases": [
+        "농식품부"
+      ]
+    },
+    {
+      "name": "보건복지부",
+      "aliases": [
+        "복지부"
+      ]
+    },
+    {
+      "name": "공정거래위원회",
+      "aliases": [
+        "공정위"
+      ]
+    }
+  ],
+  "committees": [
+    {
+      "name": "보건복지위원회",
+      "aliases": [
+        "보건복지위",
+        "복지위"
+      ]
+    },
+    {
+      "name": "농림축산식품해양수산위원회",
+      "aliases": [
+        "농해수위"
+      ]
+    }
+  ],
+  "bigkinds": {
+    "providers": "all",
+    "probe_query": "식품",
+    "queries": [
+      {
+        "query": "롯데웰푸드",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "롯데칠성음료",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "CJ제일제당",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "동원F&B",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "풀무원",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "오리온",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "해태제과",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "크라운제과",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "빙그레",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "해태아이스크림",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "매일유업",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "농심",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "오뚜기",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "삼양식품",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "삼양사",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "SPC그룹",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "SPC삼립",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "대상 AND 청정원",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "\"대상그룹\"",
+        "sections": [
+          "industry",
+          "market"
+        ]
+      },
+      {
+        "query": "한국식품산업협회",
+        "sections": [
+          "industry"
+        ]
+      },
+      {
+        "query": "식약처 AND 식품",
+        "sections": [
+          "gov"
+        ]
+      },
+      {
+        "query": "식품의약품안전처 AND 식품",
+        "sections": [
+          "gov"
+        ]
+      },
+      {
+        "query": "농림축산식품부 AND 식품",
+        "sections": [
+          "gov"
+        ]
+      },
+      {
+        "query": "보건복지부 AND 식품",
+        "sections": [
+          "gov"
+        ]
+      },
+      {
+        "query": "공정거래위원회 AND 식품",
+        "sections": [
+          "gov"
+        ]
+      },
+      {
+        "query": "공정위 AND 식품",
+        "sections": [
+          "gov"
+        ]
+      },
+      {
+        "query": "보건복지위원회 AND 식품",
+        "sections": [
+          "assembly_issues"
+        ]
+      },
+      {
+        "query": "농해수위",
+        "sections": [
+          "assembly_issues"
+        ]
+      },
+      {
+        "query": "가공식품 가격 인상",
+        "sections": [
+          "gov",
+          "industry"
+        ]
+      },
+      {
+        "query": "식품 담합",
+        "sections": [
+          "gov",
+          "industry"
+        ]
+      },
+      {
+        "query": "식품 회수",
+        "sections": [
+          "gov",
+          "industry"
+        ]
+      },
+      {
+        "query": "식품 표시",
+        "sections": [
+          "gov",
+          "industry"
+        ]
+      },
+      {
+        "query": "당류",
+        "sections": [
+          "gov",
+          "industry"
+        ]
+      },
+      {
+        "query": "원유 AND 우유",
+        "sections": [
+          "gov",
+          "industry"
+        ]
+      },
+      {
+        "query": "수입식품",
+        "sections": [
+          "gov",
+          "industry"
+        ]
+      }
+    ],
+    "open_questions": []
+  },
+  "assembly": {
+    "unit_cd": "100022",
+    "age": 22
+  },
+  "korea_kr": {
+    "departments": [
+      {
+        "code": "A00027",
+        "name": "식품의약품안전처"
+      },
+      {
+        "code": "A00008",
+        "name": "농림축산식품부"
+      },
+      {
+        "code": "A00012",
+        "name": "보건복지부"
+      },
+      {
+        "code": "C00001",
+        "name": "공정거래위원회"
+      }
+    ]
+  },
+  "lawmaking": {
+    "departments": [
+      {
+        "code": "1471000",
+        "name": "식품의약품안전처"
+      },
+      {
+        "code": "1543000",
+        "name": "농림축산식품부"
+      },
+      {
+        "code": "1352000",
+        "name": "보건복지부"
+      },
+      {
+        "code": "1130000",
+        "name": "공정거래위원회"
+      }
+    ]
+  },
+  "stage1": {
+    "exclude": [
+      "신제품",
+      "출시",
+      "이벤트",
+      "할인",
+      "지역 행사",
+      "신약",
+      "의약품"
+    ],
+    "include_signals": [
+      "규제",
+      "법",
+      "고시",
+      "국회",
+      "의원",
+      "공정위",
+      "식약처",
+      "과징금",
+      "담합",
+      "회수",
+      "사고",
+      "가격",
+      "인상"
+    ]
+  },
+  "food_related": {
+    "include": [
+      "식품",
+      "식료품",
+      "음료",
+      "주류",
+      "축산",
+      "농산물",
+      "수산물",
+      "원산지",
+      "급식",
+      "건강기능식품",
+      "가공",
+      "식중독",
+      "위생",
+      "가맹",
+      "유통",
+      "담합"
+    ],
+    "exclude": [
+      "의약품",
+      "의약외품",
+      "의료기기",
+      "의료제품",
+      "화장품",
+      "마약"
+    ],
+    "no_match_other": [
+      "보건복지부"
+    ]
+  }
+}

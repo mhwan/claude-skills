@@ -1,0 +1,7499 @@
+{
+  "schema": "fiw.prefilter/1",
+  "items": [
+    {
+      "source": "korea_kr",
+      "id": "156783028",
+      "verdict": "other",
+      "rule": "exclude:의료제품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783027",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783010",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782968",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782798",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782797",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782669",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782578",
+      "verdict": "other",
+      "rule": "exclude:화장품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782577",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782576",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782574",
+      "verdict": "include",
+      "rule": "include:농산물"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782413",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782350",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782349",
+      "verdict": "other",
+      "rule": "exclude:마약"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782238",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782237",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782084",
+      "verdict": "undecided",
+      "rule": "include:건강기능식품+exclude:화장품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782064",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782063",
+      "verdict": "include",
+      "rule": "include:건강기능식품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782054",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782053",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781920",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781875",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781815",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781814",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781813",
+      "verdict": "other",
+      "rule": "exclude:화장품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781812",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781811",
+      "verdict": "other",
+      "rule": "exclude:화장품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781634",
+      "verdict": "other",
+      "rule": "exclude:마약"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781633",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781632",
+      "verdict": "other",
+      "rule": "exclude:의료제품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781512",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781447",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781443",
+      "verdict": "other",
+      "rule": "exclude:의료기기"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781442",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781441",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781308",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781255",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781252",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781108",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780979",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780972",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780971",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780827",
+      "verdict": "other",
+      "rule": "exclude:의약외품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780708",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780592",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780591",
+      "verdict": "include",
+      "rule": "include:유통"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780454",
+      "verdict": "other",
+      "rule": "exclude:화장품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780449",
+      "verdict": "other",
+      "rule": "exclude:화장품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780408",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780191",
+      "verdict": "other",
+      "rule": "exclude:의약외품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780186",
+      "verdict": "other",
+      "rule": "exclude:의료기기"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780096",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156779974",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156779973",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156779972",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156779971",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156779070",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156779069",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156777175",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156777174",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776378",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776287",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776286",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776051",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776052",
+      "verdict": "other",
+      "rule": "exclude:화장품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776054",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776055",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776053",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776251",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775845",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775832",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775833",
+      "verdict": "other",
+      "rule": "exclude:의료기기"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775684",
+      "verdict": "include",
+      "rule": "include:유통"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775630",
+      "verdict": "undecided",
+      "rule": "include:유통+exclude:의약품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775632",
+      "verdict": "other",
+      "rule": "exclude:마약"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775631",
+      "verdict": "other",
+      "rule": "exclude:마약"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775763",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783248",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783133",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783126",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782977",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782860",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782741",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782676",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782658",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782646",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782609",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782510",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782511",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782588",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782489",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782750",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782197",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782165",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782106",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782104",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782105",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782043",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781972",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781956",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781943",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781926",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781902",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781860",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781859",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781826",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781748",
+      "verdict": "include",
+      "rule": "include:축산"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781672",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781673",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781674",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781623",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781592",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781584",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781452",
+      "verdict": "include",
+      "rule": "include:축산"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781505",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781506",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781507",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781456",
+      "verdict": "include",
+      "rule": "include:축산"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781455",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781478",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781454",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782739",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781389",
+      "verdict": "include",
+      "rule": "include:유통"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781333",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781296",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781246",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781247",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781095",
+      "verdict": "include",
+      "rule": "include:농산물"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781047",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781046",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781045",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781048",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781043",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781042",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781044",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780999",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780963",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780964",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780866",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780848",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780821",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780822",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780823",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780755",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780714",
+      "verdict": "include",
+      "rule": "include:가공"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780715",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780660",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780624",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780623",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780619",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780544",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780462",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780402",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780361",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780360",
+      "verdict": "include",
+      "rule": "include:원산지"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780358",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780359",
+      "verdict": "include",
+      "rule": "include:축산"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780353",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780263",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780256",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780247",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780174",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780125",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780069",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780060",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780058",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780059",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780019",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780011",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156777690",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156777691",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156777692",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156777693",
+      "verdict": "include",
+      "rule": "include:유통"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156777264",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776401",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776402",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776377",
+      "verdict": "include",
+      "rule": "include:축산"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776339",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776340",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776341",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776253",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776213",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776212",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776211",
+      "verdict": "include",
+      "rule": "include:축산"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775983",
+      "verdict": "include",
+      "rule": "include:유통"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775946",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775837",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775719",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775715",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775691",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775662",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775663",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783148",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783142",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783136",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783104",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783103",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783092",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783060",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782931",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782927",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782926",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782907",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782876",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782847",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782846",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782845",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782844",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782753",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782709",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782707",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782702",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782659",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782635",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782634",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782522",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782503",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782477",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782465",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782445",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782423",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782424",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782395",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782390",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782389",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782225",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782224",
+      "verdict": "other",
+      "rule": "exclude:마약"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782175",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782158",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782048",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781933",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781932",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781931",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781867",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781866",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781820",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781741",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781709",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781659",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781636",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781587",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781557",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781513",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781123",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781122",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781002",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780986",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780911",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780838",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780839",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780818",
+      "verdict": "other",
+      "rule": "exclude:의료기기"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780817",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780809",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780696",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780667",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780653",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780652",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780593",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780546",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780542",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780518",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780365",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780298",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780273",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780272",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780257",
+      "verdict": "other",
+      "rule": "exclude:마약"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780184",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780088",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780037",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780038",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780039",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156779969",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156778918",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156778898",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156778546",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156778545",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156777276",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776366",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776344",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776334",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776333",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776214",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776166",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775991",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775992",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775938",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775868",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775867",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775775",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775742",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775720",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775689",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156783050",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782911",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782626",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782396",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782190",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156782129",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781882",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781881",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781829",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781685",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781656",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781583",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781521",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781306",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781289",
+      "verdict": "include",
+      "rule": "include:가맹"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781125",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156781061",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780837",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780799",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780692",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780706",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780482",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780456",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780278",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780034",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156780001",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156777846",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156777339",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776422",
+      "verdict": "include",
+      "rule": "include:가맹"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156776351",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775989",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775894",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775690",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "korea_kr",
+      "id": "156775650",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88958",
+      "verdict": "other",
+      "rule": "exclude:마약"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88430",
+      "verdict": "other",
+      "rule": "exclude:의료기기"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88206",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88204",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88194",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88038",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87972",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87928",
+      "verdict": "other",
+      "rule": "exclude:의료기기"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87814",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87810",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87744",
+      "verdict": "include",
+      "rule": "include:건강기능식품"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87720",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89132",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89122",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89120",
+      "verdict": "include",
+      "rule": "include:축산"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89118",
+      "verdict": "include",
+      "rule": "include:축산"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89080",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89056",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89030",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89028",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89042",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89026",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89018",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89010",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89008",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89006",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88930",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88858",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88856",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88926",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88648",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88646",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88456",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88454",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88452",
+      "verdict": "include",
+      "rule": "include:축산"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88450",
+      "verdict": "include",
+      "rule": "include:유통"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88400",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88386",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88436",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88374",
+      "verdict": "include",
+      "rule": "include:농산물"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88372",
+      "verdict": "include",
+      "rule": "include:농산물"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88370",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88368",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87908",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87906",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87870",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87804",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87802",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89108",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89052",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89050",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88992",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89004",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88960",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88936",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88838",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88740",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88780",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88706",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88688",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88686",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88652",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88650",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88422",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88522",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88478",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88448",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88474",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88348",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88268",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88310",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88278",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88160",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88140",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88142",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88110",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87866",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87864",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87760",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87660",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87658",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87652",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87650",
+      "verdict": "other",
+      "rule": "no_food_word:보건복지부"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "89138",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88820",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88492",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88328",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88326",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "88308",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87952",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87926",
+      "verdict": "include",
+      "rule": "include:가맹"
+    },
+    {
+      "source": "lawmaking_web",
+      "id": "87806",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44304",
+      "verdict": "include",
+      "rule": "include:건강기능식품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44303",
+      "verdict": "include",
+      "rule": "include:건강기능식품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44302",
+      "verdict": "other",
+      "rule": "exclude:의약외품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44301",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44300",
+      "verdict": "other",
+      "rule": "exclude:마약"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44299",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44298",
+      "verdict": "other",
+      "rule": "exclude:의료기기"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44297",
+      "verdict": "other",
+      "rule": "exclude:의약외품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44296",
+      "verdict": "include",
+      "rule": "include:위생"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44295",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44294",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44293",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44292",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44291",
+      "verdict": "other",
+      "rule": "exclude:화장품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44290",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44289",
+      "verdict": "include",
+      "rule": "include:건강기능식품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44288",
+      "verdict": "other",
+      "rule": "exclude:의료기기"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44287",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44286",
+      "verdict": "other",
+      "rule": "exclude:의료제품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44285",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44283",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44281",
+      "verdict": "other",
+      "rule": "exclude:의료기기"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44279",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44278",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44274",
+      "verdict": "include",
+      "rule": "include:건강기능식품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44273",
+      "verdict": "undecided",
+      "rule": "include:식품+exclude:의약품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44271",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44265",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44263",
+      "verdict": "include",
+      "rule": "include:건강기능식품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44261",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44260",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44251",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44232",
+      "verdict": "other",
+      "rule": "exclude:의약품"
+    },
+    {
+      "source": "mfds_notice",
+      "id": "44231",
+      "verdict": "other",
+      "rule": "exclude:의료기기"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "48141",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "48047",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "48046",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "48033",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "48027",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47996",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47982",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47971",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47970",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47967",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47966",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47965",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47941",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47940",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47907",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47845",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47829",
+      "verdict": "include",
+      "rule": "include:가맹"
+    },
+    {
+      "source": "ftc_notice",
+      "id": "47773",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2X6Y0G9E1F7D1E4C0D9K1J7K7I8I5",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2K6I0J9H1G8G1C7D4B3Z5A0Z2H5I6",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2Z6X0Y9W1V8V1R7S4Q3R1P2N0O3W9",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2Y6X0V9W1R8S1Q7R4P2Q2O8W3X3V0",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2Z6X0X9W2U1V1C0E0C0C2A3B5A6H9",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2K6J0J9R2S1Q0R9P3P7O4W6W4V6W7",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2V6W0U9U1T7U1B3C4A4Z4Z2X7Y8U9",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2M6K0J9J1R7S1Q7R4P2N3O1W6X4V5",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2T6R0S9Q1Y7Z1X7Y4W3X3V8V6E4C4",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2F6N0N8M3M1L0J9J5Y1Z5X8Y2X7V1",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2W6W0U9V2R1P1Q3O3P5N5O4V6U0U4",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2J6H0I9H2H1P1P6O0M1N1L9M8U1U3",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2W6W0S9R1R0P1Q1P3P8U2V9T0U1C8",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2F6D0L6M2L9K1I1Q4P2Q2O2N0V2W6",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2N6L0K4K2S2T1R2Q0Q5O0P6L4L7K1",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2O6O0N9N1J5H1I9G3H4F2G2O6O9M7",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2H6H0F9E2F0M1N8L2M6K2L9J7R8S4",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2O6E0E9C2D0C1C5A2B5J5H8I1G2G1",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2S6Q0R9P0Q3X1Y0X3X7V2W2V0C1D4",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2T6R0S9Q1M4M2K1M5K1K2I3R2R0P6",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2O6O0N4N2M2T1U2T1T3R3Q5Q2M0N2",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2V6W0U7V2D1D0C9A3B5Z3A2V1U9U1",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2R6R0P9Q1O6P2X2V5W5U3V9T9U4P1",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2A6B0J9H1I7H1H6F2G6O3M9N6L6M9",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2E6E0D9E2C1C1R6S4R7P2P2N2O6W5",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2C6D0B9A0A2Y1Z6H4I3G3E0F8D1D0",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2R6Q0Q9Y1X6X2V2W5V4V5D5C5C6A5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2N6N0L9M1L6L2J2K5S4Q0R9P1P9O8",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2F6G0E9E1D4B2C1J5K0J5J3H5G3G0",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2Z6W0W9V1T6U2S2T5B6Z1Y7Z3X3F5",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2F6G0F8F2D5E1C6K3L5J2K4I2J4H8",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2V6X0E9F1D7C1C6A3B2J3J1I5G6H1",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2N6M0K9L2S1T1S6S4Q6R3P5L9M3K1",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2D6E0M9K1L8J1J0I5J6Q3R1P4O3O0",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2I6J0Q7R2P1Q0P9N3N3V0W8U9V4T7",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2B6C0K9K0J3J1I5I5G6P3P2N5O4M4",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2L6M0K9J1J7I1I1Q1R8P0Q3O2M1N8",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2J6H0I9H1H7F1O6O3M3N1M3M2K1S2",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2D6E0C9C1B7C1A1A1I8J2H9F7G2E2",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2Q6O0K9K1J7J1I6I3G3H5P1N2O1M4",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2H6H0F4E2F2A1B2Z1A2Y4X1X4F0G0",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2Z6Y0W8W0S7T1R3R2Q8O0P7W3Y6W3",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2T6S0T9A0B5A1A6Y4Z0Y5F2G7E8F9",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2X6X0W9U0V4D1E3C5C8B3Z8A3I7I3",
+      "verdict": "other",
+      "rule": "committee:외교통일위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2S6T0R9P0Q4P0P8X4V8W2U5V7T1U3",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2B6Z0Z9X2Y1X1X0F4F9E1C1D7B4C7",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2J6H0Q9Q1O7P1N7O3M4N2V8T2T9S5",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2D6E0C9B0B4J1J4I5J9H2H1G9O0O6",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2U6B0C9A1B8Z1A7Y2Y9H2F1F3E2F6",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2G6F0G9E1E7M1L4L0J3K4I4J9R6P9",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2X6Y0T9U0T4T1R3S5R9Y5Z8X8Y6W2",
+      "verdict": "other",
+      "rule": "committee:외교통일위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2X6W0U9V1T4U2C1A4B9Z0A1Y7G6H6",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2W6U0U9C1D7B1C4A0Z4Z3H2H2G7H8",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2N6N0L9M0U4V1T4R0S0R2R2Z8Z8Y9",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2L6L0T9S1S5Q1R9Q3Q1M1K2L8J4K4",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2Z6H0I9G2G1F1D1E0M8M5L8L1K3I7",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2I6J0H9I1G8E1F0N5O3M3M3L4L2K1",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2F6E0F8D1D9M1K2K0I8J0I3I6Q7O5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2T6R0S9R0R4Z1Y4Y5W8X3V4W1E4E2",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2T6S0S9Q1Z7Z1X5Y1W0X3V7R1S8Q4",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2E6E0C9D0C9C1Y9Y1X8V5W5U0V6D7",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2D6B0B9X1V6W1U5V1T3U4C5A2B3Z9",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2I6P0Q9O1P1N1O0M3M3V1T3T1S9T0",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2E6F0D9E1C6D1K5L1J2I1I6G1H1P8",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2D6C0C9K1L6J1K5I1H3H0P7P2O0P4",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2B6B0Z9B1Z0Z1H3F5G9F1F7D1M6M6",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2C6D0Y9Z1X6W0W9U3V2D5E7C4C2B1",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2F6G0F9F1N7N1M4K0L5J1K0S5S5Q5",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2W6U0V9T1U7S0A9A2Z7A1Y7Y0X3F2",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2K6R0S9Q1R0P1Q6O4P3X2V4V2U0V9",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2G6G0F9M1N7L1M8K1L0J1R7S9Q4R0",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2H6H0G9E0F9M1N0M4M4K5L8K9R3S3",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2U6S0R9R1P5Q1Y4Y1X3V3W9U5V2D2",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2V6W0U9V1R0P1P6O4O2N5N4V7T5U2",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2W6R0S8Q1R2P1P4O1W9W0V1W7U1U2",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2K6Q0U9N2T1A1R7N3D4H5R8T4H9B2",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2L6M0U9U1T0R1S6Q4R2Z2Z3Y5W7W2",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2O6P0X9Y1W5W1U9T2U7B2C8A0B1Z8",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2V6U0U9C1D7B0C9A2A6Z4H4H0F4G9",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2U6C0C9B1Z7A0Y9Z2H6H0G0E6F6D9",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2O6X0V9V1T0V1T1T4B6C4A8Y9Z1X2",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2S6R0P9Q1X8Y1X0X5V3W2U4Q9R2P4",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2P6O0P9W1X7W1W0U4V4T0B7C1A6A3",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2C6A0A9Y1X7Y1F0G4E4F5D0E5C9K6",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2Q6Q0P9P1O7M1N0U4W5U4U8S2R1S5",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2S6R0R9P1Q7O1P0E4C3D1B5C1A5B9",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2J6F0G9E0E3D1D6C1C0K2J3J0H2I4",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2W6U0V9D1B7C1A0B4Z5A2H1G3H3F3",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2D6C0C9A1B5A1H9I3G6H3F3G2E7M2",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2V6T0T9S1A4B1Z1A1Y8Y5X5X6F2D4",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2I6X0Y9W1X4V1W1U2C0D2B7B8A6B6",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2J6J0H8I3O1P1N3O3M3N0U0T6U8S1",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2N6M0M8L3L1H1I3G3G3F4D6E9M2M7",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2T6P0Q9O1P1N1L0M3U4U1S9T0R5S8",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2N6M0T9U1S4T1R1S2Q1Y5Z6X8Y9W8",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2H6H0D9E1C4D1B1Z1A2I1I3H4H1G7",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6Q0P9Q1L4K1K1I2J3I1I7Q1O0U0",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2F6B0B9Z1A6Y1Z6X0Y6G1G8F2D4E6",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2O6N0N9D1D4C1A1B0Z0A1I6I5H9F9",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2P6N0O7W3X0V1U1U2S8T4B4B9A8Y9",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2Y6Y0G9G0F4D1E0C5D3L3L5J6I0I8",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2K6I0J9H1I6P0O9P3N1O5M6N7U7V4",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2D6E0D9D0L3K1K7I1J3H1I2Q2Q2P5",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2P6N0O9M1M5L0L9T0U4S0R0R6P9Q5",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2F6D0E9C1C5B0C9J0K5J0H8H8F6G5",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2I6J0F9D1E5C0D9B0C0J5I0J6H3H0",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2X6F0F9E1C7D1B1C4X5Y3W1X5V0U5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2T6U0J7J2H3I1H7F3F4N3O1M3N2L2",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2T6P0Q8O2O5N1L4M1T2V4T5T3S1Q5",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2E6E0C9D1L8M1K3K2J3J4I3Q2Q6P7",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2P6O0P9N1N8J0K9I3J8H2F4G2O4P2",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2M6K0S9T1R0S1Q9R3P6P4Y5W3W5V8",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2F6G0E8E2A2Z1Z3X3Y1W0X3F0D5E5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2A6B0Z9X1Y5W1X9F2F9E1C7D6B8C4",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2M6V0T9T1R1T1R3R3Z9Y3Y3W4X8W1",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2L6M0U7U2S2T1S1Q2Q4Y1Z6X3Y7W3",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2P6Q0O9P1L7J1J0H0J0H4H2P7O8O0",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2S6Q0R9Z0Z9Y1W4W2V7W5E8E0C1D1",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2B6A0B9Z1Z0Y1G1G3E7F4D9E4C9D6",
+      "verdict": "other",
+      "rule": "exclude:마약"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2R6S0Q9O1P7X1Y9W5W2V3T3U9Q7Q9",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2Z6A0Z9Z0X1G1G6E5F1D1E2C8D1K6",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2S6Q0P8Q3X1Y1W7X3V0W3U4C7D3B3",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2C6A0B8I3H1I1G7G3F1G5B6C3A6Y2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2H6P0P7O1M5N1L2M0T4S1T7R1R7Q4",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2U6U0T7U2S2S1R1Z2Z3Y2Z4X8X7W6",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2V6V0T9U1T6T0R9S3O4M4N8L0M7K9",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2D6C0K9K0J1J1I6I5G2P1P2N8O2M9",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2D6B0C9A1I6J0H9I3G2H4F7F4O5M6",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2Z6X0Y9W1V8V0D9D0C8D0B0B6Z0I3",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2J6J0I9G1H8O0Q9O0O7M1L9M8T3U9",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6R0Q9Q1Y0Y1X1V3W7U1V4Q1R2Q5",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2L6M0L9S1T8R0S9Q0R8P4X2Y2W6X5",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2M6K0K9S1T7R1S4Q4O4P3X3Y2W2W8",
+      "verdict": "other",
+      "rule": "committee:국회운영위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2A6Z0Y7W0X3F1E6C0D1C5K9J0H9I4",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6R0Z9X1Y0A1Y7Y2X8Y2F4G4F5D0",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2L6M0K9K0J7J1R3S0Q7P1P1N0O3W1",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2T6U0S9Q1R5Z1A7Y4Y5W5V5W5D0E2",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2C6A0B9Y1Y1X1V0W4U8V0C2D6B0A4",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2S6G0F5G1E5E1D8E1L2M3K9J3J3I6",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2V6W0U9V0T7B1C3A0A8Z0Z3X0T6U8",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2V6W0U2T2T0R1S3Y4Z9X5Y9W3W3E5",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2B6A0A8Z1Z3X1G0G1E6F1E7E1C6V4",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2F6F0E8C2D6B1C4R1R4Q4O6P8N1O0",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2O6P0N8O1W3W1U0T1U6S4S5B2B2Z8",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2D6D0C9C1B1B1A4A0W2U3V6T5U7S4",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2J6H0H8X0X5V1U0U4T2U4B2C6A1Y9",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2K6K0J8K0I5Q1R5P2Q4O3O7N9J0J8",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2B6C0A9I1J1H1H0G2H8F2F0B3Z8A2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2Z6H0H9G1G1F0D8E5Z9Y4Z2X1W4W8",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2W6U0T9T1R1S1A6A1Z2X4Y8W9X4F1",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2G6E0F9D0D4C1K0K3J4K2I2I3H7D1",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2X6S0R9S1Q5Q1O6P3X6Y2W6V3V3U5",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2F6D0E9L1M4K1J0J3H0I1E1F5D4D5",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2K6Q0P6O1X7W1T1B5A2Z1Y0U2T5S3",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2V6T0T7S2S7A1Z4Z0X6Y2X3X0F4E2",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2L6J0J9G1G1E1F5D5C9C4K0K3J9K4",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2W6T0T9R1S4Q1P0P4X0X5W2X0V7T1",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2E6C0C9B0Z2A0V9W4V3V2T3U2T0A8",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2P6N0O8M2N4V1T4U4S1S1R3S1A6Y0",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2V6T0T8B2A4A1Y4Z3Y9Y4G3E3F4D4",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2M6N0V9V0T9U1T0T0R3S1A1Y7Z6X6",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2E6F0D9D0M7K0K9J1J9I1I9Q7Q7P0",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2P6N0O9M1M4V1V7T0U6T4R5R0Z8A0",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2H6F0E9E0C7D0L9M2K0K5J4H6I0P5",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2R6P0Q9O1N0N1V1W3U4T1T0R2S8O0",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2N6N0M9M1U1V1T2T5S6Q2R0Z5A5Y3",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2W6X0V9W1D1C1D2B5B5A3B8W1X4V0",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2U6U0T9T1R4T1A0B0Z5Y2Y9X8X4F3",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2Q6O0N9N0V2W1U3V4T1U0S4A9B6Z7",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2Z6Y0Z9G0H4F1E4E1C0D4Z2A3Y6W4",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2D6L0J8K2I8J1H3I4Q3Q0O4N2O3M9",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2S6T0R9S1Q0R1Z5Z3X8W3W3V5V9D7",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2R6P0Q9O1P1L1L9J1I5J4H3H1Q9Q1",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2S6R0P9P1N0P1K8K1J6H2I9G8H6P1",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2D6L0J9K0I8J0H9I2D4C3D0B9B9A4",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2T6U0B9C0B2B1Z5A5Y6G3H6F1G2E5",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2T6P0Q8O2N7N1L6M2U4V4T8R2S2R9",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6R0P9P1Y1Y1X6X1V1U5U7C1D7B0",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2J6H0I8G1H9F0N9O4M0M4L2M3K7K0",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2F6G0E8E1D9B0C9X3Y9W2X3V6U2U2",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2J6K0I9I1Q1P1P3O3P6U0T8T3S9N1",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2M6N0L8J2K8I1J3Y4Y2X3V0W7U4V0",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2C6A0A9Z0Z9Y1Y1G4E4F1D0E4C7D6",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2L6K0K9J1J0H1Q6Q0O2P5O1O1M2N5",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2Q6X0Y9W1X0V1W9U1V2K3I7J0H5H9",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2J6K0I9Q0Q8P1P6O5O3N0N5C7B6B6",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2H6H0G9G0O7N1N6L1M1K1L8T9R9S5",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2J6H0G8H2O2P1O3O0M6N2L6T9U6S5",
+      "verdict": "include",
+      "rule": "include:축산"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2W6V0D9D1C1C1A6B1Z3A3P5O7O8M2",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2W6E0F9D0E4C1C0B1X2X1V2W0U8V0",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2X6W0W9V0V4R1P0Q0O8P4N7O2V4U6",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2M6L0L8T2T8R1Q3R4P1P4X3Y5W2X3",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2J6R0P9Q1O4O0N7O5J7K1I8H8H3F6",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2T6T0S8S2R6P0Q9F0F6E2E7D6B4B3",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2A6Y0Z9U0T1T0S9S2R7R4Z5A4Y9W1",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2I6J0H9I0G8G1F3N5N1L3M4L4L3J4",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6Q0O9Q0O4O0W9W4V0T1U1S7T6B2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2Y6Z0X9V1W0U1V0L3L2K5K3J9H9I5",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2K6I0J9H0H1G0O9O1N6N3M5M8L0T3",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2K6L0J9K1S0S0Q9P5Q6O0O1X3X4V0",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2B6B0Z9B1Z1Z1X7Y4G1E3F5D3E4C2",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2L6H0F9G1E1F1D7E1M6K2L2J0K1I4",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2X6T0T9S1Q1R1P7Q1Y6Y0W4V6W9U7",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2E6F0D9D1L1K1K7I1J5I4I0Q0Q0P2",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2C6A0Z9Z0X8Y1G1H3F1F0E8C6D6K8",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2J6H0H9G0H1F1F3N1O6M2K9L6J9K1",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2W6W0V9W1D1E1C6B1B8Z1A0W1W0V3",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2L6J0J9H1J1Q1R6P1O6O4M4N4V2V0",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2C6A0B7Z2A9V1U9U0T8U5S7S1B5Z6",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2S6S0A9A1Z0X1Y1W2X5F2D2E3C9D7",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2W6F0F9D0E7C0B9B5J4J5I6J7H8F5",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2B6A0W9W1U0V1U0U1S3A5B4Z8A6Y7",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2A6B0Z9Z1Y1Z1G4H2G2E0E1C4D4S4",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2M6K0L9T1R1S1Q4Q2P2Q2L5M4K2J1",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2E6M0M9L0L3K1I7J1Q8R4P0Q8O4N6",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2P6P0O9O0M3N1V2V1U3S1T0R9S2A2",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2V6T0S9S0A3B1Z2A1Y3X5X3F4G7E4",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2C6S0R9R1D1E1C6G5I5V2K8S8X5P2",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2U6S0T9R1P0Q0Y9Y2X9X4V2W0V9C3",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2T6T0S9S0A8Y1Z4X4Y8W4X4F3F5E6",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2R6S0A9B1Z0Z0Y9W3X0F4G1E1E2C3",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2N6I0J7H2I1G1H7F3N7O4M6N3L7K3",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2A6B0A7A2Y1H1H7F3G7F2F4D0E1L8",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2A6I0J9H0I2G0F9F4B2B1A8A5Y9X8",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2G6E0F9D1L1M0K8L5J4K2I1Q1R4P3",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6R0P9Q0O8W1W1V3W8U3U9T3P9P3",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2B6A0A8I2I7H1F4G4E3F4M1N7L3M9",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2K6J0K9F0G4E1F2D5K6K1J1K7I6I0",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2H6F0D7E2C9D1L6J5K0I3J9H5I6P5",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2W6W0V9T0U8P1Q7P1P5N2M2M5U8V0",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2L6L0J9F0G8E1F1D1E2C5K7L8J8K7",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6P0O9X0W8U1V7T1I6J0H6I1G5F3",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2R6R0N8L2M4K1L4J4K3R0Q4R8P9Q8",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2D6C0C9A1B0J1J4I3G5H2F3G5O5M9",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2Q6P0P3N1O6N1N8V3T9U5S8T9R9S6",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2N6O0M9N0L9M1K6S2S8R5R0Q8Q2P6",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2K6J0Q9R0P1O1O0N1O0W1U0V0T8T8",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2Y6Y0H9F0F9E1E6D2L8L1J7K2J1J1",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2N6O0M9N0L3H0I8G4H5F0G2E3M1M7",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2I6J0H3H1G3H1F5F0N0O5M6L4L8J8",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2P6N0O9N0L6L2T1U4S9T4R3R2Q1M8",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2T6R0S9Q0R9Z1Z1X3W6X1V8V0E9E1",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2G6E0F9D0E9C1D1L3L6H5P7Q8O1O3",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2A6B0Z9A0H7G1G5F1G8E5E2M9N4L1",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2N6N0M9K0L2G1H2F4G1F0D8E8M9M6",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2N6L0M9K0S2T1R6R0Q9R1P6P8Y9W4",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2T6U0S9S0A2Z1Z6X1Y0W3X3M3M4L0",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2P6X0X9V0W3V1V5T1U4J4H6I8H9H9",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2P6Q0O9P0X4V1W4U3U2T5U1P8Q7O5",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2G6E0F9E0E9C1D4L1J5K2I6I0H6I7",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2Y6X0D8B2A5B1Z4A1I7I2G9F9F9D6",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2Z6X0Y9G0G9F1D4E1C6C3L9L3J7K9",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2Q6P0P9L0K2K0I9J2H0I5Q0O3P0N2",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2A6Z0Z9X0Y2U0V9T2T1S5Q6R7Y8Z6",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2Z6X0W9X0V4V1D2E5C5D2B8A9A4I3",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2H6H0Q9Q0O2P0N9M3M1U1U0T5U6S4",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2D6E0C9C0B9C0J9K0J7H2H0F6G9C8",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2M6K0L9J0K8I1J4R4P6P5O9O2N6N5",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2X6V0V8U2V4J1K4J4H3I4G3G0P0N2",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2B6Z0Z8Y2W8W1T6T4R3Q5Q2P8Q9X7",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2X6F0G9E0D7D1B6C0K3K1J6H3I1G2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2Y6W0X9W0D3E1C5D3B6C3A4A9J9H2",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2L6M0K9G0H9F1F0E1E8D5D9L6K0K6",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2V6V0U8U0T5T1S1A3A2Z1Z6X1W5W8",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2F6G0F7F0N6N1M3K0L1J5K0S6S1R7",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2L6J0J8F1F2E1F4D1D0C4K1K0I3J1",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2J6I0O6N0M5L1U3N3V4V2U6S7Z7Y3",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2V6V0U9U0S8R0S9Z2A3Z3Z5Y2W1X0",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2P6O0O8W1V4V0T9U5S4T0B4B6Z5Y8",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2B5C1A1B0Z6Y1Y3G3G3F0F0D7E6D5",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2L6J0K8J0J5H1P1Q3O1P3N1O0M5U0",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2A6I0I9H0F1G1E1F2N7N0L6K6L0J1",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2D6E0M9K0L3J1I4R0P9P4O8P9N9N6",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2X6W0W8U2V7R1P1Q2O6O0N2O7V7W1",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2P6X0X9W0W7V1T7U2P2Q4O1P2N8M6",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2V6U0U9C0B8B0Z9A0Z2Z3H3F0G1E8",
+      "verdict": "other",
+      "rule": "committee:국회운영위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2U6V0T9S0S7Q1R5Z0A3Y2Y9X0V5W4",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2P6Q0O9P0N9O0M9N2U9V2T0S3S4Q8",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2J6K0I9J0H8P1Q7O5O0N3O8M3U0U7",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2A6Z0G9H0F9G1E1F4D8E3M0K7K2J5",
+      "verdict": "other",
+      "rule": "committee:국회운영위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2M6U0T8T2R1S1R1R4Z8X2Y8W2X2V2",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2J6I0G9G0O7P1N6O2M1N5L2H3H2G5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2W6W0E8D0D3B1C7B2B1J0I4I4G6H2",
+      "verdict": "other",
+      "rule": "committee:국회운영위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2Z6X0N8N1M9M0K9L4K3K2S9S9R1P2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2S6Q0Q9P0X3X1V7W1V0V3T5U0C3A9",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2I6G0L9M0U7U1T5T3S2Q1R8Y1Z1Y4",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2U6B0C8B2Z4Z1X3Z4G2H5F8E4E9D5",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2F6B0C8A1B9Z0X9Y4G4H3F1F5E1C5",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2S6R0R8P1Q9P0P9X4V5W2U5V4T2U0",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2E6C0B9B0X7X1W3X4V4V1T7C7C2A2",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2S6T0R9S0A7A1Y0Z2Y3W5W1E5F3D9",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2D6D0C9D0B7J1J0I2J9H2F2G8O0P5",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2P6P0Y9W0W7U1V0T2U8K3I4J5I4I8",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2M6N0L9L0K7Z1Z0Y1Z0X4X2W5E4E8",
+      "verdict": "other",
+      "rule": "committee:국회운영위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2O6M0M9I0I7H1I6G2G2F4N5N8L6M5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2V6T0S9S0A1B1Z5A3Y0Y2X8T5T5R8",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2M6K0L8K1K8I1E2F1D3D2C2G8G8O4",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2C6D0B8C1K8I1J2H1H3G5H2W1X8W5",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2H6I0G9O0P9N1N0M4N3L5L1T0S5S3",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2R6Q0R9P0P8X1W9W1U7W5U4U3C2B4",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2L6L0K9K0S8R1R9P1Q7P0P4X6V8W9",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2P6O0O9M0L8L1H9I1G5H4F2E1E9M2",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2F6G0E9F0D8E1M0K0L0J3K3I8I8R4",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2D6E0C8B2B7Z0A9I3J0H3H2G9E0F6",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2J6J0R7Q0Q9O1P0N2W1W4U2V8U7U0",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2M6M0K9L0K7K1I0J2R8P2Q0O1P0N0",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2L6K0I9I0Q3R1P1Q2O1N0N2J0J3I3",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2Q6Q0Y9Z0X9W1W0U0V0D4E8C3C3A0",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2O6O0N9L0M8K1L1S0T5R1S8Q0P6P6",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2A6Z0G9H0F8G1E8F1D1E2M8K6L2J5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2O6M0N9L0M8K1S9T1R4S4Q0R1P0P2",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2I6I0H9I0G8G1F9N1N3M2M1L4L3J0",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2W6U0V9D0D8B1A9B1Z3A0V2W9V2T9",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2Q6P0N8O2V7W0V9S3S3O0P8N3O2M2",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2U6S0U9S0S8O1N8N1L1M1K4L9T5T9",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2Y6V0V9T0U8S1T8A1Y1Z4X4Y5W7E4",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2K6L0J9J0G8E1E8C4D6C0C6K4I6J5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2Z6X0Z9X0X8F1D8E4C6D2B7C7K0I5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2T6T0B9Z0A8Z1Z9X1F3G5E6F9D9E0",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2I6H0H9F0G8E1F8A1B4Z4Y7Y2X4X2",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2K6I0H9H0P8P1O8P1N3N1M8U8U7S7",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2I6E0E9D0B8C1A8B1I4J0H9G7G0F3",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2S6T0O8P2N6M0M8K2L3T5U4S2S7R0",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2G6E0M8N2L7L1K1K2J4J5R0Q1Q3P3",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2H6G0E8E2D7D1L1M2K5L2J7J6I5Q3",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2Q6P0Q9O0O3N1V5V1T0U2S9T2S9Z6",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2N6L0M9K0L7G1F2G5E8F2D6D7L3K3",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2E6C0B9B0Z8A1I7J0H1H3G3E0F9N7",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2J6K0I9J0H8I1G7H2P7N4O2M4N9L5",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2B6I0H9I0G8G1F6G5N9O2M5L4L8J7",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2E6F0D9C0C8K1L7J0K0I0J8H1H7P8",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2D6B0C9B0Z8Z1H7I2G7H1F3D6E4A1",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2G6E0F9D0E8C1K6L5J8J4I0I9H5H5",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2T6S0Q9R0M8N1L7M1K0L1J0R9S9Q5",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2A6Y0Y9G0H8F1G7E0F3D3L3L5K9L3",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2Q6R0P9Q0O8P1N7N1V3U5U5T4T8P2",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2L6L0J8K1J8J1R4R1Q0O5P0N3O9W7",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2M6K0L8T1T8R1Q4Q0O9P3X5Y5W2U5",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2Y6Z0X9Y0W8E1F7D0D4C3C1B6J6J9",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2P6Q0O8P1N8N1D4B1B1A5B8Z1Z8H0",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2L6L0T8U1S8T1R4P1Q3L3M0L4L6K0",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2K6I0H9H0P8Q1O7P1N4M2M5U7V4T0",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2J6R0R9Q0R8P1P7O1W0W5U0W3U6U8",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2I6Q0O9P0N3O1M3N3V9V4T0S1S6R1",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2B6Z0A9Z0X8X1F7G0E5F1D8E1C0K4",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2P6P0O9P0N8N1W7U1U4S3T0T1R3S0",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2Z6G0H9G0E8E1D6D5T5U0S9R5R5Q4",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2S6T0R9N0O3N1N7M3K9K3T2T7S1Q7",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2S6S0A9Z0Z8X1Y7W1X5T2T3R3Q6R5",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2U6V0T9U0S7R0R9Z4A8Y4Z7X8W6W2",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2K6I0I9H0O8P1N7O0M4N5M8H1I3G6",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2U6T0U9S0S8A1Z6Z5X6Y5X0X9F4F3",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2Q6Q0Y9Y0X3Y1W5W1U2V5R5P2Q0O9",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2H6H0F9G0C8D1B6B5A4Y3Z3G4H3G6",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2R6Q0Q9O0P3N1O7W1W6V0T0U7S6T6",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2W6X0V9U0U8S1T6B5C7A4A9Y5X4Y8",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2Q6Y0W9X0V3W1U5V1D1D0C1A2B4Z4",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2R6S0Q9Q0P3P1O5O0W9V3V7T0U0S7",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2X6X0W8W2V6D0D9B0C0B5B4Z2A0I0",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2K6L0J9J0I2J1H7H0Q4O5O2N4N0M6",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2J6I0I8G2F0F1N3O5M6N0L0J6K2S5",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2N6M0M8U1V8T1U4S2T3R2Z6A8Y4Z9",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2Q6P0N9N0V6W2U1V4T8S5S9O2O9N7",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2F6D0E9C0Y6Y2W1Y4W7U2V3C1E3C0",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2F6D0L9M0K1K1J1J4I5Q5Q6O3Q7O7",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2F6B0B9Z0A1Z1X1X4G6G3E2D8D3B3",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2K6J0J9F0D4E1C7D2B7C4J8K5J3H7",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2G6C0A8B2Z5A1Y4G1H4F3G3E2F3D8",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2Q6O0O9W0X1V1W1U4T5T2B4C6A8A7",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2F6G0E8F2D5C1C4K1L5J3J6I4G2H0",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2H6G0E8F2D5E1A4A1Y3Z1Y5W0W2E4",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2M6L0S8T2R5S1Q4R1P8X1Y5W2X3V8",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2H6I0Q8R2P5N1O4M1N1C4C4B0Z0A4",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2C6A0B9I0J2I1I3G2F7F3B4B6A4B0",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2Z6X0V9W0E3F0D9D4B1A2B3W9X0V1",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2H6F0F8D3C1D1K8L0J8K0I6J5H3P6",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2Y6E0E9C0D3C0C9Y4W0X0V8W3U2V4",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2V6U0U9S0T3B0C9A3Y7Z4X6Y2G2G0",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2E6F0A9B0Z3Y0Y9W3X9F1F7E4C3D9",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2E6F0D9E0C4D1B0J0K9I0J8H0H3G8",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2C6D0B9C0A2B1J3J2H6G4G1F0F0N7",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2S6R0P9P0X2Y1W3X2V1W3U3C7D1B4",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2B6C0A9Y0Z2H1I3G2E4F4D2E9M0M2",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2S6R0R9P0Q2Y1W3X2V6W1U1V8D7D3",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2D6D0C9D0K2L1J3I2I4G0H7P5Q9O4",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2P6Q0O9O0N2U1V3U2U3S2T6S0Z2A7",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2R6S0R9R0Q2X1Y3X2X0V2U5U0C8D9",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2D6B0A9A0W7W1V2V5U7U3S8B3B5Z1",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2D6E0M9N0L2J1K3I2J5F2F4E7C1D1",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2R6P0N9O0N7N0C9C4B7I0Q6P3O7N4",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2J6K0R7S0R2P1P0O4P3W5X8V9U5U1",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2A6A0Z9A0H7I1G0F2F8D1F7A8A9Z5",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2C6A0B9J0J2I0G9H3F5G5V6V4T2S6",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2Z6A0H9I0H7F1F5E5F8M2N7L1K5K1",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2R6S0Q8R3P1X1Y1W3X7V0W1U2Q3Q9",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2F6D0E8C2D5B1C7K4I7I1H0I7G2G0",
+      "verdict": "other",
+      "rule": "committee:외교통일위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2E6F0M7N0L2M1K0J4J3F2G2E1D0D2",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2Y6X0X9T0T7R1Q0R3P0P0Y2Y0W9X5",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2D6L0M8K3L1J1J4I4I1E2C7D0B1C6",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2U6U0C9C0B7Z1A4Y4Z0O1P7N5L3M8",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2U6V0T7T2B4A1A7Y2Z6Y2Y2G2G9F2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2H6H0G9G0F2F0E9L2M0K5L3J0K6I5",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2D6L0J8J2I9J1H3H0E9C4C2B8B0Z7",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2U6T0U9B0C7A1B0Z2Y9Y5H1F7F1E4",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2R6Z0X7Y1W0X0V9W2D9C0D2B1B6A2",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2Y6W0X7V1V0U0C9C3A0B0A2A9Y0H9",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2C6D0L9L0J7I1J0H1H4P0Q5O0P3N8",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2N6L0M9L0L4T1S0S5Q0R4P0Q6Y2W4",
+      "verdict": "other",
+      "rule": "exclude:의료기기"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2R6S0Q9R0P1Q1O7P1X6V1W5U9U5T4",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2S6T0R9S0Q1R1Y7Z1X5W1W2V0V8D3",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2D6B0C9B0I1J1H7I1G0H0F2N0O9M0",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2G6G0C9D0B4B1A3Y2Z5H2H1I4Q8R2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2H6F0E9F0M4N1L0M0L8J2J0S6S2Q8",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2V6R0S9Q0O4P1N0O0W9W4V5T9U6S4",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2B6I0J9I0I7G1F0F3N0O3M4N4L8K8",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2M6K0L3S1R2S1Q4Q5O8Q1X4Y0W4V5",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2X6Y0W7X0V9D1E8C4C7B2B1A1I4I4",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2E6C0C9B0C1J1K4J1H9H3F6G8C2C7",
+      "verdict": "other",
+      "rule": "committee:외교통일위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2U6S0T9R0P1Q1Y0Y4W7Y3W9W7U7D5",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2V6T0C8C0A5B0Z9A5Y8Z5U0T2U2S6",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2S6T0S8S2Q5Z1Z7X4Y6W0X3V5W3E6",
+      "verdict": "other",
+      "rule": "committee:외교통일위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2L6L0J8K1I1J1R7R1Q5O3P7N3O6V1",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2E6F0N8L3M1K1L4J4K3F3G9E7F6D7",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2B6J0K8I1J8H1I5G5O6O1N4N2M2K6",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2S6S0B9Z0Z4Y0Z9X3X9F0G3E9U8T5",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2V6V0D8E1C8B1B5Z5A7I3J8H0F9G4",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2W6W0V9T0U3S1T3B3B8Z2A0Y7X2X5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2N6M0K8L0J6K1F5E3F5D4E4C5C5L9",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2H6I0G9H0F3E0E9M2M6L1M5K4K3J4",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2K6I0J8Q0R5Q0O9O5N9O2J8K5I4I3",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2Z6Z0X9Z0X3X1F3F0E9C5D7B3C4Y2",
+      "verdict": "other",
+      "rule": "committee:외교통일위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2Z6X0Y8W3X1V1W3S3Q2Q0P3P8O3O6",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2J6K0G9G0E1F2E0C2C5K2L6J6K3I9",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2L6M0U4V1T5R1S5Q4R8Y2Z4Y6Y4W5",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2O6M0N4L1M6K1L3T1R1R5Q3R2P9P4",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2X5X1F1E0E6C1D4B4C4Y4W0X4V7V1",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2R6P0Q8P2P1L0J9K3I1J2H8I3P5Q6",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2E6C0B8B2A1A0W9X3V2U0U4S6T9B2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2U6D0B9B0Z4B1Z0Z3H7I5G6E7F4E7",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2A6I0J9H0I4G1H0F0N5N2M3N0L8L3",
+      "verdict": "other",
+      "rule": "committee:국회운영위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2D6C0C9A0Z2A1V6W4U9V0T7S1S8A0",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2S5Q1R1Q0O6O1W4X4V5U1U6S5T7P5",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2F6F0E7F1M0N1L5K1K7J4J7F9F3E4",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2M6K0G7H0G2E1D0L4M2K1J9H7I5Q5",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2I6J0R7S2Q4Q0P9N0O8W0W3V5V2T8",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2D6E0L7M2L4J0J9I0J7Q3R0P1O2O1",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2F6D0L8M2K4K1J3J4I3I3Q1P1P4N6",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2N6L0L9K0L2S1T6R4Q9Q4O7P8X6X8",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2U6S0T8R2S1A0Y9Z3Y2Y4X0E7F0E6",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2V6W0U7T2U4R1A7A5Z8Y0W6X7F0F6",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2R6Q0F6E2E2D1C6K4I3H3I8H2P2N7",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2X6E0G9E0E2C1B6C4J9K2J7J9H5I2",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2V6W0U8V2T0U1S8S3B1Z0Z2X5Z6X3",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2C6D0C7J1K0I1J5H1I8G4V3W7U6V1",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2B6X0X8W2U6V1T7U1C3C2B8Z1A0Y1",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2J6I0I8D3C1D1B5B1A9B5I7J3I0G0",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2U6V0T8T1C8A1A0Z5Z6Y3Y1G1H3F4",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2J6I0J3R3P1O1M5N5V5U0S1T8S3O2",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2I5G0G1E0F6E1E1A2A6Z4X1Y5W5X6",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2V6V0T9U0S1T1R4Z2A6Y0Z3X1Y4W7",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2Z6X0Y8W2X4V1W3S4Q2R2P1Q1O9P8",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2H6H0G9G0F1F1E4Z2A6Y3Z9X8Y7W0",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2H6F0F8E2L0M1L3L5J5I2J2Q2R5P0",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2O6P0N8O2V4U1U6T5T3R3S6O1O5N7",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2P6P0O8P2K5L1J5H4I1G2H8P5P1O0",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2P6Q0O8P2K7L1K5I4I8H0I3P9O7O3",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2U6S0T9R0S1Q1R7Y4X2Y1W2W8V7W2",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2J6I0I8H2H5P1O8O4M9N4M4M8H3G9",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2S6S0A7X1E4F1E3E2C5D5C9X0Y0W6",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2T5S0T7A1B5Z1A1Y3Y4X3F2F6D0F2",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2Q6P0P8O3O1N1N1J4H1I2G3H9F7G7",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2M6K0L7J1R4R1Q3R2P6P4O0W7W9V1",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2N6L0M8K3L1T1R4S5Q1Q1P1Q8L5M8",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2M6K0I8J0I4I1Q8O2P3O3O4M2N8V1",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6R0P9Q0O1W0X9V4W3U2U7T4B4B3",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2J6K0I9J0H1I0D9C4C1A0B9A2A6I4",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2I6I0G9H0P1N0O9M4N2L4M9T6U1T4",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2F6G0E8E2D6E1C7C1T2R2R4P8R0P0",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2D6B0C9A0I1J0H9H4G4H0F9F5O4M9",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2H6X0W6K1H6E1D1C4A5J5G5E7N9P7",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2G6H0C9D0B1C0A9B4Z1H5I7G9G4F2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2L6L0T8S3S1R1R4Q4Q6Y3Z6X9V7W0",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2B6Z0Y9Y0U2U1T6T4S1S5Q3R7Z3X7",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2X6F0F8E1E0D1B0B1J4K3I4J9H5G3",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2C6C0A9B0A2A0Y8Z5H7F1G9E8F4D7",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2F6D0E8L2N1L0L9K5I0I4R0R7P0Q4",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2Q6P0P8X2W6W0U9V3U0U2C8A5B8A6",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2U6V0T8U1S3S1R6Z1Z2Y2Z8X2X5W3",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2W6E0F8D1E3C0C9B4X7X5V8W3U1V3",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2V6W0U8V2T4B1B3A4B0Z4X9Y2T6V3",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2O6N0I8J2H6I0G9H3F0G5O8M8M3L1",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2K6S0Q8R2P8Q1O4O2K6L2J3K5I1H1",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2N6N0M8K2S7T1R7R4P2O4P5W9X9W0",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2C6D0B8C2A7B1J7H4I2G1H2F9B5C1",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2Q6Q0Y3X2V4U2V0D0C0A0B6A0I4G3",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2O6J0I8J3H1I1G4G3P2N5N7M9M8L8",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2V6V0U7U1T6R0S9A1A9Z3X6Y2W6X6",
+      "verdict": "other",
+      "rule": "exclude:마약"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2M6N0L7M2K2L1S1T2S2Q4Q4P3Q0L8",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2U6T0S5S2Y7X1W5F3E6L4J5I9I1E1",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2L6J0L8S2T4R1S3Q4O1P5X1Y4W1U9",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2M6K0L8J0J4I1X8X2W5X4V4V0U4C3",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2J6J0H9I0Q2R1P1P2O1M1N5U8V1U6",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2S6Q0Q7Y1X5X0V9W5V6V4D7B9C8A3",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2I6G0H8P3P1N1O5M2L1L2B7C7A5B9",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2J6I0G8H2O1P0O9O3M4N1M3H2I3G4",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2T6A0B8Z2A5Y1X4X2F3G3E6F9D6B2",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2I6G0E9F0N1N1M1M3L6J4K1R0S8R7",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2J6K0I1J0R8R1Q4Q0O5N5O9V8W5V7",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2R6S0Q8R2Z6Z0X8Y2W8V3V8D0E5C4",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2E6E0D8D2C2C1B7I4J0I1I3G2H2G0",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2G6E0D8D2L7L1K7L0J2H5I9Q8Q2P0",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2Q6Y0Z7Y3W1W1V1V3D2C0C9A1B6A9",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2P6Q0O8O2N1V1V7T5U0S2T9S3Z4A6",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2K6K0S8T1R8S1Q6R5P6P4X1W8W4U1",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2K6L0J7K1I3J0H9P4Q1O5P2N6M0M9",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2C6C0A8B2Z0Y1Z4H1H4F5G6F2D8D4",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2O6O0M8V2V0T1U4S1T8S1Z4A7Y6Z8",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2W6U0Q7Q2P2Q1O3O3M9V5V1T7Z5X2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2Y6Y0W8V2W0D1E4C2D1B1C3A3A0I2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2B6X0Y8W2W0V1T4U2B0C3A3B4A6Y3",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2J6H0I7G2G2D1B3B3Z9A1Z7Z3H0H3",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2X6X0V8W2V7V1D4C5C3A2B0Z8A1W2",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2U6V0D8E2C7C1B3Z3A5I5I7H6H4F5",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2N6O0M8N3V1V1U4U5S3T4S5Z3A1Y6",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2H6F0G7E1F4M1O3M1M2K3J5K0R7S1",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2M6L0L7T1T5S1T8R0P8Q3L7M1L3L8",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2D6M0M7K1L5J1I8I0Q7Q4P7Q5O6O9",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2O6M0N8L1M8U1U1T0R0S5Q2Q4Z5Z0",
+      "verdict": "include",
+      "rule": "include:식품"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2X6W0W8V0T7U1C7C2A4Z3A3Y7Z6H5",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2E6E0C7B1B4J1K3I2J0H2G0G1C2C8",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2I6J0I8D2E6C0D9B0C2A4I4J0H1H3",
+      "verdict": "other",
+      "rule": "committee:외교통일위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2W6W0U7T2U1S1T6B4B3A4Y0Y1X6Y4",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2L6J0J7I2J1H1P6Q4O4O3N7N5M4U8",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2D6E0C7B2B2Z1A3I3J4H2G9G4E3F8",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6R0P7P2X9W1W7V3V7T2U6Q3Q4P7",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2V6T0B8C2A0A1Z4Z1Y9Y4U3T9T4R3",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2S6Q0R8P2Q0Y1W4X1V6W1U3V6C6B2",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2S6R0S6Z2Y9Y1X1Y3W8W4S3Q9R9Q6",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2F6D0L8L2K7K1J2J4H4E2E7C9D9B6",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2J6H0H8G2W4W1U1V2U1U0S4T7B0Z7",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2H6P0O6O2M4N1L5M4U8S2T2R5S6Q4",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2Y6Y0W8V2W6U1U5C5D4B0A5A7Y4Z3",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2Z6A0I8J2H4F1G0E4F4N1N5L1K8L8",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2M6N0L8L1K8K1J1J0F6D2E1C2D8B1",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6Q0P8P2X4Y1W1U1V2U3U4C8B4B9",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2B6J0I6H0G5O1N1M1L1T3S9R8Q2M0",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2C6A0A8I2H5H1F7G3E5F1N4N5M8K0",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2T6U0S8S2R6S1N5O5M3M1L0J2K7R8",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2P6N0N8W3W1U1V4U3S7S3A7B9Z6A6",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2F6L0L5U1R9Q0N8K0J1R2Q0P7Z7T8",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2K6I0I8R2R1P1O0O5M8N2V7W4U5S2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2H6G0P5O1L9T0F8E0B0Y1X6W2C7B7",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6R0P8N1O1W1X6V3V4U2S7T6A9B3",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2V4E0C5D3C1A1J4H1I7G1F8B3A1B7",
+      "verdict": "other",
+      "rule": "committee:국회운영위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2N6M0M8U2S0T1R4S2Q3R0N0L4M0K1",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2U6T0T8P2N0O1N4N2L6M3U0S4T9R9",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2K6T0T8R0S6Q1R6P4Q3Y4W1X2V3W6",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2Y6K0A8H3L1N1G8T4L5B0L4G2H9O7",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2G6F0G8N2O2M1N3M0K4K3G5H8F5G3",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2A6B0Z8Z2Y8Z1G4H2G9E2E7C3E4L8",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2W6U0V8T2U2C1A3B0Z2A5Y4Y2H9F9",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2A6Y0W6X1V5W1E4E5C1B3C7A3B6Q5",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2H6G0E7F2D9E1Z7A4Y5X4X1V3W9E7",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2T6U0C7A2B1Z1A6Y5Z6G2F4G7E9F0",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2U6V0T8U1S8A1B8Z2Z3Y3Z2X7X3F7",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2V6T0U8T1R8R1Z8A2Y4Z0X3W2W4S7",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2X6F0G8E1F3D1B0C4K6L2J9J0H6G4",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2S6O0N3L2K0L1T4R2Q4T1S3R1S1Z5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2A6Y0X3F2G0F1D4C2K3L3K2I9J5K9",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2L6K0K3J2I0Q1O4P2O3N0C6A0B2A8",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2O6N0M3U2T0U1S4R2A4Y4X2V7W9E5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2P6O0N3L2U0V1T4S2Q2Z3B7A0Z1X7",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2A6B0Z8Y2Y7G1H0F1G9E0C6D8Y6A9",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2X6W0E8E1C0D0B9C5A4B5J9H3I3H3",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2X6W0W8E2F6D1E0C4D8B1B1X8V5W2",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2B6A0H5G1F9A0Z8Y0X1D5O5L8L0H9",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2Z6H0H8G2G5F0F9D0E2M0K0L1K1K2",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2A6B0Z8Z2V5U1V6T2T1R1A2A6Y1Z9",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_A2Z6W0E5E1K9J0H8P0O0N5M7G7F0P4",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2T6U0S8R2R7P1Q7X5Z7X5X6V5U2V5",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2G6E0E8Q2P5P1N4O0N1N0I1H0I0G7",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2X6W0W8V2V7U1C2C4A9B0Z9A2Y4Z6",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2G6G0E8D1D2C0D9Y1Z2X5X3W3U7V6",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2W6D0E7D2D8C0A9A3J1J1H2G1G3F3",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2M6M0L8L2T5S1S6R1R9P4Y0Y1W4X9",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2K6L0J8K2I5G1H6P0Q7O2M6N9L1M2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2O6O0N8N2M7U1S7T5R9Q2R0Z1X8W8",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_D2B6C0A7B2J0H1I7G4H3F4G3N7M2N0",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2X6V0W8U2V7T1U7P5O3O5N3N0M3M4",
+      "verdict": "other",
+      "rule": "committee:성평등가족위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2G6F0F8E2C4D1K7J3J2I4J8H0H4D5",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2N6M0B8B2Z2B1Z7Z3Y9G3G7E5F8E2",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2E6F0N8N2M2M1L7J3K9S0S6Q9R0Q9",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2L6T0T6T1Z7Y1X7U4S7P3Y4X7I4H3",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2U6S0R8S2Q5Y1Y4X2V4W1U0Q0R8Q2",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2W6U0U8T2U8P1O1O0N8O5M1M6U0T1",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2X6W0X8V2V8D1C3C3A6B5A5A4I6H5",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2W6F0F8D2E1D0B9B5X9X2W7X6V2T0",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2C6I0H8I2G8G1F2G5N7O1M2L9L6J0",
+      "verdict": "other",
+      "rule": "committee:국회운영위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2N6L0M8K2K8J1R2R5Q5Q4P5P9O0O0",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2L6T0U8S2T8R1S2Q5R6N3L6L7J3L1",
+      "verdict": "other",
+      "rule": "committee:국회운영위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2W6V0D7D1B6C1B1B1Z4H1I9H1H7F7",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2J6K0I8J2H1G1G1O1P5N4N2M2K7L0",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2C6C0L8L2J5K1I4H2H2P4Q1O1P9N2",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6R0P7P0O7P1W5X1V7U5U2S4T3B4",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2Z6A0Y8Z2O5O1M6L5M1K3L3S2T2R1",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2S6Q0R8P2X5Y1W6W4V7F4D5E1A5A1",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2G6E0T8U2S5T1R6S4Q4Y5Y1X4Y4W2",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2I6I0Q8R2P8O1O4M2N0V3W4U9S7T0",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2V6W0U8T2T6B1C6A2B9Z2Z5Y5U3U1",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2Q6R0P8P1N8O1N0V5V7T4U6S4T9R1",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2H6P0Q8O2P6N1O6M2M8V3T0T2S2T1",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2T6U0S8A0B7Z1A1Y2Z8X5F1G2E0E5",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2I6G0H8F2G6O1O6M2N7M2K7K2G7H8",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2P6X0Y8W1V8V1T5U5C2C2B3Z3A6Y2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2Z6H0I8G2H6F1E6E2T6U0S0S4R4P8",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2M6K0L8K2R6S1Q6Q2P5Q1O4O7X9V8",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2A6I0G7H2F7G1E0E2A5Z2Z0Y7Y6W8",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2O6M0N8L2M5T1U6S4R4R0Q1Q2M6N9",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2M6N0L8M2T5S1T6R4R6Q1Q9M8L7L3",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2J6I0I8H2H7F0G9O0M1N0L7M6K5S7",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_F2D6Z0A8Y2Z5X1W6W4E2F0D7E9C6B9",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2H6I0D8E2D7D1B0A4B6I3J3H1I4G2",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2G6G0E8F2N5O1M4N1L9J0K5F3G8F2",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2Y6X0V8V2U5U1C1B3B3Z2A7Z4Z7H0",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2C6A0Y7Z2U3V1U8U4S0R5S5Z1A5Y9",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_H2Q6Q0O8P2N5M1N6U4V3T0U1T0R7R4",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2Y6W0X7V2V9U1C3C5B0B0Z4Y3Z8G8",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2T6S0S8Q1R4Z1A3Y2W0X4V7W6R7S0",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2P6P0N8P1N8N1M5U5V0T1T5S2Q7Q1",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2O6P0O8O1W8W1V5T5U1S2T4B1B9A8",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2A6I0I8H2H0G1G1E1N7N1L2M5K9L2",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_V2U6U0T8T2B6A1A7Y3Z5X2Y0U9S7T7",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2M6K0S8T0R5S1Q7R1P1X5Y5W5W3V3",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2B6I0H8H1F8H1F3F1B4Z4A7Y1Z1X0",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2K6J0J8F2F6E1E3D5D9B1K8K9I5J0",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2S6Q0W8V1W3U0C9C4B9B2A7A4Y6Z7",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2M6L0T8T2R5S1Q7R5P5X1Y7W8X3V6",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Q2O6P0N8O2M5N1V4T2U2S0T4R3N3N1",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_C2A6B0J8J2I5G1H4F1F9N4O9M7N5M3",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6R0P7N2O3W1X7V2V0U3S3T9P0P0",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2U6V0D8D1C1D2B1B0A4I4I1G1H8F9",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_B2A6J0I6G0G1O1L6K5D1A3J4I0H8G9",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2W6U0V8R2R4P0Q9P2N4N1V5W7U3T0",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2R6Z0A7Y2Y1X1Y7W1E4F1D6D9B9C2",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2J6H0H8G1H1F2G1N0M6N0L3L3K7K0",
+      "verdict": "other",
+      "rule": "committee:교육위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2W6W0U8T2U5B1C4B1B8Z5A2Y2G9H5",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_W2E6E0D8D2B6C1B6G4H1F2G5B8C0B0",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_M2L6S0T8R2S0Q2P0P5X1X3W1X2V7V0",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2M6I0I8G2F6F1E3F4M8N3M5K3K4J6",
+      "verdict": "other",
+      "rule": "committee:국토교통위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2H6F0G8E0F5D1L7L1K1L3J6H6I6D4",
+      "verdict": "other",
+      "rule": "committee:문화체육관광위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_G2H6G0G8E0F5N1L4M4K6L2J5H5I0G1",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2J6L0J8H0I6D0E9D4D9B5A3A3I8J4",
+      "verdict": "other",
+      "rule": "committee:정무위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_T2U6S0R7R2Q8Q1Y4X0X9V5W1V3V5D7",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2F6D0E7L2M8L1J4J2I1J0Q5R0Q9O9",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2G6F0F8E2E1C1D4L4L6K1I0J5H4I6",
+      "verdict": "other",
+      "rule": "committee:과학기술정보방송통신위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2R6S0Q8O2P5O1O6W4W3V5T9U2S9S4",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_L2J6R0S7Q1R4P1P6O5W5W2V2V9U7U1",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_J2K6I0I8V2T5U1S6T1R6S5A2Y3Z2X4",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2Q6Q0P8N2O5M1N7V1V6U0S7T7R0S8",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_I2H6H0P8Q1O9P1N3O0M9U4U6T0U3S2",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_E2Z6A0Z8Z2X6W1W0E0F0D4E6C0D4B6",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2O6O0N8L2M6L1L0T0R1S1Q6R6P9Q4",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_R2S6O0M7N3L0M1K0L3T5R5R9Q4R5P1",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Z2V6W0U8V2T5U0S9A1B5Z5A5Y0Y7X9",
+      "verdict": "undecided",
+      "rule": "none"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2L6L0K7L3J0J1R3Q5Q9O1P7O6O5K1",
+      "verdict": "other",
+      "rule": "committee:기후에너지환경노동위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_N2N6V0V8U2T4T1R5Z1A4Y3Z8X9Y0W9",
+      "verdict": "other",
+      "rule": "committee:재정경제기획위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_K2L6J0J8I2G5H1P2P5O3O1M6L6M3T2",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_P2Q6Y0W7X2V8W1U8V4R3P5Q9O0P4N1",
+      "verdict": "other",
+      "rule": "committee:국방위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_X2V6V0R6S2Q6P1P1N3O4W4W3V4T4U8",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_S2Q6Q0O8N2O5V1W4U3V2T5U4S3T8B7",
+      "verdict": "other",
+      "rule": "committee:산업통상자원중소벤처기업위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_U2U6S0T8R2Z5A1Y7Z5X4Y4W6E7E5D3",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_O2M6M0L8J0K4S1T5R4R8P2O3P0W5X1",
+      "verdict": "other",
+      "rule": "committee:법제사법위원회"
+    },
+    {
+      "source": "assembly_bills",
+      "id": "PRC_Y2N6L0M7K2L1J1K2S5Q5R2P6Q8O1W2",
+      "verdict": "other",
+      "rule": "committee:행정안전위원회"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234959",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234906",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234949",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000222299",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234839",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234793",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234738",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234739",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234541",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234426",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234237",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234234",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234126",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000234063",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000233730",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000233598",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "recall:3000233538",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "admin:4743370",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "admin:4740355",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "admin:4736981",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "admin:4737525",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "admin:4734825",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000235085",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000235144",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000235135",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000235022",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000235043",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234975",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234965",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234972",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234906",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234987",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234862",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234850",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234806",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234817",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234738",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234739",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234728",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234777",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234774",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234766",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234657",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234621",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234705",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234693",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234667",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234658",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234712",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234543",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234602",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234541",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234417",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234448",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234460",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234441",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234457",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234463",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234432",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234394",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234369",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234365",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234327",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234310",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234211",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234276",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234234",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234237",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234187",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234252",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234161",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234098",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234142",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234109",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234126",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234172",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234119",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234069",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000234094",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233943",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233892",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233907",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233947",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233896",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233913",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233865",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233772",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233798",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233783",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233841",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233828",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233815",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233730",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233700",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233752",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233744",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233681",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233690",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233593",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233590",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233528",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233208",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233178",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233201",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    },
+    {
+      "source": "foodsafety",
+      "id": "unfit:3000233217",
+      "verdict": "include",
+      "rule": "source:foodsafety"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "fiw.todo/1",
+  "issues": [],
+  "excluded_no_link": [],
+  "market": [
+    {
+      "topic": "투자·설비",
+      "articles": [
+        {
+          "ref": "c0096:1",
+          "id": "02100051.20261002182107001",
+          "title": "CJ제일제당, 美 ADM과 사료용 아미노산 합작 법인 설립... 글로벌 아미노산 사업 확장",
+          "outlet": "대한경제",
+          "date": "2026-10-02",
+          "url": "http://www.dnews.co.kr/uhtml/view.jsp?idxno=202610021808177870374",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 550,
+            "src_chars": 550,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0013:1",
+          "id": "01100401.20261023003129002",
+          "title": "오리온, ‘카스타드’ 생산라인 증설",
+          "outlet": "동아일보",
+          "date": "2026-10-23",
+          "url": "https://www.donga.com/news/Economy/article/all/20261022/134892298/2",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 338,
+            "src_chars": 338,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0013:2",
+          "id": "02100861.20261023085434001",
+          "title": "오리온, ‘카스타드’ 국내외 생산라인 증설⋯ 연 3000억 규모로 확대",
+          "outlet": "브릿지경제",
+          "date": "2026-10-23",
+          "url": "https://www.viva100.com/article/20261022500126",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 941,
+            "src_chars": 941,
+            "ends_sentence": true
+          }
+        }
+      ]
+    },
+    {
+      "topic": "실적·주가",
+      "articles": [
+        {
+          "ref": "c0605:1",
+          "id": "02100801.20260930062953001",
+          "title": "글로벌·가격·환율까지 호재…3분기 식품업계 깜짝 실적 기대",
+          "outlet": "아시아경제",
+          "date": "2026-09-30",
+          "url": "https://view.asiae.co.kr/article/2026092816512869988",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 2389,
+            "src_chars": 2389,
+            "ends_sentence": true
+          }
+        }
+      ]
+    }
+  ],
+  "lwf_mentions": {
+    "c0096:1": false,
+    "c0013:1": false,
+    "c0013:2": false,
+    "c0605:1": true
+  }
+}

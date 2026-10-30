@@ -1,0 +1,189 @@
+{
+  "schema": "fiw.manifest/1",
+  "run_id": "2026-10-26-1",
+  "created_at": "2026-10-26T15:40:09+09:00",
+  "today": "2026-10-26",
+  "period": {
+    "from": "2026-07-27",
+    "to": "2026-08-26"
+  },
+  "period_source": "plan",
+  "plan_segment": 0,
+  "stages": {
+    "collect:korea_kr": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": null,
+      "started_at": "2026-10-26T15:48:17+09:00",
+      "at": "2026-10-26T15:48:29+09:00"
+    },
+    "collect:ftc_notice": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": null,
+      "started_at": "2026-10-26T15:48:29+09:00",
+      "at": "2026-10-26T15:48:30+09:00"
+    },
+    "collect:bigkinds": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": null,
+      "started_at": "2026-10-26T15:52:08+09:00",
+      "at": "2026-10-26T15:52:08+09:00"
+    },
+    "collect:mfds_notice": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": null,
+      "started_at": "2026-10-26T15:48:30+09:00",
+      "at": "2026-10-26T15:52:27+09:00"
+    },
+    "collect:foodsafety": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": null,
+      "started_at": "2026-10-26T15:52:27+09:00",
+      "at": "2026-10-26T15:53:13+09:00"
+    },
+    "collect:assembly_bills": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": null,
+      "started_at": "2026-10-26T15:53:42+09:00",
+      "at": "2026-10-26T15:53:42+09:00"
+    },
+    "collect:assembly_schedule": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": null,
+      "started_at": "2026-10-26T15:53:42+09:00",
+      "at": "2026-10-26T15:53:42+09:00"
+    },
+    "collect:lawmaking_web": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": null,
+      "started_at": "2026-10-26T15:54:49+09:00",
+      "at": "2026-10-26T15:54:49+09:00"
+    },
+    "check": {
+      "status": "warn",
+      "exit": 3,
+      "input_hash": "54641b9518cd8bcb339e8b874ae85cda688febce7ad2876ac66a0f583911cdfe",
+      "started_at": "2026-10-26T15:54:53+09:00",
+      "at": "2026-10-26T15:54:53+09:00"
+    },
+    "cluster": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": "1d233f081ccc0eca926fa73cd0c460fcc06e2f1ed9647d7a32352c35907b51f2",
+      "started_at": "2026-10-26T15:54:53+09:00",
+      "at": "2026-10-26T15:54:56+09:00"
+    },
+    "relevance": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": "28e5b048373920a4ae8fbd1d2485769d98129b4a08ac3917cd7444e06a78f23c",
+      "started_at": "2026-10-26T16:05:13+09:00",
+      "at": "2026-10-26T16:05:13+09:00"
+    },
+    "prepare": {
+      "status": "warn",
+      "exit": 3,
+      "input_hash": "28e5b048373920a4ae8fbd1d2485769d98129b4a08ac3917cd7444e06a78f23c",
+      "started_at": "2026-10-26T16:09:07+09:00",
+      "at": "2026-10-26T16:09:07+09:00"
+    },
+    "ingest:bigkinds_bodies": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": null,
+      "started_at": "2026-10-26T21:07:06+09:00",
+      "at": "2026-10-26T21:07:06+09:00"
+    },
+    "verify": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": "4f0008e47855b8721041fcbe2c4820b35f4e5294bd4e86a680fad26426dbd74c",
+      "started_at": "2026-10-26T21:13:19+09:00",
+      "at": "2026-10-26T21:13:19+09:00"
+    },
+    "render": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": "4f0008e47855b8721041fcbe2c4820b35f4e5294bd4e86a680fad26426dbd74c",
+      "started_at": "2026-10-26T21:13:19+09:00",
+      "at": "2026-10-26T21:13:19+09:00"
+    },
+    "lint": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": "fa903d175dbedecc5c766999489c2fc5ff5eebc54fe4b5240579e3b5a6769808",
+      "started_at": "2026-10-26T21:13:19+09:00",
+      "at": "2026-10-26T21:13:19+09:00"
+    },
+    "linkcheck": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": "82aeb74cad68da45bc35a17647cfd2e0b753587c93b322271f78b2dd50f129b7",
+      "started_at": "2026-10-26T16:38:28+09:00",
+      "at": "2026-10-26T16:39:37+09:00"
+    },
+    "state": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": null,
+      "started_at": "2026-10-26T16:23:30+09:00",
+      "at": "2026-10-26T16:23:30+09:00"
+    },
+    "publish": {
+      "status": "ok",
+      "exit": 0,
+      "input_hash": "1556310d46590ac00fed094882d0c497eca868ff0231e8f9a63045b9a70e8501",
+      "started_at": "2026-10-26T16:23:30+09:00",
+      "at": "2026-10-26T16:23:30+09:00"
+    }
+  },
+  "sources": {
+    "korea_kr": {
+      "status": "ok",
+      "read_from": "2026-07-27",
+      "read_to": "2026-08-26"
+    },
+    "ftc_notice": {
+      "status": "ok",
+      "read_from": "2026-07-27",
+      "read_to": "2026-08-26"
+    },
+    "bigkinds": {
+      "status": "ok",
+      "read_from": "2026-07-27",
+      "read_to": "2026-08-26"
+    },
+    "mfds_notice": {
+      "status": "ok",
+      "read_from": "2026-07-27",
+      "read_to": "2026-08-26"
+    },
+    "foodsafety": {
+      "status": "ok",
+      "read_from": "2026-07-27",
+      "read_to": "2026-08-26"
+    },
+    "assembly_bills": {
+      "status": "ok",
+      "read_from": "2026-07-27",
+      "read_to": "2026-08-26"
+    },
+    "assembly_schedule": {
+      "status": "ok",
+      "read_from": "2026-07-27",
+      "read_to": "2026-08-26"
+    },
+    "lawmaking_web": {
+      "status": "ok",
+      "read_from": "2026-07-27",
+      "read_to": "2026-08-26"
+    }
+  }
+}

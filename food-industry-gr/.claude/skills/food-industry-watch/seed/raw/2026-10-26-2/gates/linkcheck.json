@@ -1,0 +1,16 @@
+{
+  "schema": "fiw.gate/1",
+  "gate": "linkcheck",
+  "exit": 0,
+  "checked": 174,
+  "findings": [],
+  "classified": {
+    "ok": 142,
+    "dead": 0,
+    "link_blocked": 25,
+    "robots_exempt": 7,
+    "error": 0
+  },
+  "skipped": [],
+  "input_hash": "6c45d01e4335620d2ce848f03fa56436f5cab625c35968bd5e454a707400164e"
+}

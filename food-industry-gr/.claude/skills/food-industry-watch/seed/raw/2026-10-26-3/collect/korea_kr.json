@@ -1,0 +1,1925 @@
+{
+  "schema": "fiw.collect/1",
+  "source": "korea_kr",
+  "run_id": "2026-10-26-3",
+  "period": {
+    "from": "2026-09-27",
+    "to": "2026-10-26"
+  },
+  "inclusion": "posted",
+  "method": "script",
+  "status": "ok",
+  "probe": {
+    "rows": 20,
+    "ok": true
+  },
+  "requests": [
+    {
+      "target": "정책브리핑 식품의약품안전처",
+      "total": 60,
+      "received": 60,
+      "pages": 3,
+      "status": "ok"
+    },
+    {
+      "target": "정책브리핑 농림축산식품부",
+      "total": 95,
+      "received": 95,
+      "pages": 5,
+      "status": "ok"
+    },
+    {
+      "target": "정책브리핑 보건복지부",
+      "total": 88,
+      "received": 88,
+      "pages": 5,
+      "status": "ok"
+    },
+    {
+      "target": "정책브리핑 공정거래위원회",
+      "total": 25,
+      "received": 25,
+      "pages": 2,
+      "status": "ok"
+    }
+  ],
+  "error": null,
+  "items": [
+    {
+      "id": "156786385",
+      "dept": "식품의약품안전처",
+      "title": "식약처, 감미료 사용 저당 식품의 혈당 관련 기능성 표시 제한",
+      "date": "2026-10-26",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786385"
+    },
+    {
+      "id": "156786327",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 메탄올 초과 검출된 '일반증류주' 회수 조치",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786327"
+    },
+    {
+      "id": "156786302",
+      "dept": "식품의약품안전처",
+      "title": "건강기능식품 기능성 원료 안전관리 강화·영양성분 원료 확대 등 기준 정비",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786302"
+    },
+    {
+      "id": "156786293",
+      "dept": "식품의약품안전처",
+      "title": "식약처, 세계를 선도하는 규제합리화로 K-바이오 성장에 속도를 더한다",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786293"
+    },
+    {
+      "id": "156786292",
+      "dept": "식품의약품안전처",
+      "title": "[정부합동] '성장에 날개를, 민생에 활력을, 지역에 미래를' 대통령 주재 규제합리화위원회 제2차 전체회의 개최",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786292"
+    },
+    {
+      "id": "156786258",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 부산 KIMES에서 의료기기 안전관리 정책 홍보",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786258"
+    },
+    {
+      "id": "156786219",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] \"시험 잘 보는 약은 없습니다\"… 식약처, 프로프라놀롤 성분 안전 사용 안내",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786219"
+    },
+    {
+      "id": "156786080",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 축산물 신규 수출 정보 안내",
+      "date": "2026-10-22",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786080"
+    },
+    {
+      "id": "156786079",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] '디지털의료·건강지원기기 성능인증 제도' KIMES 현장 세미나 및 홍보관 운영",
+      "date": "2026-10-22",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786079"
+    },
+    {
+      "id": "156786028",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 벤조피렌 초과 검출된 '들기름' 회수 조치",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786028"
+    },
+    {
+      "id": "156786002",
+      "dept": "식품의약품안전처",
+      "title": "[부처합동] 한-베트남 정상회담 후속 성과로 베트남에 K-닭고기가공품 수출 개시",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786002"
+    },
+    {
+      "id": "156785917",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 천연물 기반 한약·화장품·건강기능식품 분야 연구동향 함께 살핀다",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785917"
+    },
+    {
+      "id": "156785916",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 의사의 의료용 마약류 주사제 셀프처방 및 투약 금지 성분 확대 추진",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785916"
+    },
+    {
+      "id": "156785851",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 원발성 담즙성 담관염 치료 희귀의약품 허가",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785851"
+    },
+    {
+      "id": "156785739",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 국제식품규격위원회(CODEX)에서 비관세장벽 해소 앞장",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785739"
+    },
+    {
+      "id": "156785736",
+      "dept": "식품의약품안전처",
+      "title": "식약처, 화장품 점자 등 세부 표시 방법 안내",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785736"
+    },
+    {
+      "id": "156785735",
+      "dept": "식품의약품안전처",
+      "title": "수능 앞둔 수험생 여러분, 카페인 함유 식품 섭취 시 주의하세요!",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785735"
+    },
+    {
+      "id": "156785734",
+      "dept": "식품의약품안전처",
+      "title": "정부, 신생아·암환자 치료 의약품 등 국가필수의약품 8종 신규 지정",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785734"
+    },
+    {
+      "id": "156785697",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 식의약 공공데이터·AI 활용 우수작 5건 선정",
+      "date": "2026-10-19",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785697"
+    },
+    {
+      "id": "156785594",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 「희귀질환 어린이 식사안전관리 지침」 마련, 2026년 정부혁신 왕중왕전 본선 진출",
+      "date": "2026-10-19",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785594"
+    },
+    {
+      "id": "156785589",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 첨단바이오의약품 개발, 필요한 규제정보를 한눈에 확인하세요",
+      "date": "2026-10-19",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785589"
+    },
+    {
+      "id": "156785588",
+      "dept": "식품의약품안전처",
+      "title": "일교차 큰 가을 단풍 나들이, 식중독 주의하세요!",
+      "date": "2026-10-19",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785588"
+    },
+    {
+      "id": "156785523",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 위장관기질종양 치료 희귀의약품 허가",
+      "date": "2026-10-16",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785523"
+    },
+    {
+      "id": "156785522",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 소비기한 미표시 소스 회수 조치",
+      "date": "2026-10-16",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785522"
+    },
+    {
+      "id": "156785499",
+      "dept": "식품의약품안전처",
+      "title": "모든 세대가 백세 건강을 실천하는... '삼삼한 요리 경연대회' 개최",
+      "date": "2026-10-16",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785499"
+    },
+    {
+      "id": "156785461",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] \"공부 잘하는 약은 없습니다\"… 식약처, 수능 대비 ADHD 치료제 집중점검 실시",
+      "date": "2026-10-16",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785461"
+    },
+    {
+      "id": "156785386",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 특발성 폐섬유증 치료 희귀의약품 허가",
+      "date": "2026-10-16",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785386"
+    },
+    {
+      "id": "156785231",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 의약품 허가 신청을 위한 최신 전자공통기술문서(eCTD v4.0) 서비스 개시",
+      "date": "2026-10-15",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785231"
+    },
+    {
+      "id": "156785230",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] '해외직구 식품 올바로 웹앱' 국민이 직접 써보고 완성도 높인다",
+      "date": "2026-10-15",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785230"
+    },
+    {
+      "id": "156785183",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 잔류농약 기준 초과 검출된 '고춧가루' 회수 조치",
+      "date": "2026-10-14",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785183"
+    },
+    {
+      "id": "156785071",
+      "dept": "식품의약품안전처",
+      "title": "(부처합동)산업부-식약처, 바이오 산업 육성 위해 협력한다",
+      "date": "2026-10-14",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785071"
+    },
+    {
+      "id": "156785049",
+      "dept": "식품의약품안전처",
+      "title": "가을 신학기 학교 급식시설·학교 주변 식품 취급업체 점검 결과…14곳 적발",
+      "date": "2026-10-14",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785049"
+    },
+    {
+      "id": "156784916",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 알레르기 유발물질 미표시 '초콜릿가공품' 회수 조치",
+      "date": "2026-10-12",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784916"
+    },
+    {
+      "id": "156784790",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 국제인증표준품 분양 개시",
+      "date": "2026-10-12",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784790"
+    },
+    {
+      "id": "156784726",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 메틸수은 기준 초과 검출된 '기타 수산물가공품' 회수 조치",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784726"
+    },
+    {
+      "id": "156784725",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 잔류농약 기준 초과 검출된 수입 '캐모마일' 회수 조치",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784725"
+    },
+    {
+      "id": "156784654",
+      "dept": "식품의약품안전처",
+      "title": "K-바이오의약품, '26년 3분기까지 수출 66억 달러, 역대 최대 실적",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784654"
+    },
+    {
+      "id": "156784600",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, K-뷰티 할랄 인증 세미나 및 교육 실시",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784600"
+    },
+    {
+      "id": "156784572",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 국내 개발 비만치료제 신약 허가",
+      "date": "2026-10-07",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784572"
+    },
+    {
+      "id": "156784454",
+      "dept": "식품의약품안전처",
+      "title": "식약처, OECD 신생과학 자문그룹 회의 및 국제심포지엄 개최",
+      "date": "2026-10-07",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784454"
+    },
+    {
+      "id": "156784453",
+      "dept": "식품의약품안전처",
+      "title": "식약처, 중남미와 식품안전 신뢰 강화하고 K-푸드 교역 기반 확대",
+      "date": "2026-10-07",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784453"
+    },
+    {
+      "id": "156784299",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식품의약품안전평가원, 고려대학교의료원과 업무협약(MOU) 체결",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784299"
+    },
+    {
+      "id": "156784298",
+      "dept": "식품의약품안전처",
+      "title": "식약처 GLP-1 계열 비만치료제 온라인 불법판매 등 점검 결과 발표",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784298"
+    },
+    {
+      "id": "156784238",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 카드뮴 기준 초과 검출된 '기타 수산물가공품' 회수 조치",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784238"
+    },
+    {
+      "id": "156784237",
+      "dept": "식품의약품안전처",
+      "title": "'26년 3분기까지 화장품 수출 111억 달러, 역대 3분기 누계 최대치 기록",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784237"
+    },
+    {
+      "id": "156784068",
+      "dept": "식품의약품안전처",
+      "title": "식약처, 어린이집 식중독 예방을 위한 위생점검 실시",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784068"
+    },
+    {
+      "id": "156784067",
+      "dept": "식품의약품안전처",
+      "title": "식약처 소관 법률 개정안 국회 본회의 통과",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784067"
+    },
+    {
+      "id": "156783993",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 정부-제약-의료·약업계 필수의약품 공급 안정화 추진",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783993"
+    },
+    {
+      "id": "156783858",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 글로벌 규제조화센터, 최신 ICH 가이드라인 교육으로 현장 적용 역랑 높인다",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783858"
+    },
+    {
+      "id": "156783857",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] '25년 화장품 안전성 정보 보고 사례 발표",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783857"
+    },
+    {
+      "id": "156783856",
+      "dept": "식품의약품안전처",
+      "title": "전국 어린이 6만여 명, 식생활 안전 정책에 직접 목소리 낸다",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783856"
+    },
+    {
+      "id": "156783754",
+      "dept": "식품의약품안전처",
+      "title": "식약처, 식품안전 정책·기준 마련 위한 식품위생심의위원회 새롭게 구성",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783754"
+    },
+    {
+      "id": "156783734",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 2등급 의료기기 인증 절차 '원스톱' 시행으로 신속 시장 진출 지원",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783734"
+    },
+    {
+      "id": "156783733",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 소기업·연구개발자 눈높이에 맞춘 알기 쉬운 제품화 가이드 마련",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783733"
+    },
+    {
+      "id": "156783720",
+      "dept": "식품의약품안전처",
+      "title": "식약처, GLP-1 계열 비만치료제 안전사용 방법 안내",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783720"
+    },
+    {
+      "id": "156783673",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 완도군과 '상생 자매결연' 체결",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783673"
+    },
+    {
+      "id": "156783588",
+      "dept": "식품의약품안전처",
+      "title": "[보도참고] 식약처, 전문가용 디지털의료기기소프트웨어 허가심사 가이드라인 마련",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783588"
+    },
+    {
+      "id": "156783587",
+      "dept": "식품의약품안전처",
+      "title": "식약처, 위해 수입식품 안전관리 강화...현장 걸림돌 규제 합리적 개선",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783587"
+    },
+    {
+      "id": "156783384",
+      "dept": "식품의약품안전처",
+      "title": "식약처, '마약류 회색지대, 어떻게 발견하고 개입할 것인가' 주제로 세미나 개최",
+      "date": "2026-09-29",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783384"
+    },
+    {
+      "id": "156783227",
+      "dept": "식품의약품안전처",
+      "title": "(부처합동) 메틸페니데이트 오남용 예방 홍보 \"공부 잘하는 약은 없습니다!\"",
+      "date": "2026-09-28",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783227"
+    },
+    {
+      "id": "156786440",
+      "dept": "농림축산식품부",
+      "title": "가축전염병 보상 강화, 국경검역·현장방역 기반 확충",
+      "date": "2026-10-26",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786440"
+    },
+    {
+      "id": "156786437",
+      "dept": "농림축산식품부",
+      "title": "현장중심 「친환경농어업법」 개정",
+      "date": "2026-10-26",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786437"
+    },
+    {
+      "id": "156786441",
+      "dept": "농림축산식품부",
+      "title": "'과수화상병' 국산 방제약제 개발길 열려, ｢식물방역법｣ 개정 법률 공포",
+      "date": "2026-10-26",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786441"
+    },
+    {
+      "id": "156786439",
+      "dept": "농림축산식품부",
+      "title": "동물학대 재발 막고, 동물보호망 확충한다 ｢동물보호법｣ 개정안 공포",
+      "date": "2026-10-26",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786439"
+    },
+    {
+      "id": "156786438",
+      "dept": "농림축산식품부",
+      "title": "농어촌민박 제도개선 및 바가지요금 근절대책 이행을 위한 ｢도시와 농어촌 간의 교류촉진에 관한 법률｣ 개정안 공포",
+      "date": "2026-10-26",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786438"
+    },
+    {
+      "id": "156786394",
+      "dept": "농림축산식품부",
+      "title": "미래 밥상의 주인공은 누구?식품·외식산업의 미래를 만나다.",
+      "date": "2026-10-25",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786394"
+    },
+    {
+      "id": "156786395",
+      "dept": "농림축산식품부",
+      "title": "농식품부, 농촌융복합산업 창업기업 투자 유치 지원을 위한 행사 개최",
+      "date": "2026-10-25",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786395"
+    },
+    {
+      "id": "156786393",
+      "dept": "농림축산식품부",
+      "title": "90만 식의 아침밥 응원, 2027년도에도 산단 근로자와 함께합니다",
+      "date": "2026-10-25",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786393"
+    },
+    {
+      "id": "156786392",
+      "dept": "농림축산식품부",
+      "title": "농식품부 장관, 한식대축제 방문해 관람객과 한식의 맛과 멋 즐겨",
+      "date": "2026-10-24",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786392"
+    },
+    {
+      "id": "156786301",
+      "dept": "농림축산식품부",
+      "title": "\"대한민국 첫 한식의 날, 한식의 새로운 미래를 선언하다\"",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786301"
+    },
+    {
+      "id": "156786266",
+      "dept": "농림축산식품부",
+      "title": "직거래 페스타의 만남이 일상 속 식탁으로",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786266"
+    },
+    {
+      "id": "156786214",
+      "dept": "농림축산식품부",
+      "title": "농식품부, 연대와 협력으로 농촌의 가치를 높인다! 농업·농촌형 예비사회적기업 7개소 신규 지정",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786214"
+    },
+    {
+      "id": "156786111",
+      "dept": "농림축산식품부",
+      "title": "\"우리 농산물 100% 전통식품\" 급식, 학생 입맛 사로잡았다.",
+      "date": "2026-10-22",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786111"
+    },
+    {
+      "id": "156786112",
+      "dept": "농림축산식품부",
+      "title": "농촌여행 '촌캉스'를 즐기는 N가지 방법을 소개합니다!",
+      "date": "2026-10-22",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786112"
+    },
+    {
+      "id": "156786003",
+      "dept": "농림축산식품부",
+      "title": "「농촌형 교통모델」 워크숍 개최, 지역 맞춤형 교통서비스 확산 방안 모색",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786003"
+    },
+    {
+      "id": "156785997",
+      "dept": "농림축산식품부",
+      "title": "한-베트남 정상회담 후속 성과로 베트남에 K-닭고기가공품 수출 개시!",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785997"
+    },
+    {
+      "id": "156785993",
+      "dept": "농림축산식품부",
+      "title": "\"10년의 결실, 세계로 뛰는 K-종자\" 2026 국제종자박람회 개막",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785993"
+    },
+    {
+      "id": "156785944",
+      "dept": "농림축산식품부",
+      "title": "농지은행 임대수탁, 종이 서류 없애고,농업경영체등록 변경도 한꺼번에 끝낸다!",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785944"
+    },
+    {
+      "id": "156785945",
+      "dept": "농림축산식품부",
+      "title": "농식품부, 농촌융복합산업의 성장 가능성을 보여주는 5개 우수사례 선정",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785945"
+    },
+    {
+      "id": "156785946",
+      "dept": "농림축산식품부",
+      "title": "온라인몰 입점업체도 원산지 표시제도 제대로 안내받는다",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785946"
+    },
+    {
+      "id": "156785817",
+      "dept": "농림축산식품부",
+      "title": "순천만 야생조류 분변에서 고병원성 조류인플루엔자(AI) 첫 검출... 전국 위기경보 '심각' 상향",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785817"
+    },
+    {
+      "id": "156785791",
+      "dept": "농림축산식품부",
+      "title": "2026년산 공공비축벼 매입 검사 본격 시작",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785791"
+    },
+    {
+      "id": "156785790",
+      "dept": "농림축산식품부",
+      "title": "\"세계인이 믿고 찾는 해외 한식당 만든다\" 농식품부, 해외 한식당 경쟁력 강화 추진",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785790"
+    },
+    {
+      "id": "156785749",
+      "dept": "농림축산식품부",
+      "title": "10월 20일부터 농가 비료 구입 부담 더 가벼워져",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785749"
+    },
+    {
+      "id": "156785696",
+      "dept": "농림축산식품부",
+      "title": "농식품부, 유튜브 등 소셜미디어가짜뉴스 엄정 대응",
+      "date": "2026-10-19",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785696"
+    },
+    {
+      "id": "156785637",
+      "dept": "농림축산식품부",
+      "title": "이번 주말, 장바구니에 이 농산물 어떠세요?",
+      "date": "2026-10-19",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785637"
+    },
+    {
+      "id": "156785638",
+      "dept": "농림축산식품부",
+      "title": "제4기 농식품부 2030청년자문단 공개모집",
+      "date": "2026-10-19",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785638"
+    },
+    {
+      "id": "156785636",
+      "dept": "농림축산식품부",
+      "title": "은퇴 검역탐지견과 입양가족의 특별한 1박 2일 '견생 2막, 함께 걸어갑니다'",
+      "date": "2026-10-19",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785636"
+    },
+    {
+      "id": "156785546",
+      "dept": "농림축산식품부",
+      "title": "\"10년의 결실, 세계로 뛰는 K-종자\" 2026 국제종자박람회 개최!!",
+      "date": "2026-10-18",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785546"
+    },
+    {
+      "id": "156785547",
+      "dept": "농림축산식품부",
+      "title": "장바구니·식탁 넘어 학교 급식까지 K-푸드, 유럽 시장 곳곳에서 체급 키운다",
+      "date": "2026-10-18",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785547"
+    },
+    {
+      "id": "156785631",
+      "dept": "농림축산식품부",
+      "title": "세계인의 입맛을 사로잡을 김치 레시피를 찾아라!",
+      "date": "2026-10-17",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785631"
+    },
+    {
+      "id": "156785630",
+      "dept": "농림축산식품부",
+      "title": "농림축산식품부 차관, 주요 농정 이슈 현장 소통 강화",
+      "date": "2026-10-17",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785630"
+    },
+    {
+      "id": "156785517",
+      "dept": "농림축산식품부",
+      "title": "농식품부 장관, 농관원 경북지원 방문농지 조사 후속조치 정확한 현장 안내 당부",
+      "date": "2026-10-16",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785517"
+    },
+    {
+      "id": "156785504",
+      "dept": "농림축산식품부",
+      "title": "'Bloom Together'... 도심 숲에서 만나는 '2026 양재 플라워 페스타'",
+      "date": "2026-10-16",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785504"
+    },
+    {
+      "id": "156785353",
+      "dept": "농림축산식품부",
+      "title": "제주의 밭담, 수원에서 만나다...",
+      "date": "2026-10-15",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785353"
+    },
+    {
+      "id": "156785342",
+      "dept": "농림축산식품부",
+      "title": "신선농산물 최초 '포도 수출 1억 달러' 시대 연다",
+      "date": "2026-10-15",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785342"
+    },
+    {
+      "id": "156785332",
+      "dept": "농림축산식품부",
+      "title": "농식품부-군수협의회, 신뢰와 소통을 기반으로 농정 협력 강화키로!",
+      "date": "2026-10-15",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785332"
+    },
+    {
+      "id": "156785277",
+      "dept": "농림축산식품부",
+      "title": "국립종자원, 아시아 9개국에 종자 기술 전수",
+      "date": "2026-10-15",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785277"
+    },
+    {
+      "id": "156785278",
+      "dept": "농림축산식품부",
+      "title": "겨울철 가축전염병 예방을 위한 특별방역대책점검회의 개최",
+      "date": "2026-10-15",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785278"
+    },
+    {
+      "id": "156785272",
+      "dept": "농림축산식품부",
+      "title": "브라질산 계란 수입은 AI 발생에 대비한 신규 공급망 확보 목적의 시범 도입",
+      "date": "2026-10-15",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785272"
+    },
+    {
+      "id": "156785187",
+      "dept": "농림축산식품부",
+      "title": "농식품부 차관, AI 농업로봇 실증 현장 방문",
+      "date": "2026-10-14",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785187"
+    },
+    {
+      "id": "156785170",
+      "dept": "농림축산식품부",
+      "title": "농식품부 장관, 가을철 사과 수확 현장 점검",
+      "date": "2026-10-14",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785170"
+    },
+    {
+      "id": "156785111",
+      "dept": "농림축산식품부",
+      "title": "농식품부 장관, 마을 이장 만나 농지 조사 후속조치 설명",
+      "date": "2026-10-14",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785111"
+    },
+    {
+      "id": "156785076",
+      "dept": "농림축산식품부",
+      "title": "\"비 오기 전에 수확할까?\" AI가 종자 수확시기 알려준다",
+      "date": "2026-10-14",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785076"
+    },
+    {
+      "id": "156785011",
+      "dept": "농림축산식품부",
+      "title": "여성농업인과 함께, 세계로 도약하는 희망농촌!",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785011"
+    },
+    {
+      "id": "156785010",
+      "dept": "농림축산식품부",
+      "title": "농식품부, 고병원성 조류인플루엔자 방역 현장 대응력 향상을 위한 2026년 안전한국훈련 실시",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785010"
+    },
+    {
+      "id": "156784981",
+      "dept": "농림축산식품부",
+      "title": "농식품부 2030청년자문단, 현장형 워크숍 통해 정책 아이디어 발굴",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784981"
+    },
+    {
+      "id": "156784944",
+      "dept": "농림축산식품부",
+      "title": "2026년 쌀 수급안정대책 마련",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784944"
+    },
+    {
+      "id": "156784945",
+      "dept": "농림축산식품부",
+      "title": "선선한 바람따라 함께 걷는 반려동물과의 가을소풍",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784945"
+    },
+    {
+      "id": "156784946",
+      "dept": "농림축산식품부",
+      "title": "\"국내외 인플루언서 2천5백여 명이 전하는 K-푸드의 맛과 멋...전 세계 입맛 사로잡다.\"",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784946"
+    },
+    {
+      "id": "156784935",
+      "dept": "농림축산식품부",
+      "title": "농식품부, '임산부 친환경농산물 꾸러미 사업' 참여자 대상 우리 밀 소비 캠페인 추진",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784935"
+    },
+    {
+      "id": "156784829",
+      "dept": "농림축산식품부",
+      "title": "올해 K-푸드+ 수출을 빛낸 '별들의 축제'에 초대합니다!",
+      "date": "2026-10-12",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784829"
+    },
+    {
+      "id": "156784939",
+      "dept": "농림축산식품부",
+      "title": "김장철 대비 농산물 안전성 관리 강화",
+      "date": "2026-10-11",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784939"
+    },
+    {
+      "id": "156784943",
+      "dept": "농림축산식품부",
+      "title": "개 사육 농장 87% 폐업, 개 식용 종식, 마무리 단계로",
+      "date": "2026-10-11",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784943"
+    },
+    {
+      "id": "156784940",
+      "dept": "농림축산식품부",
+      "title": "농식품부·농어촌공사 '농지 전수조사 상담센터'10월 12일부터 운영",
+      "date": "2026-10-11",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784940"
+    },
+    {
+      "id": "156784688",
+      "dept": "농림축산식품부",
+      "title": "「농지 조사 후속조치와 제도 개혁 방향」 브리핑 내용",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784688"
+    },
+    {
+      "id": "156784662",
+      "dept": "농림축산식품부",
+      "title": "'27년 농어촌 기본소득 시범사업, 신규 참여지역 10.8일부터 공모 개시",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784662"
+    },
+    {
+      "id": "156784632",
+      "dept": "농림축산식품부",
+      "title": "\"반려동물과의 마지막 동행까지 함께합니다\"",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784632"
+    },
+    {
+      "id": "156784633",
+      "dept": "농림축산식품부",
+      "title": "농촌을 잇고 지역에 활력을 더하다, 농촌관광벨트 기반 특화 여행상품 시범 운영",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784633"
+    },
+    {
+      "id": "156784660",
+      "dept": "농림축산식품부",
+      "title": "농지 조사 후속조치와 제도 개혁 방향에 대한 참고자료",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784660"
+    },
+    {
+      "id": "156784598",
+      "dept": "농림축산식품부",
+      "title": "고온에도 속 꽉 찬 배추 '청명가을' 대한민국 최고 품종 선정",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784598"
+    },
+    {
+      "id": "156784482",
+      "dept": "농림축산식품부",
+      "title": "\"보고, 맛보고, 즐기는 K-미식의 정수 … 제1회 한식의 날, 국립중앙박물관에서 사흘간 축제 연다\"",
+      "date": "2026-10-07",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784482"
+    },
+    {
+      "id": "156784373",
+      "dept": "농림축산식품부",
+      "title": "겨울철새 남하 시작...10월 중하순 본격 도래 전망",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784373"
+    },
+    {
+      "id": "156784363",
+      "dept": "농림축산식품부",
+      "title": "농식품부, 「일본 치바 농산업박람회」 한국관 운영… K-농기자재 수출시장 확대 나선다",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784363"
+    },
+    {
+      "id": "156784364",
+      "dept": "농림축산식품부",
+      "title": "농식품부 장관, 농지 전수조사 관련특별조치법 제정방향 토론회 참석",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784364"
+    },
+    {
+      "id": "156784339",
+      "dept": "농림축산식품부",
+      "title": "한국농수산대학교, 한국임업진흥원과 청년 임업 창업 역량 강화에 나서",
+      "date": "2026-10-05",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784339"
+    },
+    {
+      "id": "156784340",
+      "dept": "농림축산식품부",
+      "title": "경북 예천군 소재 소(牛) 농장 예찰 검사에서 구제역 확인",
+      "date": "2026-10-03",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784340"
+    },
+    {
+      "id": "156784259",
+      "dept": "농림축산식품부",
+      "title": "식량농업기구(FAO) 9월 세계식량가격지수 전월 대비 1.5% 상승",
+      "date": "2026-10-03",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784259"
+    },
+    {
+      "id": "156784210",
+      "dept": "농림축산식품부",
+      "title": "국가에 헌신한 봉사동물부터 유기동물까지... 정부-국립대학, 공공동물의료 협력 시동",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784210"
+    },
+    {
+      "id": "156784201",
+      "dept": "농림축산식품부",
+      "title": "농식품부 장관, 동물보호의 날 기념 팝업스토어 찾아 '공감과 실천' 강조",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784201"
+    },
+    {
+      "id": "156784144",
+      "dept": "농림축산식품부",
+      "title": "'농산물무역정책심의회' 법정 위원회로 첫발, 수입농산물 정책에 생산자 참여 확대",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784144"
+    },
+    {
+      "id": "156784080",
+      "dept": "농림축산식품부",
+      "title": "성수품 확대공급과 대규모 할인지원으로 9월 농축산물 소비자물가 전년대비 1.0% 하락",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784080"
+    },
+    {
+      "id": "156784016",
+      "dept": "농림축산식품부",
+      "title": "농식품부, 여성농업인 정책 거버넌스 강화를 위한 권역별 간담회 개최",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784016"
+    },
+    {
+      "id": "156783907",
+      "dept": "농림축산식품부",
+      "title": "\"가을 여행은 촌캉스로!\" 농식품부, 여행가는 달(가을) 맞아 10~11월 두 달간 '농촌관광 가는 주간' 확대 운영",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783907"
+    },
+    {
+      "id": "156783906",
+      "dept": "농림축산식품부",
+      "title": "\"국내산인 줄 알았는데\"... 농관원, 추석 농식품 원산지 위반 256개소 적발",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783906"
+    },
+    {
+      "id": "156783853",
+      "dept": "농림축산식품부",
+      "title": "농식품부, '27년 동계작물 종자(보급종) 5품목 25종 5,685톤 생산·공급 예정",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783853"
+    },
+    {
+      "id": "156783868",
+      "dept": "농림축산식품부",
+      "title": "세대 간 공감으로 공직사회의 기분 좋은 변화를 그려갑니다.",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783868"
+    },
+    {
+      "id": "156783841",
+      "dept": "농림축산식품부",
+      "title": "농식품부 박순연 기획조정실장, 주요 농업인단체 만나 농지 전수조사 현장 의견 청취",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783841"
+    },
+    {
+      "id": "156783776",
+      "dept": "농림축산식품부",
+      "title": "농식품부 장관, 마을 이장들과 농지 전수조사 현장 간담회",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783776"
+    },
+    {
+      "id": "156783696",
+      "dept": "농림축산식품부",
+      "title": "농식품부 장관, 구례군 농어촌 기본소득 추진상황 점검 및 우리밀가공공장 방문",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783696"
+    },
+    {
+      "id": "156783658",
+      "dept": "농림축산식품부",
+      "title": "럼피스킨 제2종 전환에 맞춰 방역조치 조정과 가축방역사 위촉 대상 및 교육기관 확대",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783658"
+    },
+    {
+      "id": "156783638",
+      "dept": "농림축산식품부",
+      "title": "농식품부 장관, 산단 노동자 '천원의 아침밥' 현장 찾아 든든한 한 끼 격려",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783638"
+    },
+    {
+      "id": "156783580",
+      "dept": "농림축산식품부",
+      "title": "농어촌상생협력기금을 통해 농어촌 기본소득 지역에 '찾아가는 식품 서비스' 첫 운영 시작",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783580"
+    },
+    {
+      "id": "156783578",
+      "dept": "농림축산식품부",
+      "title": "농식품부, 지능형 농기계 산업 도약을 위한 실증 기반 구축 본격화",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783578"
+    },
+    {
+      "id": "156783579",
+      "dept": "농림축산식품부",
+      "title": "기본소득+사회연대경제, 농촌형 순환경제의 답을 찾는다.",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783579"
+    },
+    {
+      "id": "156783759",
+      "dept": "농림축산식품부",
+      "title": "농산물 수급조절위원회, 제8기 출범 농산물 수급관리 강화",
+      "date": "2026-09-29",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783759"
+    },
+    {
+      "id": "156783521",
+      "dept": "농림축산식품부",
+      "title": "현장에서 직접 써보고 고른다… 더 편리하고 안전한 가축방역물품 찾는다",
+      "date": "2026-09-29",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783521"
+    },
+    {
+      "id": "156783520",
+      "dept": "농림축산식품부",
+      "title": "농식품부 장관, 함께하는 청년농 소통 간담회 참석",
+      "date": "2026-09-29",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783520"
+    },
+    {
+      "id": "156783442",
+      "dept": "농림축산식품부",
+      "title": "고유가 상황 지속에 따라 연말까지 농·어업용 면세유 유가연동보조금 791억원 추가 지원",
+      "date": "2026-09-29",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783442"
+    },
+    {
+      "id": "156783432",
+      "dept": "농림축산식품부",
+      "title": "물 절감 재배기술 바탕으로 글로벌 식량안보 시장 도전",
+      "date": "2026-09-29",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783432"
+    },
+    {
+      "id": "156783327",
+      "dept": "농림축산식품부",
+      "title": "CPTPP 가입 시 경제적 영향분석 경제성장 효과와 산업별 영향 잠정치 공개",
+      "date": "2026-09-28",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783327"
+    },
+    {
+      "id": "156783284",
+      "dept": "농림축산식품부",
+      "title": "럼피스킨 정밀진단, 이제 전국에서 신속하게",
+      "date": "2026-09-28",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783284"
+    },
+    {
+      "id": "156783285",
+      "dept": "농림축산식품부",
+      "title": "사람과 동물의 행복한 일상... '제19회 동물사랑 사진·영상 공모전' 수상작 선정",
+      "date": "2026-09-28",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783285"
+    },
+    {
+      "id": "156783250",
+      "dept": "농림축산식품부",
+      "title": "'올가을, 대한민국을 하나의 식탁으로' 전국 20개 축제 잇는 「K-푸드 페스타」 개막",
+      "date": "2026-09-27",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783250"
+    },
+    {
+      "id": "156783249",
+      "dept": "농림축산식품부",
+      "title": "이번 연휴엔 성수동으로! '오늘은 1004' 동물보호의 날 기념 팝업스토어 열린다",
+      "date": "2026-09-27",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783249"
+    },
+    {
+      "id": "156786280",
+      "dept": "보건복지부",
+      "title": "자가면역세포 치료 위험도 하향, 불필요 심의 면제 등 선진국 수준으로 바이오헬스 규제 빗장 푼다",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786280"
+    },
+    {
+      "id": "156786281",
+      "dept": "보건복지부",
+      "title": "\"성장에 날개를, 민생에 활력을, 지역에 미래를\" 대통령 주재 규제합리화위원회 제2차 전체회의 개최",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786281"
+    },
+    {
+      "id": "156786270",
+      "dept": "보건복지부",
+      "title": "발달장애인과 가족의 일상 변화 위해 발달장애인 돌봄 국가책임제, 현장과 함께한다",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786270"
+    },
+    {
+      "id": "156786237",
+      "dept": "보건복지부",
+      "title": "치료 어려운 말기 대장암 환자, 맞춤형 면역세포로 치료 가능성 모색",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786237"
+    },
+    {
+      "id": "156786143",
+      "dept": "보건복지부",
+      "title": "섬에서 육지까지, 충남 지역 의료 현장 목소리 듣는다",
+      "date": "2026-10-22",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786143"
+    },
+    {
+      "id": "156786113",
+      "dept": "보건복지부",
+      "title": "의약분업 원칙 위반해 비만치료 자가주사제 원내 조제·판매하는 병·의원 조사한다",
+      "date": "2026-10-22",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786113"
+    },
+    {
+      "id": "156786107",
+      "dept": "보건복지부",
+      "title": "소득과 지역에 따라 차이 나는 건강수명, 그 원인과 해결책을 모색하다",
+      "date": "2026-10-22",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786107"
+    },
+    {
+      "id": "156786106",
+      "dept": "보건복지부",
+      "title": "문신사법 시행 앞두고 현장 실태 파악 나선다, '문신업소 설문조사' 실시",
+      "date": "2026-10-22",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786106"
+    },
+    {
+      "id": "156786105",
+      "dept": "보건복지부",
+      "title": "2025년 사회보장기본계획 120개 세부과제 추진실적 점검·평가, 제5차 사회보장 평가전문위 개최",
+      "date": "2026-10-22",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786105"
+    },
+    {
+      "id": "156786099",
+      "dept": "보건복지부",
+      "title": "WHO·코크란 등 글로벌 전문기구 모여 통합돌봄에서 재활의 역할과 전략 논의",
+      "date": "2026-10-22",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786099"
+    },
+    {
+      "id": "156785958",
+      "dept": "보건복지부",
+      "title": "노인친화기업, 등기임원·고소득자 등 고용실적에서 제외... 지정운영 및 관리체계 개선",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785958"
+    },
+    {
+      "id": "156785938",
+      "dept": "보건복지부",
+      "title": "좋은 교육이 좋은 재활을 만든다, 서울시 장애인복지관 특수체육교사 실무 역량 강화",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785938"
+    },
+    {
+      "id": "156785925",
+      "dept": "보건복지부",
+      "title": "AI 혁신 혜택의 공평한 접근 약속... 보건복지부·세계보건기구, AI 헬스케어 서울선언문· 공동 발표",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785925"
+    },
+    {
+      "id": "156785859",
+      "dept": "보건복지부",
+      "title": "제7차 국민연금기금운용위원회 개최",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785859"
+    },
+    {
+      "id": "156785849",
+      "dept": "보건복지부",
+      "title": "정은경 복지부 장관·테드로스 WHO 사무총장, 백신 바이오의약품 생산 교육 현장 방문",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785849"
+    },
+    {
+      "id": "156785848",
+      "dept": "보건복지부",
+      "title": "생애 말기 환자와 가족 '아픔을 덜고 마음을 채우다'",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785848"
+    },
+    {
+      "id": "156785823",
+      "dept": "보건복지부",
+      "title": "통합돌봄의 지속가능성 위한 안정적 재원 확보와 합리적 재정분담 방안 모색",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785823"
+    },
+    {
+      "id": "156785822",
+      "dept": "보건복지부",
+      "title": "정신의료기관 입·퇴원 절차 16종 주요서식, 국내 거주 외국인도 모국어로 정확히 이해하고 권리 보장받는다",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785822"
+    },
+    {
+      "id": "156785802",
+      "dept": "보건복지부",
+      "title": "우수한 민간구급차 '인증마크' 단다, 응급환자이송업 품질 인증제 시범 운영",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785802"
+    },
+    {
+      "id": "156785803",
+      "dept": "보건복지부",
+      "title": "장애인·노인 일상 바꾸는 기술 국립재활원, 2026년 보조기기 메이커 페어 개최",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785803"
+    },
+    {
+      "id": "156785687",
+      "dept": "보건복지부",
+      "title": "이형훈 제2차관, 의료AI 본격 추진 대비 네이버 데이터센터 '각(GAK) 세종' 방문",
+      "date": "2026-10-19",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785687"
+    },
+    {
+      "id": "156785676",
+      "dept": "보건복지부",
+      "title": "보험업권과 복지부 산하 노인지원기관이 손잡고 65만명의 취약어르신에게 낙상사고 치료비, 치매배상책임보험을 무료로 제공하겠습니다.",
+      "date": "2026-10-19",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785676"
+    },
+    {
+      "id": "156785655",
+      "dept": "보건복지부",
+      "title": "영업신고증 없는 숙박 중개 시 과태료 500만 원... 「공중위생관리법 시행령」 개정",
+      "date": "2026-10-19",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785655"
+    },
+    {
+      "id": "156785556",
+      "dept": "보건복지부",
+      "title": "WHO 서태평양 지역총회서 역내 보건 현안 대응 위한 한국 전략과 성과 알린다",
+      "date": "2026-10-18",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785556"
+    },
+    {
+      "id": "156785555",
+      "dept": "보건복지부",
+      "title": "2명 이상 장애인가구 1만 3천 명 집중조사 등 복지위기가구 총 19만 명 발굴·조사",
+      "date": "2026-10-18",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785555"
+    },
+    {
+      "id": "156785554",
+      "dept": "보건복지부",
+      "title": "비대면진료 실시·처방기준 구체화하여 입법예고 6개월 내 같은 증상은 같은 의료기관에서 비대면진료",
+      "date": "2026-10-18",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785554"
+    },
+    {
+      "id": "156785520",
+      "dept": "보건복지부",
+      "title": "생애 말 의료현장 어려움 덜고 환자 권리 높인다 연명의료결정제도 개선 방향 논의",
+      "date": "2026-10-16",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785520"
+    },
+    {
+      "id": "156785425",
+      "dept": "보건복지부",
+      "title": "내 마음의 소리에 귀 기울이는 시간... 국립나주병원, 정신건강의 날 기념 공감 콘서트 개최",
+      "date": "2026-10-16",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785425"
+    },
+    {
+      "id": "156785324",
+      "dept": "보건복지부",
+      "title": "배아 또는 태아 대상유전자검사 가능 유전질환 7개 추가 선정",
+      "date": "2026-10-15",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785324"
+    },
+    {
+      "id": "156785292",
+      "dept": "보건복지부",
+      "title": "전자바우처 부정수급 뿌리 뽑는다 예방-적발-제재 단계별 전주기 관리 강화",
+      "date": "2026-10-15",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785292"
+    },
+    {
+      "id": "156785266",
+      "dept": "보건복지부",
+      "title": "건강검진 수검자 아니라도 국민 누구나 '국가통합바이오빅데이터' 참여 가능해진다",
+      "date": "2026-10-15",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785266"
+    },
+    {
+      "id": "156785156",
+      "dept": "보건복지부",
+      "title": "'AI가 불러올 바이오헬스 혁신의 확산', 국제사회 리더들이 한 곳에 모인다",
+      "date": "2026-10-14",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785156"
+    },
+    {
+      "id": "156785152",
+      "dept": "보건복지부",
+      "title": "제네릭 중심 기업, 규모와 전문성 키워 수출기업으로 도약한다",
+      "date": "2026-10-14",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785152"
+    },
+    {
+      "id": "156785070",
+      "dept": "보건복지부",
+      "title": "지역 의료 공백 메우는 시니어의사 활동 사례집 '다시, 이음' 발간",
+      "date": "2026-10-14",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785070"
+    },
+    {
+      "id": "156785069",
+      "dept": "보건복지부",
+      "title": "'가짜 구급차' 뿌리 뽑는다... 10월 14일부터 민간구급차 운행정보 실시간 전송 의무화",
+      "date": "2026-10-14",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785069"
+    },
+    {
+      "id": "156785007",
+      "dept": "보건복지부",
+      "title": "\"대한민국, 인구의 판을 바꾸다!\" 인구비전을 국민과 함께 만들어갑니다",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785007"
+    },
+    {
+      "id": "156784997",
+      "dept": "보건복지부",
+      "title": "\"축구 배우고 싶어요\" 작은 바람이 현실로... 장애인 개인예산제로 '아동 축구교실' 탄생",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784997"
+    },
+    {
+      "id": "156784994",
+      "dept": "보건복지부",
+      "title": "유휴 어린이집, 어르신 '주거-돌봄 연계' 공간으로 탈바꿈... 이동 줄이고 돌봄 효율 높여",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784994"
+    },
+    {
+      "id": "156784976",
+      "dept": "보건복지부",
+      "title": "최중증 발달장애인·희귀질환자 가족에 의한 활동지원 2028년까지 연장",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784976"
+    },
+    {
+      "id": "156784964",
+      "dept": "보건복지부",
+      "title": "어디가 부족한 지 정밀하게 찾았다데이터 기반 지역맞춤형 통합돌봄 본격 가동",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784964"
+    },
+    {
+      "id": "156784886",
+      "dept": "보건복지부",
+      "title": "자살예방정책위원회, 제6차 자살예방기본계획 확정, 중앙부처·지방정부 자살예방 책임강화로 실제 자살사망자 감소에 총력",
+      "date": "2026-10-12",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784886"
+    },
+    {
+      "id": "156784840",
+      "dept": "보건복지부",
+      "title": "\"건강 상태 변화해도 계속 살 수 있도록\" 노인복지주택 거주 요건 완화 등 입소자 권익 보호 강화",
+      "date": "2026-10-12",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784840"
+    },
+    {
+      "id": "156784826",
+      "dept": "보건복지부",
+      "title": "급변하는 글로벌 환경 대응 위해 AI·디지털 기반 신약 임상개발 혁신한다",
+      "date": "2026-10-12",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784826"
+    },
+    {
+      "id": "156784825",
+      "dept": "보건복지부",
+      "title": "청소년이 즐겁게 배우는 마음건강, '정신건강 골든벨' 운영",
+      "date": "2026-10-12",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784825"
+    },
+    {
+      "id": "156784824",
+      "dept": "보건복지부",
+      "title": "중증외상 최종치료 역량 높인다",
+      "date": "2026-10-12",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784824"
+    },
+    {
+      "id": "156784727",
+      "dept": "보건복지부",
+      "title": "한-이집트 사회보장협정 서명",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784727"
+    },
+    {
+      "id": "156784664",
+      "dept": "보건복지부",
+      "title": "안전한 일터가 장애인 근로자 권리 보장한다, 학대 조기 발견 및 신속 대응 체계 구축",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784664"
+    },
+    {
+      "id": "156784651",
+      "dept": "보건복지부",
+      "title": "2026년 정신건강의 날, 함께하는 회복·안전한 AI를 말하다",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784651"
+    },
+    {
+      "id": "156784650",
+      "dept": "보건복지부",
+      "title": "AI의 위로가 사람을 대신할 수 없습니다 「정신건강 목적 생성형 AI 이용 가이드라인」 발표",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784650"
+    },
+    {
+      "id": "156784643",
+      "dept": "보건복지부",
+      "title": "'세상에서 가장 아름다운 이름, 엄마' 제21회 임산부의 날 기념행사 개최",
+      "date": "2026-10-08",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784643"
+    },
+    {
+      "id": "156784496",
+      "dept": "보건복지부",
+      "title": "중증환자 이송 안전망, 전남광주까지 넓어진다",
+      "date": "2026-10-07",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784496"
+    },
+    {
+      "id": "156784492",
+      "dept": "보건복지부",
+      "title": "보건복지부-경찰청간 필수의료분야 의료사고 수사 절차 개선 논의",
+      "date": "2026-10-07",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784492"
+    },
+    {
+      "id": "156784424",
+      "dept": "보건복지부",
+      "title": "약국 이름에 '창고', '마트', '공장', '최대', '특가' 못 쓴다... 「약사법 시행규칙」 개정 추진",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784424"
+    },
+    {
+      "id": "156784423",
+      "dept": "보건복지부",
+      "title": "상비약 판매 위반 6.7%가 한 번에 여러 개 판매,국민 건강 직결되는 위반 사례 관리 철저",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784423"
+    },
+    {
+      "id": "156784368",
+      "dept": "보건복지부",
+      "title": "AI의 도움으로 24시간 끊김없는 돌봄, 더 쉽게 누리는 복지, 사람에 집중하는 돌봄 만든다",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784368"
+    },
+    {
+      "id": "156784358",
+      "dept": "보건복지부",
+      "title": "요양병원 '인증'은 환자 안전의 기본, 미인증 기관에 대한 법적 조치 추진",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784358"
+    },
+    {
+      "id": "156784357",
+      "dept": "보건복지부",
+      "title": "어르신 식탁 더 안전하고 건강하게 「장기요양기관 급식관리 기준」 마련",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784357"
+    },
+    {
+      "id": "156784352",
+      "dept": "보건복지부",
+      "title": "가치 있는 소비가 만드는 자립의 기회 중증장애인생산품 우수한 품질과 다양성 알린다",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784352"
+    },
+    {
+      "id": "156784228",
+      "dept": "보건복지부",
+      "title": "숭고한 의(義)를 실천한 1인, 의사자로 인정",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784228"
+    },
+    {
+      "id": "156784179",
+      "dept": "보건복지부",
+      "title": "삶의 마지막까지 익숙한 곳에서 보낼 수 있도록 재가 생애말기 의료·요양·돌봄 지원방안 모색",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784179"
+    },
+    {
+      "id": "156784143",
+      "dept": "보건복지부",
+      "title": "제30회 노인의 날 기념식 개최",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784143"
+    },
+    {
+      "id": "156784137",
+      "dept": "보건복지부",
+      "title": "공적입양체계 전환 후 결연 실적 9월 기준 122명, 제3차 입양정책위원회 개최",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784137"
+    },
+    {
+      "id": "156784011",
+      "dept": "보건복지부",
+      "title": "루게릭병 전문요양병원 시범사업 11월 시행",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784011"
+    },
+    {
+      "id": "156784002",
+      "dept": "보건복지부",
+      "title": "병·의원 넘어 '창고형 약국'까지 살핀다,제4차 비정상·가짜진료 행정조사 실시",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784002"
+    },
+    {
+      "id": "156784001",
+      "dept": "보건복지부",
+      "title": "위기 상황에 처한 가구,담당 공무원이 직접 직권신청해 신속 보호'복지급여 신청주의 대폭 개선'",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784001"
+    },
+    {
+      "id": "156784000",
+      "dept": "보건복지부",
+      "title": "군복무 기간 전체로 국민연금 크레딧 확대 등 국민연금법, 기초연금법 개정안 국회 본회의 통과",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784000"
+    },
+    {
+      "id": "156783999",
+      "dept": "보건복지부",
+      "title": "'목숨을 살리는 정부' 국정목표 위해 복지급여 신청주의, 응급환자 이송체계, 자살예방 제도 등 개선",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783999"
+    },
+    {
+      "id": "156783988",
+      "dept": "보건복지부",
+      "title": "통합돌봄 현장 이끌 핵심인재 500명 키운다!",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783988"
+    },
+    {
+      "id": "156783987",
+      "dept": "보건복지부",
+      "title": "의료 AI 실증 생태계, 병원과 기업간 현장 소통으로 내실 다진다",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783987"
+    },
+    {
+      "id": "156783956",
+      "dept": "보건복지부",
+      "title": "응급환자 이송부터 최종치료까지, 적기에 치료 가능한 응급의료체계 혁신방안 논의",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783956"
+    },
+    {
+      "id": "156783932",
+      "dept": "보건복지부",
+      "title": "외국 출생·장기 체류 아동 복지급여 부정수급 막는다... 외교부 시스템 연계해 임시여권도 실시간 관리",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783932"
+    },
+    {
+      "id": "156783928",
+      "dept": "보건복지부",
+      "title": "국립의학전문대학원 남원 설립 확정, 2029년 개교 본격 추진",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783928"
+    },
+    {
+      "id": "156783914",
+      "dept": "보건복지부",
+      "title": "국립공주병원, 실전형 모의훈련으로 재난 심리지원 현장 대응력 높인다",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783914"
+    },
+    {
+      "id": "156783913",
+      "dept": "보건복지부",
+      "title": "시영화 제13대 국립나주병원장 취임",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783913"
+    },
+    {
+      "id": "156783899",
+      "dept": "보건복지부",
+      "title": "\"노인을 위한 도시는 있다\" 고령친화도시 지정제도 본격 추진",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783899"
+    },
+    {
+      "id": "156783898",
+      "dept": "보건복지부",
+      "title": "요양급여 거짓 청구한 의료기관 등 58개소 명단 공표",
+      "date": "2026-10-01",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783898"
+    },
+    {
+      "id": "156783756",
+      "dept": "보건복지부",
+      "title": "실제 주거공간에 고령친화기술 녹여낸다 복지부, 에이지테크 실증 현장 점검",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783756"
+    },
+    {
+      "id": "156783755",
+      "dept": "보건복지부",
+      "title": "국민 간병 부담 완화 위한 입원서비스 정책 로드맵 논의 착수",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783755"
+    },
+    {
+      "id": "156783742",
+      "dept": "보건복지부",
+      "title": "각계 전문가 모여 지역 중심 통합돌봄 전달체계와 돌봄 생태계 논의",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783742"
+    },
+    {
+      "id": "156783735",
+      "dept": "보건복지부",
+      "title": "'데이터로 더 정확하게, 건강 지키는 맞춤형 정책 설계한다' 미래 건강전략 포럼 개최",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783735"
+    },
+    {
+      "id": "156783674",
+      "dept": "보건복지부",
+      "title": "희귀·소외암환자 치료비 부담 낮춘다, 10월부터 암 치료제 건강보험 적용 확대",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783674"
+    },
+    {
+      "id": "156783675",
+      "dept": "보건복지부",
+      "title": "'아이의 신호를 놓치지 말아주세요' 아동학대 전담의료기관 지원 강화한다",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783675"
+    },
+    {
+      "id": "156783490",
+      "dept": "보건복지부",
+      "title": "「미디어, 마음을 쓰다 : 편견을 넘어 공감으로」 정신건강 보도 위한 미디어 역할 논의",
+      "date": "2026-09-29",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783490"
+    },
+    {
+      "id": "156783453",
+      "dept": "보건복지부",
+      "title": "한 눈에 보는 보건의료인력 현황, 「제2차 보건의료인력 실태조사」 결과 발표",
+      "date": "2026-09-29",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783453"
+    },
+    {
+      "id": "156783452",
+      "dept": "보건복지부",
+      "title": "\"청년의 희망찬 내일을 지원합니다\" 2026년 청년내일저축계좌 24,145명 최종 선정",
+      "date": "2026-09-29",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783452"
+    },
+    {
+      "id": "156783348",
+      "dept": "보건복지부",
+      "title": "부처별 흩어진 복지사업 점검해 빈틈없는 사회안전망 모색",
+      "date": "2026-09-28",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783348"
+    },
+    {
+      "id": "156783299",
+      "dept": "보건복지부",
+      "title": "동네에서 치료뿐 아니라 포괄적 건강관리까지 '지역사회 일차의료 혁신 시범사업' 시작",
+      "date": "2026-09-28",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783299"
+    },
+    {
+      "id": "156783269",
+      "dept": "보건복지부",
+      "title": "유럽서 커지는 K-뷰티, 현지 진출길 넓힌다 이탈리아·독일·프랑스에 체험·판매장 순차 개소",
+      "date": "2026-09-28",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783269"
+    },
+    {
+      "id": "156786449",
+      "dept": "공정거래위원회",
+      "title": "4개 민간임대아파트 건설 사업 시행사의 부당광고 제재",
+      "date": "2026-10-26",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786449"
+    },
+    {
+      "id": "156786353",
+      "dept": "공정거래위원회",
+      "title": "(주)케이피아이씨코포레이션의 지주회사 행위제한규정 위반행위 제재",
+      "date": "2026-10-25",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786353"
+    },
+    {
+      "id": "156786238",
+      "dept": "공정거래위원회",
+      "title": "선불식 할부거래에서의 소비자보호 지침」 개정·시행",
+      "date": "2026-10-23",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786238"
+    },
+    {
+      "id": "156786092",
+      "dept": "공정거래위원회",
+      "title": "AI관련 표시광고 가이드라인 초안 의견청취 실시",
+      "date": "2026-10-22",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156786092"
+    },
+    {
+      "id": "156785934",
+      "dept": "공정거래위원회",
+      "title": "유니시티코리아의 방문판매법 위반행위 관련 동의의결 절차 개시",
+      "date": "2026-10-21",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785934"
+    },
+    {
+      "id": "156785758",
+      "dept": "공정거래위원회",
+      "title": "2026년도 3분기 선불식 할부거래업체 주요 정보 변경사항 공개",
+      "date": "2026-10-20",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785758"
+    },
+    {
+      "id": "156785622",
+      "dept": "공정거래위원회",
+      "title": "공정위, 제3회 특별성과 포상금 수여",
+      "date": "2026-10-19",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785622"
+    },
+    {
+      "id": "156785414",
+      "dept": "공정거래위원회",
+      "title": "결혼서비스업 분야 중요정보고시 위반 업체 과태료 부과절차 진행",
+      "date": "2026-10-16",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785414"
+    },
+    {
+      "id": "156785289",
+      "dept": "공정거래위원회",
+      "title": "편의점 김밥 12종 품질 비교 정보 제공",
+      "date": "2026-10-15",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785289"
+    },
+    {
+      "id": "156785100",
+      "dept": "공정거래위원회",
+      "title": "밀가루 부산물 가격담합 사건 심의 절차 개시",
+      "date": "2026-10-14",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156785100"
+    },
+    {
+      "id": "156784962",
+      "dept": "공정거래위원회",
+      "title": "3개 지역 교복 입찰 담합 제재",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784962"
+    },
+    {
+      "id": "156784934",
+      "dept": "공정거래위원회",
+      "title": "조정원, 인도 ODR 전문기관과 간담회 개최",
+      "date": "2026-10-13",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784934"
+    },
+    {
+      "id": "156784497",
+      "dept": "공정거래위원회",
+      "title": "SK에너지 및 현대오일뱅크의 휘발유·경유·등유 담합 사건 심의 절차 개시",
+      "date": "2026-10-07",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784497"
+    },
+    {
+      "id": "156784371",
+      "dept": "공정거래위원회",
+      "title": "카본러닝화 7종 품질 비교 정보 제공",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784371"
+    },
+    {
+      "id": "156784349",
+      "dept": "공정거래위원회",
+      "title": "온라인 다크패턴 규제 관련 가이드라인 배포",
+      "date": "2026-10-06",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784349"
+    },
+    {
+      "id": "156784095",
+      "dept": "공정거래위원회",
+      "title": "26년 추석 명절 대비 미지급 하도급대금 해결센터 운영 결과",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784095"
+    },
+    {
+      "id": "156784096",
+      "dept": "공정거래위원회",
+      "title": "공정위 상임위원에 김자봉 현(現) 한국금융연구원 선임연구위원 임명",
+      "date": "2026-10-02",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156784096"
+    },
+    {
+      "id": "156783750",
+      "dept": "공정거래위원회",
+      "title": "선불식 할부거래분야 사업자 간담회 개최",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783750"
+    },
+    {
+      "id": "156783669",
+      "dept": "공정거래위원회",
+      "title": "기업집단 「BS」 소속 계열회사들의 부당지원행위 관련 심의 절차 개시",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783669"
+    },
+    {
+      "id": "156783670",
+      "dept": "공정거래위원회",
+      "title": "대한항공-아시아나 기업결합 관련 시정조치 불이행 및 시정조치 변경신청 건 심의 절차 개시",
+      "date": "2026-09-30",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783670"
+    },
+    {
+      "id": "156783513",
+      "dept": "공정거래위원회",
+      "title": "소비자 안심 유통환경 조성 등을 위한 업무 협약 체결",
+      "date": "2026-09-29",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783513"
+    },
+    {
+      "id": "156783449",
+      "dept": "공정거래위원회",
+      "title": "2개 이사서비스 업체의 부당광고 제재",
+      "date": "2026-09-29",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783449"
+    },
+    {
+      "id": "156783296",
+      "dept": "공정거래위원회",
+      "title": "명륜당의 부당한 지원행위 및 가맹사업법 위반행위 제재",
+      "date": "2026-09-28",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783296"
+    },
+    {
+      "id": "156783257",
+      "dept": "공정거래위원회",
+      "title": "공정거래위원회 사건절차규칙 개정·시행",
+      "date": "2026-09-28",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783257"
+    },
+    {
+      "id": "156783235",
+      "dept": "공정거래위원회",
+      "title": "당정, 반복 담합 근절 입법 추진방안 발표",
+      "date": "2026-09-28",
+      "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156783235"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "fiw.gate/1",
+  "gate": "relevance",
+  "exit": 0,
+  "checked": 1213,
+  "findings": [],
+  "classified": {},
+  "skipped": [],
+  "input_hash": "28e5b048373920a4ae8fbd1d2485769d98129b4a08ac3917cd7444e06a78f23c"
+}

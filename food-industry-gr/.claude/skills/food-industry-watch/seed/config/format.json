@@ -1,0 +1,19 @@
+{
+  "schema": "fiw.format/1",
+  "sentence_limit": {"min_sentences": 3, "max_sentences": 5, "min_chars": 200, "max_chars": 400},
+  "max_articles_per_issue": 3,
+  "dormancy_weeks": 4,
+  "sections": [
+    {"id": "three_lines", "enabled": true, "order": 1, "heading_level": 2, "title": "이번 기간 세 줄", "columns": [], "max_rows": 3},
+    {"id": "gov", "enabled": true, "order": 2, "heading_level": 1, "title": "🏛️ 정부·규제 (공정위 · 식약처 · 농식품부 · 복지부)", "columns": ["쟁점", "기간", "내용", "링크"], "max_rows": 10},
+    {"id": "press", "enabled": true, "order": 3, "heading_level": 1, "title": "📰 부처 보도자료 (정책브리핑 · 4개 부처)", "columns": ["분류", "날짜", "보도자료", "링크"], "max_rows": null},
+    {"id": "notices", "enabled": true, "order": 4, "heading_level": 1, "title": "📜 입법·행정예고 — 의견을 낼 수 있는 규제", "columns": ["부처", "구분", "법령·고시", "의견 접수기간", "남은 기간", "링크"], "max_rows": null},
+    {"id": "assembly", "enabled": true, "order": 5, "heading_level": 1, "title": "🏢 국회 (보건복지위 · 농해수위)", "columns": [], "max_rows": null},
+    {"id": "assembly_issues", "enabled": true, "order": 6, "heading_level": 2, "title": "① 쟁점", "columns": ["쟁점", "기간", "내용", "링크"], "max_rows": 8},
+    {"id": "assembly_bills", "enabled": true, "order": 7, "heading_level": 2, "title": "② 법안 (기간 내 발의 · 식품 관련 법률명)", "columns": ["발의일", "법안", "대표발의", "소관위", "단계", "링크"], "max_rows": null},
+    {"id": "assembly_schedule", "enabled": true, "order": 8, "heading_level": 2, "title": "③ 다가오는 위원회 일정", "columns": ["날짜", "위원회", "회의", "링크"], "max_rows": null},
+    {"id": "industry", "enabled": true, "order": 9, "heading_level": 1, "title": "🏭 업계·협회", "columns": ["쟁점", "기간", "내용", "{own_company}", "링크"], "max_rows": 10},
+    {"id": "market", "enabled": true, "order": 10, "heading_level": 1, "title": "📈 시장·경영 동향", "columns": ["주제", "건수", "내용", "{own_company}", "링크"], "max_rows": null},
+    {"id": "hygiene", "enabled": true, "order": 11, "heading_level": 1, "title": "🧪 업계 위생 동향 (식품안전나라)", "columns": ["구분", "건수", "내역", "링크"], "max_rows": null}
+  ]
+}

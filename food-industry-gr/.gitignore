@@ -1,0 +1,15 @@
+# 개인 설정 (공유하지 않음)
+.claude/settings.local.json
+CLAUDE.local.md
+
+# 키 파일 (쓰지 않지만 실수 방지)
+.env
+.env.*
+
+# 작업 결과물
+output/
+
+# 도구·OS 부산물
+.sc/
+.DS_Store
+Thumbs.db

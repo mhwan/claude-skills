@@ -1,0 +1,998 @@
+{
+  "schema": "fiw.todo/1",
+  "issues": [
+    {
+      "key": "new:c0002",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0002:1",
+          "id": "02100601.20260810180716001",
+          "title": "매일유업 평택공장 근로자 1명 사망",
+          "outlet": "한국경제",
+          "date": "2026-08-10",
+          "url": "https://www.hankyung.com/article/2026081050751",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 806,
+            "src_chars": 806,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0002:2",
+          "id": "02100861.20260811111655001",
+          "title": "매일유업, 평택공장 근로자 사망⋯ “유가족 지원·관리 체계 재점검“",
+          "outlet": "브릿지경제",
+          "date": "2026-08-11",
+          "url": "https://www.viva100.com/article/20260810500526",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1008,
+            "src_chars": 1008,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0002:3",
+          "id": "01100501.20260810151900001",
+          "title": "매일유업, 평택공장 근로자 사망 사고 사과…“유가족 지원·재발 방지에 최선”",
+          "outlet": "문화일보",
+          "date": "2026-08-10",
+          "url": "https://www.munhwa.com/article/11608487?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 524,
+            "src_chars": 524,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0002:f1",
+          "title": "매일유업 공장서 근로자 2명 쓰러진 채 발견… 1명 사망",
+          "date": "2026-08-09",
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000001565&code=61121811&cp=kd",
+          "excerpt": "",
+          "outlet": "국민일보"
+        },
+        {
+          "ref": "c0002:f2",
+          "title": "매일유업 평택공장서 저장 탱크 청소하던 근로자 2명 사상",
+          "date": "2026-08-09",
+          "url": "https://www.chosun.com/national/incident/2026/08/09/EMOIQMXQ4ZH2BNCQ3E2KCRP72U/?utm_source=bigkinds&utm_medium=original&utm_campaign=news",
+          "excerpt": "",
+          "outlet": "조선일보"
+        },
+        {
+          "ref": "c0002:f3",
+          "title": "매일유업 평택공장서 근로자 2명 쓰러진 채 발견…1명 숨져",
+          "date": "2026-08-09",
+          "url": "https://www.joongang.co.kr/article/25451953",
+          "excerpt": "",
+          "outlet": "중앙일보"
+        },
+        {
+          "ref": "c0002:f4",
+          "title": "매일유업 평택공장서 저장 탱크 청소하던 근로자 2명 사상",
+          "date": "2026-08-09",
+          "url": "https://www.hankookilbo.com/news/article/A2026080923110004271",
+          "excerpt": "",
+          "outlet": "한국일보"
+        },
+        {
+          "ref": "c0002:f5",
+          "title": "매일유업 공장서 근로자 1명 사망·1명 부상…저장탱크 청소 중 사고",
+          "date": "2026-08-09",
+          "url": "http://www.mk.co.kr/article/12122379",
+          "excerpt": "",
+          "outlet": "매일경제"
+        },
+        {
+          "ref": "c0002:f6",
+          "title": "외상도 없었는데…연유탱크 안에서 쓰러진 근로자 2명 중 1명 사망",
+          "date": "2026-08-09",
+          "url": "https://www.mt.co.kr/society/2026/08/09/2026080920345699058",
+          "excerpt": "",
+          "outlet": "머니투데이"
+        },
+        {
+          "ref": "c0002:f7",
+          "title": "매일유업 평택공장 탱크서 근로자 2명 쓰러져…1명 숨져",
+          "date": "2026-08-09",
+          "url": "https://view.asiae.co.kr/article/2026080920312357027",
+          "excerpt": "",
+          "outlet": "아시아경제"
+        },
+        {
+          "ref": "c0002:f8",
+          "title": "연유탱크 청소하던 50대 사망… 매일유업 “다시는 재발 않도록” 사과",
+          "date": "2026-08-10",
+          "url": "https://www.seoul.co.kr/news/newsView.php?id=20260810500076",
+          "excerpt": "",
+          "outlet": "서울신문"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0006",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0006:1",
+          "id": "02100601.20260821091747001",
+          "title": "서울 양평동 롯데웰푸드 공장서 암모니아 누출…인명피해 없어",
+          "outlet": "한국경제",
+          "date": "2026-08-21",
+          "url": "https://www.hankyung.com/article/202608213778i",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 331,
+            "src_chars": 331,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0006:2",
+          "id": "01100101.20260821072820001",
+          "title": "[속보]서울 양평동 공장서 암모니아 가스 누출…인명피해 없어",
+          "outlet": "경향신문",
+          "date": "2026-08-21",
+          "url": "https://www.khan.co.kr/article/202608210727001",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 389,
+            "src_chars": 389,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0006:3",
+          "id": "01100801.20260821095448001",
+          "title": "영등포 식품공장서 암모니아 가스 누출...인명피해 없어",
+          "outlet": "조선일보",
+          "date": "2026-08-21",
+          "url": "https://www.chosun.com/national/national_general/2026/08/21/4EKVT7XFGJHYJEJBTUD5FYDTTY/?utm_source=bigkinds&utm_medium=original&utm_campaign=news",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 291,
+            "src_chars": 291,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0006:f1",
+          "title": "영등포 롯데제과 공장서 암모니아 가스 누출…인명피해는 없어",
+          "date": "2026-08-21",
+          "url": "https://www.hani.co.kr/arti/society/society_general/1273973.html",
+          "excerpt": "",
+          "outlet": "한겨레"
+        },
+        {
+          "ref": "c0006:f2",
+          "title": "선유도역 롯데웰푸드 공장서 암모니아 누출… 인명피해는 없어",
+          "date": "2026-08-21",
+          "url": "https://www.hankookilbo.com/news/article/A2026082108250004372",
+          "excerpt": "",
+          "outlet": "한국일보"
+        },
+        {
+          "ref": "c0006:f3",
+          "title": "서울 양평동 롯데웰푸드 공장서 암모니아 누출… 41명 대피·인명 피해 없어",
+          "date": "2026-08-21",
+          "url": "https://www.etoday.co.kr/news/view/2616780",
+          "excerpt": "",
+          "outlet": "이투데이"
+        },
+        {
+          "ref": "c0006:f4",
+          "title": "양평동 롯데웰푸드 공장서 '암모니아 가스' 유출… 인명 피해 없어",
+          "date": "2026-08-21",
+          "url": "https://view.asiae.co.kr/article/2026082110161391819",
+          "excerpt": "",
+          "outlet": "아시아경제"
+        },
+        {
+          "ref": "c0006:f5",
+          "title": "서울 양평 롯데웰푸드 공장서 암모니아 누출…인명피해 없어",
+          "date": "2026-08-21",
+          "url": "https://www.newspim.com/news/view/20260821000362",
+          "excerpt": "",
+          "outlet": "뉴스핌"
+        },
+        {
+          "ref": "c0006:f6",
+          "title": "서울 양평동 롯데웰푸드 공장 암모니아 누출…인명피해 없어",
+          "date": "2026-08-21",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=02545286645549616",
+          "excerpt": "",
+          "outlet": "이데일리"
+        },
+        {
+          "ref": "c0006:f7",
+          "title": "서울 양평동 롯데웰푸드 공장서 암모니아 누출…“인명피해 없어”",
+          "date": "2026-08-21",
+          "url": "https://www.kukinews.com/article/view/kuk202608210029",
+          "excerpt": "",
+          "outlet": "쿠키뉴스"
+        },
+        {
+          "ref": "c0006:f8",
+          "title": "롯데웰푸드 양평동 공장서 암모니아 누출…인명피해 없어",
+          "date": "2026-08-21",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7179950",
+          "excerpt": "",
+          "outlet": "주간한국"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0007",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0007:1",
+          "id": "07100501.20260813091022001",
+          "title": "오뚜기, 컵라면·만두 가격 인상…봉지라면은 유지",
+          "outlet": "전자신문",
+          "date": "2026-08-13",
+          "url": "http://www.etnews.com/20260813000023",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 908,
+            "src_chars": 908,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0007:2",
+          "id": "01100611.20260813111855001",
+          "title": "오뚜기, 컵라면·만두 가격 인상…‘원가 부담 지속’",
+          "outlet": "서울신문",
+          "date": "2026-08-13",
+          "url": "https://www.seoul.co.kr/news/newsView.php?id=20260813500085",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 868,
+            "src_chars": 868,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0007:3",
+          "id": "01600801.20260813130442001",
+          "title": "오뚜기, '원가 부담 누적' 컵라면·만두 가격 줄인상…한 달 새 벌써 3번째",
+          "outlet": "전남일보",
+          "date": "2026-08-13",
+          "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000056513",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 899,
+            "src_chars": 899,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0007:f1",
+          "title": "오뚜기, 컵라면·만두 일부 출고가 인상…봉지라면은 유지",
+          "date": "2026-08-13",
+          "url": "http://www.dnews.co.kr/uhtml/view.jsp?idxno=202608130834491790852",
+          "excerpt": "",
+          "outlet": "대한경제"
+        },
+        {
+          "ref": "c0007:f2",
+          "title": "“원가 부담 지속”…컵라면·만두 가격 오른다",
+          "date": "2026-08-13",
+          "url": "http://www.mk.co.kr/article/12126365",
+          "excerpt": "",
+          "outlet": "매일경제"
+        },
+        {
+          "ref": "c0007:f3",
+          "title": "원가 부담 지속…오뚜기, 컵라면·만두 출고가 6~7% 인상",
+          "date": "2026-08-13",
+          "url": "http://www.fnnews.com/news/202608130836107251",
+          "excerpt": "",
+          "outlet": "파이낸셜뉴스"
+        },
+        {
+          "ref": "c0007:f4",
+          "title": "\"진라면 컵 1300원\"…오뚜기, 컵라면·만두 출고가 인상",
+          "date": "2026-08-13",
+          "url": "https://www.hankyung.com/article/202608138261g",
+          "excerpt": "",
+          "outlet": "한국경제"
+        },
+        {
+          "ref": "c0007:f5",
+          "title": "오뚜기 “컵라면·만두 일부 출고가 6~7% 인상”…내달 7일부터",
+          "date": "2026-08-13",
+          "url": "https://biz.heraldcorp.com/article/10839853",
+          "excerpt": "",
+          "outlet": "헤럴드경제"
+        },
+        {
+          "ref": "c0007:f6",
+          "title": "\"원가 부담 때문에\"…오뚜기, 컵라면·만두 등 가격 인상",
+          "date": "2026-08-13",
+          "url": "https://view.asiae.co.kr/article/2026081308524767715",
+          "excerpt": "",
+          "outlet": "아시아경제"
+        },
+        {
+          "ref": "c0007:f7",
+          "title": "오뚜기, 9월7일부터 컵라면·만두 가격 올린다…\"원자재·고환율 영향\"",
+          "date": "2026-08-13",
+          "url": "https://www.newspim.com/news/view/20260813000193",
+          "excerpt": "",
+          "outlet": "뉴스핌"
+        },
+        {
+          "ref": "c0007:f8",
+          "title": "오뚜기, 컵라면·만두 일부 가격 인상…봉지라면은 제외",
+          "date": "2026-08-13",
+          "url": "https://www.sportsseoul.com/news/read/1628508",
+          "excerpt": "",
+          "outlet": "스포츠서울"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0009",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0009:1",
+          "id": "01100611.20260826083958001",
+          "title": "中 ‘발암물질 배추’ 논란…식약처 “최근 수입 8건 모두 불검출”",
+          "outlet": "서울신문",
+          "date": "2026-08-26",
+          "url": "https://www.seoul.co.kr/news/newsView.php?id=20260826500023",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 777,
+            "src_chars": 777,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0009:2",
+          "id": "01100101.20260826125225001",
+          "title": "‘1군 발암물질’ 포름알데히드 중국산 배추, 국내에 들어왔을까",
+          "outlet": "경향신문",
+          "date": "2026-08-26",
+          "url": "https://www.khan.co.kr/article/202608261251001",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 865,
+            "src_chars": 865,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0009:3",
+          "id": "01100701.20260826085332001",
+          "title": "중국산 ‘발암물질 범벅 배추’ 논란에…식약처 “최근 수입 8건 검사 결과 모두 불검출”",
+          "outlet": "세계일보",
+          "date": "2026-08-26",
+          "url": "https://www.segye.com/newsView/20260826502945",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 891,
+            "src_chars": 891,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0009:f1",
+          "title": "중국산 발암물질 배추, 국내 들어왔나…“수입 8건 모두 불검출”",
+          "date": "2026-08-26",
+          "url": "https://www.joongang.co.kr/article/25456246",
+          "excerpt": "",
+          "outlet": "중앙일보"
+        },
+        {
+          "ref": "c0009:f2",
+          "title": "중국산 '발암물질' 배추 논란… 국내 수입품 8건 검사해 보니",
+          "date": "2026-08-26",
+          "url": "https://www.hankookilbo.com/news/article/A2026082610550000533",
+          "excerpt": "",
+          "outlet": "한국일보"
+        },
+        {
+          "ref": "c0009:f3",
+          "title": "중국산 배추 검사해 봤더니…포름알데히드 모두 불검출",
+          "date": "2026-08-26",
+          "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2296645",
+          "excerpt": "",
+          "outlet": "대전일보"
+        },
+        {
+          "ref": "c0009:f4",
+          "title": "중국산 배추 '포름알데히드' 검사 강화…최근 수입 8건 모두 불검출",
+          "date": "2026-08-26",
+          "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2436532",
+          "excerpt": "",
+          "outlet": "충청일보"
+        },
+        {
+          "ref": "c0009:f5",
+          "title": "'발암물질 배추' 공포...식약처 \"중국산 8건 모두 불검출\"",
+          "date": "2026-08-26",
+          "url": "https://www.mt.co.kr/living/2026/08/26/2026082608062897097",
+          "excerpt": "",
+          "outlet": "머니투데이"
+        },
+        {
+          "ref": "c0009:f6",
+          "title": "'발암물질 배추' 공포 확산…식약처 \"중국산 8건 모두 불검출\"",
+          "date": "2026-08-26",
+          "url": "https://view.asiae.co.kr/article/2026082608233731062",
+          "excerpt": "",
+          "outlet": "아시아경제"
+        },
+        {
+          "ref": "c0009:f7",
+          "title": "中 '발암물질 배추' 논란… 식약처 \"최근 수입 모두 불검출, 통관 검사 강화\"",
+          "date": "2026-08-26",
+          "url": "https://www.ajunews.com/view/20260826134311376",
+          "excerpt": "",
+          "outlet": "아주경제"
+        },
+        {
+          "ref": "c0009:f8",
+          "title": "식약처, 중국산 배추 ‘포름알데히드’ 검사…최근 수입 8건 모두 불검출",
+          "date": "2026-08-26",
+          "url": "https://www.kukinews.com/article/view/kuk202608260080",
+          "excerpt": "",
+          "outlet": "쿠키뉴스"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0019",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0019:1",
+          "id": "08100401.20260806100203002",
+          "title": "가공식품인 '스테비아 토마토' 일반 농산물로 부당 광고",
+          "outlet": "YTN",
+          "date": "2026-08-06",
+          "url": "https://www.ytn.co.kr/_ln/0103_202608061000456763",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 367,
+            "src_chars": 367,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0019:2",
+          "id": "02100201.20260807070940001",
+          "title": "달콤한 스테비아 토마토에 속았다...농산물 아닌 '가공식품'",
+          "outlet": "머니투데이",
+          "date": "2026-08-07",
+          "url": "https://www.mt.co.kr/society/2026/08/07/2026080706541183664",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 980,
+            "src_chars": 980,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0019:3",
+          "id": "01100101.20260806085637001",
+          "title": "단맛 성분 주입한 가공식품 ‘스테비아 토마토’···농산물로 홍보한 업체 무더기 적발",
+          "outlet": "경향신문",
+          "date": "2026-08-06",
+          "url": "https://www.khan.co.kr/article/202608060856001",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 688,
+            "src_chars": 688,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0019:f1",
+          "title": "달달한데 칼로리는 다운?…스테비아 토마토 ‘충격 진실’ 드러났다",
+          "date": "2026-08-06",
+          "url": "https://www.seoul.co.kr/news/newsView.php?id=20260806500054",
+          "excerpt": "",
+          "outlet": "서울신문"
+        },
+        {
+          "ref": "c0019:f2",
+          "title": "스테비아 토마토, ‘천연 감미료’ 둔갑 판매 광고한 업체 15곳 적발",
+          "date": "2026-08-06",
+          "url": "https://www.joongang.co.kr/article/25451252",
+          "excerpt": "",
+          "outlet": "중앙일보"
+        },
+        {
+          "ref": "c0019:f3",
+          "title": "'스테비아 토마토' 알고 보니 가공식품…부당광고 업체 15곳 적발",
+          "date": "2026-08-06",
+          "url": "https://www.namdonews.com/news/articleView.html?idxno=919242",
+          "excerpt": "",
+          "outlet": "남도일보"
+        },
+        {
+          "ref": "c0019:f4",
+          "title": "“농산물로 깜빡 속아”…가공식품 스테비아 토마토 부당광고 적발",
+          "date": "2026-08-06",
+          "url": "http://www.mk.co.kr/article/12119889",
+          "excerpt": "",
+          "outlet": "매일경제"
+        },
+        {
+          "ref": "c0019:f5",
+          "title": "‘스테비아 토마토’ 알고 보니 가공식품…식약처, 부당광고 15곳 적발",
+          "date": "2026-08-06",
+          "url": "https://www.sedaily.com/article/20076329?ref=kpf",
+          "excerpt": "",
+          "outlet": "서울경제"
+        },
+        {
+          "ref": "c0019:f6",
+          "title": "\"천연 당분으로 홍보\"…스테비아 토마토 부당광고 업체 적발",
+          "date": "2026-08-06",
+          "url": "https://www.hankyung.com/article/2026080676647",
+          "excerpt": "",
+          "outlet": "한국경제"
+        },
+        {
+          "ref": "c0019:f7",
+          "title": "식품첨가물 넣은 '스테비아 토마토'가 신품종? 부당광고 무더기 적발",
+          "date": "2026-08-06",
+          "url": "https://view.asiae.co.kr/article/2026080615451778852",
+          "excerpt": "",
+          "outlet": "아시아경제"
+        },
+        {
+          "ref": "c0019:f8",
+          "title": "스테비아 토마토 온라인 부당광고, 위생관리 위반 업체 적발",
+          "date": "2026-08-06",
+          "url": "https://www.hkbs.co.kr/news/articleView.html?idxno=829786",
+          "excerpt": "",
+          "outlet": "환경일보"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0024",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0024:1",
+          "id": "02100861.20260826142143001",
+          "title": "동원F&B, 9월부터 참치캔•음료 가격 9∼10% 인상",
+          "outlet": "브릿지경제",
+          "date": "2026-08-26",
+          "url": "https://www.viva100.com/article/20260825500798",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 420,
+            "src_chars": 420,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0024:2",
+          "id": "01100611.20260825145305001",
+          "title": "동원 참치캔·음료 값도 오른다…다음달 평균 9~10% 인상",
+          "outlet": "서울신문",
+          "date": "2026-08-25",
+          "url": "https://www.seoul.co.kr/news/newsView.php?id=20260825500151",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 398,
+            "src_chars": 398,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0024:3",
+          "id": "01500701.20260825134139001",
+          "title": "9월부터 참치캔 값도 오른다…동원F&B 가격 인상",
+          "outlet": "부산일보",
+          "date": "2026-08-25",
+          "url": "https://www.busan.com/view/busan/view.php?code=2026082513375574815",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 310,
+            "src_chars": 310,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0024:f1",
+          "title": "동원F&B, 다음달 참치캔 가격 9% 올린다",
+          "date": "2026-08-25",
+          "url": "http://www.mk.co.kr/article/12135676",
+          "excerpt": "",
+          "outlet": "매일경제"
+        },
+        {
+          "ref": "c0024:f2",
+          "title": "\"동원참치도 가격 올린다\"...평균 9% 인상",
+          "date": "2026-08-25",
+          "url": "https://www.mt.co.kr/living/2026/08/25/2026082511032645131",
+          "excerpt": "",
+          "outlet": "머니투데이"
+        },
+        {
+          "ref": "c0024:f3",
+          "title": "동원F&B, 참치캔·음료 가격 9~10% 인상",
+          "date": "2026-08-25",
+          "url": "https://www.sedaily.com/article/20083051?ref=kpf",
+          "excerpt": "",
+          "outlet": "서울경제"
+        },
+        {
+          "ref": "c0024:f4",
+          "title": "동원F&B, 참치캔 가격 평균 9% 인상…물가 부담 커진다",
+          "date": "2026-08-25",
+          "url": "https://www.etoday.co.kr/news/view/2617903",
+          "excerpt": "",
+          "outlet": "이투데이"
+        },
+        {
+          "ref": "c0024:f5",
+          "title": "동원참치 캔 가격도 오른다.. 동원F&B, 제품 가격 9~10% 인상",
+          "date": "2026-08-25",
+          "url": "https://www.fnnews.com/news/202608251422338107",
+          "excerpt": "",
+          "outlet": "파이낸셜뉴스"
+        },
+        {
+          "ref": "c0024:f6",
+          "title": "참치캔 값도 뛴다…동원F&B, 평균 9~10% 가격인상",
+          "date": "2026-08-25",
+          "url": "https://www.hankyung.com/article/202608251285g",
+          "excerpt": "",
+          "outlet": "한국경제"
+        },
+        {
+          "ref": "c0024:f7",
+          "title": "동원F&B, 9월부터 참치캔·음료류 가격 평균 9~10% 인상",
+          "date": "2026-08-25",
+          "url": "https://www.newspim.com/news/view/20260825000808",
+          "excerpt": "",
+          "outlet": "뉴스핌"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0045",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0045:1",
+          "id": "02100101.20260731170512003",
+          "title": "풀무원도 가격 인상대열 합류...내달 13일 30개 품목 평균 6.7% 올린다",
+          "outlet": "매일경제",
+          "date": "2026-07-31",
+          "url": "http://www.mk.co.kr/article/12113494",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 672,
+            "src_chars": 672,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0045:2",
+          "id": "01100801.20260731174744001",
+          "title": "풀무원, 30개 품목 가격 평균 6.7% 올린다",
+          "outlet": "조선일보",
+          "date": "2026-07-31",
+          "url": "https://www.chosun.com/economy/2026/07/31/HHPFGRGNURDF3L4H7ZOYLC3AH4/?utm_source=bigkinds&utm_medium=original&utm_campaign=news",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 567,
+            "src_chars": 567,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0045:3",
+          "id": "02100201.20260731160124001",
+          "title": "풀무원, '핫도그·만두·평냉' 가격 올린다…평균 6.7% 인상",
+          "outlet": "머니투데이",
+          "date": "2026-07-31",
+          "url": "https://www.mt.co.kr/living/2026/07/31/2026073115433353168",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 733,
+            "src_chars": 733,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0045:f1",
+          "title": "풀무원, 내달 13일 30개 품목 평균 6.7% 인상…두부는 동결",
+          "date": "2026-07-31",
+          "url": "https://www.etoday.co.kr/news/view/2609928",
+          "excerpt": "",
+          "outlet": "이투데이"
+        },
+        {
+          "ref": "c0045:f2",
+          "title": "풀무원도 결국 가격 올린다…7개 카테고리 30개 품목 6.7%↑",
+          "date": "2026-07-31",
+          "url": "https://www.newspim.com/news/view/20260731001216",
+          "excerpt": "",
+          "outlet": "뉴스핌"
+        },
+        {
+          "ref": "c0045:f3",
+          "title": "풀무원, 다음 달 30개 품목 가격 인상...평균 6.7% 올라",
+          "date": "2026-07-31",
+          "url": "https://www.ytn.co.kr/_ln/0102_202607311548008688",
+          "excerpt": "",
+          "outlet": "YTN"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0069",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0069:1",
+          "id": "07100501.20260819161650002",
+          "title": "식품산업협회, 인도 CEPA 사절단에 원산지 기준 완화 요청",
+          "outlet": "전자신문",
+          "date": "2026-08-19",
+          "url": "http://www.etnews.com/20260819000354",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 840,
+            "src_chars": 840,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0069:2",
+          "id": "01100901.20260820161059001",
+          "title": "“원산지 기준 완화해 달라”…식품산업협회, 인도 정부사절단에 요청",
+          "outlet": "중앙일보",
+          "date": "2026-08-20",
+          "url": "https://www.joongang.co.kr/article/25454833",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 613,
+            "src_chars": 613,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0069:3",
+          "id": "04101008.20260820090848001",
+          "title": "식품산업협회, 인도 정부에 \"원산지 기준 완화” 요청",
+          "outlet": "이데일리",
+          "date": "2026-08-20",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=03024166645549288",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1067,
+            "src_chars": 1067,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0069:f1",
+          "title": "식품산업협회, 인도 사절단 초청…\"양국 협력 확대\"",
+          "date": "2026-08-19",
+          "url": "https://www.mt.co.kr/living/2026/08/19/2026081916091146589",
+          "excerpt": "",
+          "outlet": "머니투데이"
+        },
+        {
+          "ref": "c0069:f2",
+          "title": "한국식품산업협회, 인도 CEPA 개선협상 사절단 초청 협력 논의",
+          "date": "2026-08-19",
+          "url": "https://www.etoday.co.kr/news/view/2616081",
+          "excerpt": "",
+          "outlet": "이투데이"
+        },
+        {
+          "ref": "c0069:f3",
+          "title": "한국식품산업협회, 인도 사절단과 식품 산업 협력 방안 논의",
+          "date": "2026-08-19",
+          "url": "http://www.fnnews.com/news/202608191746268517",
+          "excerpt": "",
+          "outlet": "파이낸셜뉴스"
+        },
+        {
+          "ref": "c0069:f4",
+          "title": "식품산업협회, 인도 사절단 초청…양국 협력 확대 논의",
+          "date": "2026-08-19",
+          "url": "https://biz.heraldcorp.com/article/10845706",
+          "excerpt": "",
+          "outlet": "헤럴드경제"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0137",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0137:1",
+          "id": "01100201.20260806140624001",
+          "title": "MZ 장병 입맛 잡는다…조달청, 군납 아이스크림 계약방식 개선",
+          "outlet": "국민일보",
+          "date": "2026-08-06",
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=0030215358&code=61121111&cp=kd",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1038,
+            "src_chars": 1038,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0137:2",
+          "id": "02100101.20260806120642002",
+          "title": "“군인들도 붕어싸만코 먹고싶어요” 요청에…조달청 군납 아이스크림 ‘확대’",
+          "outlet": "매일경제",
+          "date": "2026-08-06",
+          "url": "http://www.mk.co.kr/article/12119012",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 741,
+            "src_chars": 741,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0137:3",
+          "id": "02100311.20260806110446001",
+          "title": "군장병도 아이스크림 골라 먹는다",
+          "outlet": "서울경제",
+          "date": "2026-08-06",
+          "url": "https://www.sedaily.com/article/20076406?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 608,
+            "src_chars": 608,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0137:f1",
+          "title": "조달청, 군납용 아이스크림 군장병 입맛에 따라 공급",
+          "date": "2026-08-06",
+          "url": "https://www.hankyung.com/article/202608068025h",
+          "excerpt": "",
+          "outlet": "한국경제"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    }
+  ],
+  "excluded_no_link": [],
+  "market": [],
+  "lwf_mentions": {
+    "c0002:1": false,
+    "c0002:2": false,
+    "c0002:3": false,
+    "c0006:1": true,
+    "c0006:2": true,
+    "c0006:3": true,
+    "c0007:1": false,
+    "c0007:2": false,
+    "c0007:3": false,
+    "c0009:1": false,
+    "c0009:2": false,
+    "c0009:3": false,
+    "c0019:1": false,
+    "c0019:2": false,
+    "c0019:3": false,
+    "c0024:1": false,
+    "c0024:2": false,
+    "c0024:3": false,
+    "c0045:1": false,
+    "c0045:2": false,
+    "c0045:3": false,
+    "c0069:1": false,
+    "c0069:2": false,
+    "c0069:3": false,
+    "c0137:1": false,
+    "c0137:2": false,
+    "c0137:3": false
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "schema": "fiw.todo/1",
+  "issues": [
+    {
+      "key": "new:c0190",
+      "section": "assembly",
+      "articles": [
+        {
+          "ref": "c0190:1",
+          "id": "01501001.20261014174403001",
+          "title": "임미애 \"온라인도매시장 4건 중 1건 이상거래, 정부 실적 압박\"",
+          "outlet": "대구신문",
+          "date": "2026-10-14",
+          "url": "https://www.idaegu.co.kr/news/articleView.html?idxno=562288",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1292,
+            "src_chars": 1292,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0190:2",
+          "id": "04100608.20260930175714001",
+          "title": "온라인 도매시장, 이상거래 6,822억 원…전체 거래액의 36% 차지",
+          "outlet": "브레이크뉴스",
+          "date": "2026-09-30",
+          "url": "http://www.breaknews.com/1240134",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 6383,
+            "src_chars": 6383,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0260",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0260:1",
+          "id": "01100751.20261022120149001",
+          "title": "\"6개월마다 바뀌는 라벨 규정\"…대한상의, 규제개선 129건 건의",
+          "outlet": "아시아투데이",
+          "date": "2026-10-22",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261022010007415",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1633,
+            "src_chars": 1633,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0260:2",
+          "id": "02100501.20261022120420001",
+          "title": "\"6개월마다 바뀌는 라벨 규정\"…대한상의, 규제개선 129건 건의",
+          "outlet": "파이낸셜뉴스",
+          "date": "2026-10-22",
+          "url": "https://www.fnnews.com/news/202610220843412332",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1668,
+            "src_chars": 1668,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0260:3",
+          "id": "04100958.20261022120046001",
+          "title": "\"6개월마다 바뀌는 라벨 규정\"…대한상의, '엇박자 규제' 129건 개선 건의",
+          "outlet": "EBN",
+          "date": "2026-10-22",
+          "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1728708",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 2116,
+            "src_chars": 2116,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0291",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0291:1",
+          "id": "01100801.20261025100239001",
+          "title": "주병기 공정위원장 “기업 조사 거부시 과징금 ‘전체 매출의 1%’ 정도로 강화”",
+          "outlet": "조선일보",
+          "date": "2026-10-25",
+          "url": "https://www.chosun.com/economy/economy_general/2026/10/25/6JHG6PMG6NHSNH77OORMF5O75I/?utm_source=bigkinds&utm_medium=original&utm_campaign=news",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1226,
+            "src_chars": 1226,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0291:2",
+          "id": "02100201.20261025103654001",
+          "title": "주병기 \"조사 거부 시 과징금 '전체 매출의 1%'로 강화\"",
+          "outlet": "머니투데이",
+          "date": "2026-10-25",
+          "url": "https://www.mt.co.kr/economy/2026/10/25/2026102510115120530",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1077,
+            "src_chars": 1077,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0291:3",
+          "id": "01100801.20261026003339001",
+          "title": "“조사 거부시 매출 1% 정도 과징금 부과해야”",
+          "outlet": "조선일보",
+          "date": "2026-10-26",
+          "url": "https://www.chosun.com/economy/economy_general/2026/10/26/2BKM5ZEFYVGNLFZS2TGD43SXEQ/?utm_source=bigkinds&utm_medium=original&utm_campaign=news",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 923,
+            "src_chars": 923,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0305",
+      "section": "assembly",
+      "articles": [
+        {
+          "ref": "c0305:1",
+          "id": "01100901.20260930111904001",
+          "title": "‘장바구니 짬짜미’…식품 대기업 담합 과징금 10년간 2.2조원",
+          "outlet": "중앙일보",
+          "date": "2026-09-30",
+          "url": "https://www.joongang.co.kr/article/25465953",
+          "body": "",
+          "title_body_conflicts": [
+            "2.2"
+          ],
+          "body_check": {
+            "chars": 1080,
+            "src_chars": 1080,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0305:2",
+          "id": "02100101.20260930131446001",
+          "title": "‘장바구니 짬짜미’…식품 대기업 담합 과징금 10년간 2.2조",
+          "outlet": "매일경제",
+          "date": "2026-09-30",
+          "url": "http://www.mk.co.kr/article/12164750",
+          "body": "",
+          "title_body_conflicts": [
+            "2.2"
+          ],
+          "body_check": {
+            "chars": 923,
+            "src_chars": 923,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    }
+  ],
+  "excluded_no_link": [],
+  "market": [],
+  "lwf_mentions": {
+    "c0190:1": false,
+    "c0190:2": false,
+    "c0260:1": false,
+    "c0260:2": false,
+    "c0260:3": false,
+    "c0291:1": false,
+    "c0291:2": false,
+    "c0291:3": false,
+    "c0305:1": false,
+    "c0305:2": false
+  }
+}

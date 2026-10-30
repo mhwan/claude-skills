@@ -1,0 +1,604 @@
+{
+  "schema": "fiw.todo/1",
+  "issues": [
+    {
+      "key": "new:c0002",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0002:1",
+          "id": "01100401.20261015003139001",
+          "title": "공정위 중점조사기획단 1호 사건은 ‘먹거리 담합 의혹’",
+          "outlet": "동아일보",
+          "date": "2026-10-15",
+          "url": "https://www.donga.com/news/Economy/article/all/20261014/134843085/2",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 707,
+            "src_chars": 707,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0002:2",
+          "id": "01100901.20261015000334001",
+          "title": "부활한 ‘재계 저승사자’…1호 사건은 식품 3사 담합 의혹",
+          "outlet": "중앙일보",
+          "date": "2026-10-15",
+          "url": "https://www.joongang.co.kr/article/25469797",
+          "body": "",
+          "title_body_conflicts": [
+            "3"
+          ],
+          "body_check": {
+            "chars": 651,
+            "src_chars": 651,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0002:3",
+          "id": "01100101.20261014205830002",
+          "title": "‘재계 저승사자’ 1호 사건…대상·오뚜기·CJ제일제당 ‘가격 담합’",
+          "outlet": "경향신문",
+          "date": "2026-10-14",
+          "url": "https://www.khan.co.kr/article/202610142057025",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 795,
+            "src_chars": 795,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0002:f1",
+          "title": "‘즉석밥-김치 가격 담합’ 정조준…공정위 중점조사단 1호 사건",
+          "date": "2026-10-14",
+          "url": "https://www.donga.com/news/Economy/article/all/20261014/134840474/1",
+          "excerpt": "",
+          "outlet": "동아일보"
+        },
+        {
+          "ref": "c0002:f2",
+          "title": "부활한 공정위 ‘대기업 저승사자’, 첫 타깃은 먹거리 기업",
+          "date": "2026-10-14",
+          "url": "https://www.munhwa.com/article/11623461?ref=kpf",
+          "excerpt": "",
+          "outlet": "문화일보"
+        },
+        {
+          "ref": "c0002:f3",
+          "title": "부활한 '재계 저승사자' 1호 사건…대상·오뚜기·CJ제일제당",
+          "date": "2026-10-14",
+          "url": "https://www.segye.com/newsView/20261014511629",
+          "excerpt": "",
+          "outlet": "세계일보"
+        },
+        {
+          "ref": "c0002:f4",
+          "title": "공정위 중점조사기획단 1호 사건...‘대상·오뚜기·CJ제일제당' 먹거리 담합 조준",
+          "date": "2026-10-14",
+          "url": "https://www.chosun.com/economy/economy_general/2026/10/14/TQ576ANFDNFJHKCB77RALME2ZE/?utm_source=bigkinds&utm_medium=original&utm_campaign=news",
+          "excerpt": "",
+          "outlet": "조선일보"
+        },
+        {
+          "ref": "c0002:f5",
+          "title": "부활한 ‘재계 저승사자’ 1호 사건은 김치·두부·즉석밥 등 담합",
+          "date": "2026-10-14",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1282342.html",
+          "excerpt": "",
+          "outlet": "한겨레"
+        },
+        {
+          "ref": "c0002:f6",
+          "title": "'재계 저승사자' 1호 표적은 식품 담합... 대상·오뚜기·CJ제일제당 현장조사",
+          "date": "2026-10-14",
+          "url": "https://www.hankookilbo.com/news/article/A2026101413440000044",
+          "excerpt": "",
+          "outlet": "한국일보"
+        },
+        {
+          "ref": "c0002:f7",
+          "title": "공정위 중점조사기획단 1호 사건은 ‘먹거리 담합’…식품업체 현장조사",
+          "date": "2026-10-14",
+          "url": "https://www.kyeonggi.com/article/20261014580165",
+          "excerpt": "",
+          "outlet": "경기일보"
+        },
+        {
+          "ref": "c0002:f8",
+          "title": "대상·오뚜기·CJ제일제당 공정위 조사…먹거리 담합 의혹 캔다",
+          "date": "2026-10-14",
+          "url": "http://www.mk.co.kr/article/12175893",
+          "excerpt": "",
+          "outlet": "매일경제"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "I-0041",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0019:1",
+          "id": "01500601.20261007112609001",
+          "title": "송미령 농식품장관 \"CPTPP 가입 논의 원점서 재검토\"",
+          "outlet": "매일신문",
+          "date": "2026-10-07",
+          "url": "https://www.imaeil.com/page/view/2026100711182865339",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1078,
+            "src_chars": 1078,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0019:2",
+          "id": "01100101.20261007175606001",
+          "title": "송미령 “CPTPP 가입 원점 재검토···농지조사로 농지가격 떨어진 것 아냐”",
+          "outlet": "경향신문",
+          "date": "2026-10-07",
+          "url": "https://www.khan.co.kr/article/202610071754011",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1152,
+            "src_chars": 1152,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0019:3",
+          "id": "01500701.20261007145434001",
+          "title": "송미령 장관 “CPTPP 가입 논의 원점에서 재검토”",
+          "outlet": "부산일보",
+          "date": "2026-10-07",
+          "url": "https://www.busan.com/view/busan/view.php?code=2026100714230243381",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 960,
+            "src_chars": 960,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "I-0041:f1",
+          "title": "송미령 “CPTPP 가입 결정된 것 아냐…농업 생산기반 무너지면 수용 어려워”",
+          "date": "2026-09-10",
+          "url": "https://biz.heraldcorp.com/article/10869631",
+          "excerpt": ""
+        }
+      ],
+      "prior": {
+        "title": "송미령 장관, CPTPP 가입 전제 아니라며 농업 생산기반 붕괴 시 수용 어렵다는 입장",
+        "last_sentences": [
+          "송미령 장관은 10일 정부세종청사 기자간담회에서 CPTPP 가입 논의와 관련해 국익이나 민의에 반한다면 반드시 가입을 전제로 논의하는 게 아니라고 선을 그었다.",
+          "송 장관은 CPTPP 가입으로 국내 농업의 최소 생산기반이 무너질 정도라면 받아들이기 어렵다는 입장을 내놨다.",
+          "농업계가 요구하는 피해 보완대책은 가입 여부가 결정된 이후 마련하는 게 맞다는 입장이다.",
+          "정부는 CPTPP 논의와 별개로 식량안보법 제정도 준비하고 있으며, 송 장관은 식량안보와 국내 생산기반을 CPTPP 논의에서 지켜야 할 마지노선으로 제시했다."
+        ]
+      },
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0021",
+      "section": "gov",
+      "articles": [
+        {
+          "ref": "c0021:1",
+          "id": "01500701.20261026123459001",
+          "title": "감미료 사용 저당식품, '혈당 상승 억제' 표시 못 한다",
+          "outlet": "부산일보",
+          "date": "2026-10-26",
+          "url": "https://www.busan.com/view/busan/view.php?code=2026102608442475728",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 831,
+            "src_chars": 831,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0021:2",
+          "id": "01100101.20261026101526001",
+          "title": "‘제로 음료=혈당관리 식품’ 오해입니다···식약처 ‘혈당 상승 억제’ 표시 막는다",
+          "outlet": "경향신문",
+          "date": "2026-10-26",
+          "url": "https://www.khan.co.kr/article/202610261014001",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 903,
+            "src_chars": 903,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0021:3",
+          "id": "01100301.20261026130153001",
+          "title": "감미료 사용 저당식품 혈당 관련 기능성 표시 제한",
+          "outlet": "내일신문",
+          "date": "2026-10-26",
+          "url": "https://www.naeil.com/news/read/606351?ref=bigkinds",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 940,
+            "src_chars": 940,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0021:f1",
+          "title": "감미료 넣은 저당식품, ‘혈당 상승 억제’ 기능성 표시 못 한다",
+          "date": "2026-10-26",
+          "url": "https://www.segye.com/newsView/20261026507869",
+          "excerpt": "",
+          "outlet": "세계일보"
+        },
+        {
+          "ref": "c0021:f2",
+          "title": "제로음료에 '혈당 상승 억제' 표시 못한다…\"2028년부터 시행\"",
+          "date": "2026-10-26",
+          "url": "https://www.mt.co.kr/living/2026/10/26/2026102609400293894",
+          "excerpt": "",
+          "outlet": "머니투데이"
+        },
+        {
+          "ref": "c0021:f3",
+          "title": "감미료로 당 낮춘 식품, '혈당상승 억제 성분 함유' 표시 못 한다",
+          "date": "2026-10-26",
+          "url": "https://view.asiae.co.kr/article/2026102608291960363",
+          "excerpt": "",
+          "outlet": "아시아경제"
+        },
+        {
+          "ref": "c0021:f4",
+          "title": "식약처, 저당 식품 '혈당 억제' 표시 제한…2028년 시행",
+          "date": "2026-10-26",
+          "url": "http://www.etnews.com/20261026000154",
+          "excerpt": "",
+          "outlet": "전자신문"
+        },
+        {
+          "ref": "c0021:f5",
+          "title": "감미료 사용한 저당 식품에 '혈당 상승 억제' 표시 못 한다",
+          "date": "2026-10-26",
+          "url": "https://www.ytn.co.kr/_ln/0103_202610261503072054",
+          "excerpt": "",
+          "outlet": "YTN"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0025",
+      "section": "industry",
+      "articles": [
+        {
+          "ref": "c0025:1",
+          "id": "01100701.20260928154616001",
+          "title": "오뚜기 관계사 공장서 40대 노동자 압착 사망…\"조사 적극 협조\"",
+          "outlet": "세계일보",
+          "date": "2026-09-28",
+          "url": "https://www.segye.com/newsView/20260928512370",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 848,
+            "src_chars": 848,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0025:2",
+          "id": "01100101.20260928164816001",
+          "title": "오뚜기 자회사 40대 노동자, 로봇 설비에 압착···끝내 사망",
+          "outlet": "경향신문",
+          "date": "2026-09-28",
+          "url": "https://www.khan.co.kr/article/202609281647001",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 817,
+            "src_chars": 817,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0025:3",
+          "id": "01100611.20260928182930001",
+          "title": "고성 오뚜기 관계사 공장서 노동자 끼임 사망 사고…경찰 등 조사",
+          "outlet": "서울신문",
+          "date": "2026-09-28",
+          "url": "https://www.seoul.co.kr/news/newsView.php?id=20260928500237",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 955,
+            "src_chars": 955,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0025:f1",
+          "title": "오뚜기 자회사 공장서 40대 근로자 압착사…“조사 적극 협조”",
+          "date": "2026-09-28",
+          "url": "https://www.segye.com/newsView/20260928514506",
+          "excerpt": "",
+          "outlet": "세계일보"
+        },
+        {
+          "ref": "c0025:f2",
+          "title": "오뚜기 관계사 공장서 40대 노동자 압착 사망",
+          "date": "2026-09-28",
+          "url": "https://www.joongang.co.kr/article/25465284",
+          "excerpt": "",
+          "outlet": "중앙일보"
+        },
+        {
+          "ref": "c0025:f3",
+          "title": "경남 고성 오뚜기 관계사 공장서 40대 노동자 압착 사고…오뚜기 “조사 협조”",
+          "date": "2026-09-28",
+          "url": "https://www.busan.com/view/busan/view.php?code=2026092818394683763",
+          "excerpt": "",
+          "outlet": "부산일보"
+        },
+        {
+          "ref": "c0025:f4",
+          "title": "고성 오뚜기SF 공장서 40대 노동자 압착 사망",
+          "date": "2026-09-28",
+          "url": "http://www.mk.co.kr/article/12162777",
+          "excerpt": "",
+          "outlet": "매일경제"
+        },
+        {
+          "ref": "c0025:f5",
+          "title": "설비 재가동 순간 ‘참변’…오뚜기 관계사 공장서 근로자 압착 사망",
+          "date": "2026-09-28",
+          "url": "http://www.mk.co.kr/article/12162793",
+          "excerpt": "",
+          "outlet": "매일경제"
+        },
+        {
+          "ref": "c0025:f6",
+          "title": "오뚜기 관계사 공장서 사망 사고… 오뚜기 \"법적·행정적 절차 적극 협조\"",
+          "date": "2026-09-28",
+          "url": "https://view.asiae.co.kr/article/2026092817400803972",
+          "excerpt": "",
+          "outlet": "아시아경제"
+        },
+        {
+          "ref": "c0025:f7",
+          "title": "오뚜기 관계사 공장서 40대 노동자 압착 사망…중대재해 조사",
+          "date": "2026-09-28",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7186220",
+          "excerpt": "",
+          "outlet": "주간한국"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "I-0018",
+      "section": "assembly",
+      "articles": [
+        {
+          "ref": "c0064:1",
+          "id": "01100751.20261002152741001",
+          "title": "미국산 콩 99% GMO 검출… 수입선 다변화 등 대책 필요",
+          "outlet": "아시아투데이",
+          "date": "2026-10-02",
+          "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261002010000745",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1613,
+            "src_chars": 1613,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0064:2",
+          "id": "01200101.20261002103733001",
+          "title": "송옥주 “최저가 입찰 탈피, 수입선 다변화해야”…미국산 수입 콩 99.5%서 GMO 검출",
+          "outlet": "경기일보",
+          "date": "2026-10-02",
+          "url": "https://www.kyeonggi.com/article/20261002580058",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 943,
+            "src_chars": 943,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0064:3",
+          "id": "01600451.20261002154443001",
+          "title": "미국산 콩 99%서 GMO 검출…수입선 다변화 목소리",
+          "outlet": "남도일보",
+          "date": "2026-10-02",
+          "url": "https://www.namdonews.com/news/articleView.html?idxno=925094",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 1272,
+            "src_chars": 1272,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "I-0018:f1",
+          "title": "“GMO 완전표시제, 연내 전면 실시” 대통령 한마디에 난감해진 식약처",
+          "date": "2026-07-30",
+          "url": "https://www.chosun.com/national/national_general/2026/07/30/Y4AUUZHPBJEPRNADBBM6XCY6LU/?utm_source=bigkinds&utm_medium=original&utm_campaign=news",
+          "excerpt": ""
+        },
+        {
+          "ref": "I-0018:f2",
+          "title": "송옥주 의원 \"GMO완전표시제에 두부·된장 포함해야\"",
+          "date": "2026-09-07",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7182904",
+          "excerpt": ""
+        },
+        {
+          "ref": "I-0018:f3",
+          "title": "외국산콩 가공식품 GMO노출 무방비",
+          "date": "2026-09-10",
+          "url": "https://www.naeil.com/news/read/601782?ref=bigkinds",
+          "excerpt": ""
+        },
+        {
+          "ref": "I-0018:f4",
+          "title": "식약처, 소비자단체와 유전자변형식품 표시제도 소통",
+          "date": "2026-09-18",
+          "url": "https://www.hkbs.co.kr/news/articleView.html?idxno=833895",
+          "excerpt": ""
+        }
+      ],
+      "prior": {
+        "title": "GMO 완전표시제 2026년 12월 31일 시행 추진…송옥주 의원, 두부·된장 확대 촉구",
+        "last_sentences": [
+          "식약처는 9월 17일 소비자단체와 간담회를 열고 GMO 표시제도를 설명했으며, 2026년 12월 31일 시행을 목표로 GMO 완전표시제 관련 고시 개정을 추진 중이다.",
+          "완전표시제는 GMO 원료를 사용한 간장, 당류, 식용유지류에 유전자변형 DNA·단백질이 남아 있지 않더라도 GMO 표시를 하도록 하는 제도다.",
+          "송옥주 의원이 지난달 14일부터 26일까지 식약처 지정 전문 검사기관을 통해 외국산 콩 사용 두부 제품 5개를 검사한 결과 총 2개 제품에서 GMO 유전자가 검출됐다.",
+          "완전표시제 적용 품목은 간장·당류·식용유지류로 지정돼 외국산 콩 사용량이 많은 두부·된장·고추장 등은 제외됐으며, 송 의원은 심의위원회를 통해 두부·된장 등으로 적용 품목을 조속히 확대해야 한다고 촉구했다."
+        ]
+      },
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    },
+    {
+      "key": "new:c0069",
+      "section": "assembly",
+      "articles": [
+        {
+          "ref": "c0069:1",
+          "id": "01500601.20261011131650001",
+          "title": "국내 적합 판정 수출 굴, 미국서 노로바이러스로 6차례 전량 폐기",
+          "outlet": "매일신문",
+          "date": "2026-10-11",
+          "url": "https://www.imaeil.com/page/view/2026101113105833997",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 985,
+            "src_chars": 985,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0069:2",
+          "id": "02100861.20261012105718001",
+          "title": "美 수출 굴, 노로바이러스 검출로 6차례 폐기⋯ 지정해역 위생 예산은 ‘0원’",
+          "outlet": "브릿지경제",
+          "date": "2026-10-12",
+          "url": "https://www.viva100.com/article/20261011500367",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 732,
+            "src_chars": 732,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0069:3",
+          "id": "01100201.20261011095955001",
+          "title": "수출 굴, 노로바이러스 검출돼 美서 6차례 전량폐기…관리 예산 미편성",
+          "outlet": "국민일보",
+          "date": "2026-10-11",
+          "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000021452&code=61141111&cp=kd",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 662,
+            "src_chars": 662,
+            "ends_sentence": true
+          }
+        }
+      ],
+      "flow_candidates": [
+        {
+          "ref": "c0069:f1",
+          "title": "미국 수출 굴, 노로바이러스로 전량 폐기…내년 예산 0원",
+          "date": "2026-10-11",
+          "url": "https://www.idomin.com/news/articleView.html?idxno=2016629",
+          "excerpt": "",
+          "outlet": "경남도민일보"
+        },
+        {
+          "ref": "c0069:f2",
+          "title": "수출검사 ‘적합’ 판정받았는데…굴 제품, 2년간 6차례 노로바이러스 검출로 폐기·리콜",
+          "date": "2026-10-11",
+          "url": "https://www.busan.com/view/busan/view.php?code=2026101109185352054",
+          "excerpt": "",
+          "outlet": "부산일보"
+        }
+      ],
+      "prior": null,
+      "locks": {
+        "rename": null,
+        "pin_section": null
+      }
+    }
+  ],
+  "excluded_no_link": [],
+  "market": [],
+  "lwf_mentions": {
+    "c0002:1": false,
+    "c0002:2": false,
+    "c0002:3": false,
+    "c0019:1": false,
+    "c0019:2": false,
+    "c0019:3": false,
+    "c0021:1": false,
+    "c0021:2": false,
+    "c0021:3": false,
+    "c0025:1": false,
+    "c0025:2": false,
+    "c0025:3": false,
+    "c0064:1": false,
+    "c0064:2": false,
+    "c0064:3": false,
+    "c0069:1": false,
+    "c0069:2": false,
+    "c0069:3": false
+  }
+}

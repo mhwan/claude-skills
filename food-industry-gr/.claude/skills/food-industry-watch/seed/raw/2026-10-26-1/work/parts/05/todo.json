@@ -1,0 +1,64 @@
+{
+  "schema": "fiw.todo/1",
+  "issues": [],
+  "excluded_no_link": [],
+  "market": [
+    {
+      "topic": "인사·지배구조",
+      "articles": [
+        {
+          "ref": "c0087:1",
+          "id": "06101202.20260814172412001",
+          "title": "풀무원, 5년 차 이상 희망퇴직…\"경영환경 선제 대응\"",
+          "outlet": "주간한국",
+          "date": "2026-08-14",
+          "url": "https://weekly.hankooki.com/news/articleView.html?idxno=7179156",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 629,
+            "src_chars": 629,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0219:1",
+          "id": "04101008.20260729194356001",
+          "title": "풀무원, 400억원 규모 상환전환우선주 발행…\"재무구조 개선\"",
+          "outlet": "이데일리",
+          "date": "2026-07-29",
+          "url": "http://www.edaily.co.kr/news/newspath.asp?newsid=06533766645519440",
+          "body": "",
+          "title_body_conflicts": [
+            "400"
+          ],
+          "body_check": {
+            "chars": 826,
+            "src_chars": 826,
+            "ends_sentence": true
+          }
+        },
+        {
+          "ref": "c0087:2",
+          "id": "02100311.20260814174058001",
+          "title": "풀무원, 희망퇴직 단행…5년차 이상 대상",
+          "outlet": "서울경제",
+          "date": "2026-08-14",
+          "url": "https://www.sedaily.com/article/20079653?ref=kpf",
+          "body": "",
+          "title_body_conflicts": [],
+          "body_check": {
+            "chars": 498,
+            "src_chars": 498,
+            "ends_sentence": true
+          }
+        }
+      ]
+    }
+  ],
+  "lwf_mentions": {
+    "c0087:1": false,
+    "c0219:1": false,
+    "c0087:2": false
+  }
+}

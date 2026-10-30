@@ -1,0 +1,11 @@
+{
+  "schema": "fiw.link_policy/1",
+  "hosts": [
+    {"host": "openapi.foodsafetykorea.go.kr", "mode": "never_request", "reason": "robots.txt is 'User-agent: * / Disallow: /' (checked 2026-10-25)"},
+    {"host": "likms.assembly.go.kr", "mode": "no_check", "reason": "robots.txt is 'User-agent: * / Disallow: /'; the link is only for people to click"},
+    {"host": "www.assembly.go.kr", "mode": "no_check", "reason": "robots.txt is 'Disallow: /' (front page only, checked 2026-10-25 in the browser); the link is only for people to click"},
+    {"host": "agri.na.go.kr", "mode": "no_check", "reason": "robots.txt is 'Disallow: /' (front page only, checked 2026-10-25 in the browser); the link is only for people to click"},
+    {"host": "open.assembly.go.kr", "mode": "robots_seed", "reason": "a script request for robots.txt returns HTTP 400; the file was read in the browser on 2026-10-26",
+     "robots_seed": {"checked": "2026-10-26", "via": "browser", "status": 200, "lines": ["User-agent: *", "Disallow: /admin/"]}}
+  ]
+}

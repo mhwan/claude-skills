@@ -1,0 +1,13 @@
+{
+  "schema": "fiw.gate/1",
+  "gate": "verify",
+  "exit": 0,
+  "checked": 7,
+  "findings": [],
+  "classified": {
+    "correction_scope_entry": 1,
+    "notice_periods_reparsed": 0
+  },
+  "skipped": [],
+  "input_hash": "4f0008e47855b8721041fcbe2c4820b35f4e5294bd4e86a680fad26426dbd74c"
+}

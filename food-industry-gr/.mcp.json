@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "law": {
+      "command": "npx",
+      "args": ["-y", "korean-law-mcp@4.15.14"]
+    },
+    "dart": {
+      "command": "npx",
+      "args": ["-y", "korean-dart-mcp@0.10.3"]
+    },
+    "kordoc": {
+      "command": "npx",
+      "args": ["-y", "kordoc@4.24.16", "mcp"]
+    },
+    "assembly": {
+      "command": "npx",
+      "args": ["-y", "https://github.com/mhwan/korean-assembly-mcp/archive/9867fabcedaafde2d4357a1e2c8f06f087328f72.tar.gz"]
+    }
+  }
+}
