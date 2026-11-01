@@ -1,7 +1,7 @@
 """fiw.py render — render the run's work/report.md from the run files (M5, addendum §5)."""
 from __future__ import annotations
 
-from lib import accum, cli, dates, gates, layout, schema
+from lib import accum, cli, dates, from_envelope, gates, layout, schema
 
 from ._render_model import ISSUE_SECTIONS, SOURCE_LABELS, Run, top
 
@@ -162,7 +162,8 @@ def header_line(run, notice_rows, bill_rows, sched_rows):
     kr = run.items('korea_kr')
     f = sum(1 for i in kr if run.included('korea_kr', i['id']))
     hy = {k: len(run.hygiene(k)) for k in ('recall', 'admin', 'unfit')}
-    return (f'뉴스 {len(bk)}건(빅카인즈 {len({a["outlet"] for a in bk})}개 매체, 검색어 {q}개) → '
+    fb = (env or {}).get('fallback')
+    return (f'{from_envelope.news_header(bk, q, fb)} → '
             f'묶음 {run.clusters_doc["rule_stage"]["clusters"]}개 → 대관 쟁점 {len(run.todo["issues"])}개 · '
             f'부처 보도자료 {len(kr)}건(식품 관련 {f}) · 입법·행정예고 {len(notice_rows)}건 · '
             f'법안 {len(bill_rows)}건 · 위원회 일정 {len(sched_rows)}건 · '
@@ -192,7 +193,11 @@ def notes(run, retro):
         elif env['status'] == 'partial':
             bad = [r for r in env['requests'] if r['status'] != 'ok']
             if source == 'bigkinds':
-                lines.append('> ⚠ 일부 검색어 실패: ' + ', '.join(r.get('query') or r['target'] for r in bad))
+                if env.get('fallback'):
+                    lines.append(from_envelope.fallback_note(env['fallback']))
+                    bad = [r for r in bad if r['target'] != from_envelope.FALLBACK_SOURCE]
+                if bad:
+                    lines.append('> ⚠ 일부 검색어 실패: ' + ', '.join(r.get('query') or r['target'] for r in bad))
             else:
                 lines.append(f'> ⚠ 일부 수집 실패 — {label}: ' + ', '.join(r['target'] for r in bad))
     return lines
@@ -575,13 +580,17 @@ def render_accumulated(run, doc):
         doc.add(f'<details><summary>💤 휴면 {len(dormant)}건</summary>', '', *lines, '', '</details>')
 
 
-def excluded_lines(run):
+def excluded_lines(run, doc):
     lines = []
     for key, label in (('excluded_no_link', '링크 없어 제외'), ('excluded_no_body', '근거 본문 미수신')):
         entries = run.todo.get(key) or []
         if entries:
             lines.append(f'> {label} {len(entries)}건: ' + ' · '.join(
                 f'{e["title"]}({"·".join(e["outlets"])})' for e in entries))
+    for row in run.todo.get('fallback_rows') or []:
+        for a in row['articles']:
+            lines.append(from_envelope.fallback_line(run.short_day(a['date']), a['title'],
+                                                     doc.inline(a['outlet'] or '기사', a['url'])))
     return lines
 
 
@@ -616,8 +625,8 @@ def build(run) -> str:
         else:                                   # 'assembly' and any heading-only section
             doc.add(heading(section))
     render_accumulated(run, doc)
-    doc.add(*excluded_lines(run))
-    doc.add('---', CREDIT)
+    doc.add(*excluded_lines(run, doc))
+    doc.add('---', from_envelope.credit(CREDIT, run.items('bigkinds'), (run.env['bigkinds'] or {}).get('fallback')))
     doc.add(*doc.defs)
     run.dead_omitted = len(doc.omitted)
     run.dead_failures = doc.failures

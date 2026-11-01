@@ -4,7 +4,7 @@ from __future__ import annotations
 import re
 from datetime import date
 
-from lib import accum, dates, entities, gates, layout, notices, runview, schema
+from lib import accum, dates, entities, from_envelope, gates, layout, notices, runview, schema
 
 # Source order of the ⚠ notes, with their report labels.
 SOURCE_LABELS = (
@@ -169,7 +169,8 @@ class Run:
         ids = set()
         for cid in cids:
             ids.update(self.clusters.get(cid, {}).get('core_ids', []))
-        known = [i for i in ids if i in self.articles]
+        # Naver substitute rows (body unchecked) are never counted in outlets / articles / dates.
+        known = [i for i in ids if i in self.articles and not from_envelope.is_fallback(i)]
         return sorted(known, key=lambda i: (self.articles[i]['date'], i))
 
     def core_stats(self, cids):

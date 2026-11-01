@@ -18,7 +18,7 @@ COMPUTED_COLUMNS = ('기간', '남은 기간', '건수', '내역', '의견 접�
 MARKERS = (('🧭 ', '🧭 edit marker'), ('(미확인)', '(미확인) marker'), ('✅ 직접', '✅ 직접 marker'),
            ('🆕', '🆕 badge'), ('▶ ', '▶ badge'))
 TAG = re.compile(r'`([^`]+)`')
-EXCLUDED_PREFIXES = ('> 링크 없어 제외', '> 근거 본문 미수신')
+EXCLUDED_PREFIXES = ('> 링크 없어 제외', '> 근거 본문 미수신', '> 뉴스(네이버 대체판)')
 DATED_ITEM = re.compile(r'^\s*- (?:\d{4}-)?\d{2}-\d{2} ')          # "- 10-08 title": the title's day is that date
 DATED_TITLE = re.compile(r'(?:\d{4}-)?\d{2}-\d{2} 「[^」]*$')        # "10-08 title…" in a flow line
 DAY_CELL = re.compile(r'^\**\d{1,3}일\**$')                        # remaining-days cell
@@ -42,7 +42,8 @@ def note_rule(line):
     for prefix, name in (('> ⏰', '⏰ line'), ('> ⚠', '⚠ line'), ('> 키 없음', '키 없음 line'),
                          ('> 소급 실행', '소급 실행 line'), ('> 지난 보고서', '지난 보고서 line'),
                          ('> 🧭', '🧭 note'), ('> 링크 없어 제외', '링크 없어 제외 line'),
-                         ('> 근거 본문 미수신', '근거 본문 미수신 line'), ('> 미수집', '미수집 line')):
+                         ('> 근거 본문 미수신', '근거 본문 미수신 line'), ('> 미수집', '미수집 line'),
+                         ('> 뉴스(네이버 대체판)', '네이버 대체판 line')):
         if line.startswith(prefix):
             return name
     return 'note line'
@@ -375,8 +376,9 @@ def evaluate(rd, manifest, text, fmt=None) -> Lint:
 
     check_dormant(lint, exp['dormant'], act['dormant'])
     lint.notes(exp['tail'], [resolve(x) for x in act['tail']], 'excluded')
-    credit = any(ln == CREDIT for r in act['rules'] for ln in r) or any(
-        ln == CREDIT for kind, lines in blocks if kind == 'para' for ln in lines)
+    want = exp.get('credit', CREDIT)
+    credit = any(ln == want for r in act['rules'] for ln in r) or any(
+        ln == want for kind, lines in blocks if kind == 'para' for ln in lines)
     lint.check(credit and any(r[0].strip() == '---' for r in act['rules']), 'footer', '표시',
                'source credit line (after ---) missing')
     if manifest.get('period_report'):

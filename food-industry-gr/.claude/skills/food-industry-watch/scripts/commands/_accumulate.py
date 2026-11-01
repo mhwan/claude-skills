@@ -4,7 +4,7 @@ from __future__ import annotations
 import copy
 import re
 
-from lib import accum, gates, runview
+from lib import accum, from_envelope, gates, runview
 
 ID_RE = re.compile(r'^I-(\d{4})$')
 SEEN_FIELDS = {'bigkinds': 'id', 'korea_kr': 'id', 'assembly_bills': 'bill_id',
@@ -36,7 +36,8 @@ class RunData:
         self.env = {s: runview.envelope(rd, s) for s in
                     ('bigkinds', 'korea_kr', 'assembly_bills', 'foodsafety') + runview.NOTICE_SOURCES}
         bk = self.env['bigkinds']
-        self.news = {a['id']: a for a in (bk or {}).get('items', [])}
+        # Naver substitute rows are not evidence: they never move an issue's dates or flow.
+        self.news = {a['id']: a for a in (bk or {}).get('items', []) if not from_envelope.is_fallback(a['id'])}
         self.news_by_url = {}
         for a in self.news.values():
             if a['url']:
@@ -199,5 +200,6 @@ def seen_ids(data, run_id):
         if source == 'foodsafety':
             sources[source] = [f'{i["kind"]}:{i["seq"]}' for i in env['items']]
         elif source in SEEN_FIELDS:
-            sources[source] = [i[SEEN_FIELDS[source]] for i in env['items']]
+            sources[source] = [i[SEEN_FIELDS[source]] for i in env['items']
+                               if source != 'bigkinds' or not from_envelope.is_fallback(i['id'])]
     return {'schema': 'fiw.state.seen_ids/1', 'run_id': run_id, 'sources': sources}

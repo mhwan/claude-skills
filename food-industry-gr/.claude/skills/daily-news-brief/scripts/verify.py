@@ -336,9 +336,53 @@ def collect_findings(todo, summ):
     return checked, findings
 
 
+FALLBACK_NOTICE = '네이버 대체판 — 본문 미확인'
+
+
+def fallback_findings(summ, where='summary'):
+    """A Naver fallback run has no article text to check a sentence against, so it may hold no
+    summary sentence at all: every non-empty string anywhere in summary.json is a finding."""
+    found = []
+    if isinstance(summ, dict):
+        for k, v in summ.items():
+            found.extend(fallback_findings(v, f'{where}.{k}'))
+    elif isinstance(summ, list):
+        for i, v in enumerate(summ):
+            found.extend(fallback_findings(v, f'{where}[{i}]'))
+    elif isinstance(summ, str) and summ.strip():
+        found.append((where, '대체 모드 요약 금지', summ.strip()[:30]))
+    return found
+
+
+def verify_fallback(date, run, summ_p):
+    summ = {}
+    if os.path.exists(summ_p):
+        with open(summ_p, encoding='utf-8') as f:
+            summ = json.load(f)
+    findings = fallback_findings(summ)
+    common.write_json(run / 'work' / f'{date}.verify.json', {
+        'checked': 0,
+        'source': 'naver',
+        'findings': [{'where': w, 'kind': k, 'what': s} for w, k, s in findings],
+    })
+    print(f'# 근거 게이트 — {date} · {FALLBACK_NOTICE}')
+    print(f'\n대체판이라 요약문을 쓰지 않는다 · 요약문 **{len(findings)}건**\n')
+    if findings:
+        print('| 위치 | 유형 | 내용 |')
+        print('|---|---|---|')
+        for where, kind, what in findings:
+            print(f'| {where} | {kind} | {what} |')
+        print('\n**FAIL** — 본문을 읽지 않은 대체판에 요약문이 있다. 요약을 지울 것(제목·매체·링크만 둔다).')
+        return 1
+    print('**PASS** — 요약문 없음(제목·매체·링크만).')
+    return 0
+
+
 def verify(date, run):
     todo_p = run / 'work' / f'{date}.todo.json'
     summ_p = run / 'work' / f'{date}.summary.json'
+    if os.path.exists(todo_p) and (common.read_json(todo_p) or {}).get('source') == 'naver':
+        return verify_fallback(date, run, summ_p)
     if not os.path.exists(summ_p):
         print(f'요약 파일 없음: {summ_p}', file=sys.stderr)
         return 2
@@ -432,9 +476,18 @@ def lint(date):
     for cat in ['정치', '경제', '사회', '국제', '문화']:
         if f'# 🏛️ {cat}' not in text and f'{cat}\n' not in text:
             pass
-    for need in ['## ① 이슈', '## ② 논조']:
-        if need not in text:
-            bad.append(('구조', f'{need} 섹션이 없다'))
+    if FALLBACK_NOTICE in lines[0]:
+        # A Naver fallback report has lists only, and must never name BigKinds as its source.
+        for need in ['## 검색별 결과', '## 사설', '## 기사 목록', '출처: 네이버 뉴스 검색 API']:
+            if need not in text:
+                bad.append(('구조', f'{need} 이(가) 없다'))
+        for wrong in ['자료원: 빅카인즈', 'bigkinds.or.kr']:
+            if wrong in text:
+                bad.append(('자료원', f'대체판에 {wrong} 표기'))
+    else:
+        for need in ['## ① 이슈', '## ② 논조']:
+            if need not in text:
+                bad.append(('구조', f'{need} 섹션이 없다'))
 
     for n, ln in enumerate(lines, 1):
         if ln.startswith('**쟁점') and ('**축**' not in ln or '**대상**' not in ln):

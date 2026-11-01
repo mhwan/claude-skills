@@ -5,6 +5,7 @@ The boundaries this skill keeps, and the limits a briefing must state for itself
 ## Contents
 - [What this skill does not do](#what-this-skill-does-not-do)
 - [Copyright handling](#copyright-handling)
+- [The Naver fallback](#the-naver-fallback)
 - [Known limits](#known-limits)
 
 ---
@@ -73,6 +74,22 @@ If they did not, they would **pass silently**: measured, `cluster.py` exited 0 w
 are all empty, and then the evidence gate judges every summary sentence as invented.
 The cause sits three steps upstream, which makes it hard to find.
 
+## The Naver fallback
+
+When BigKinds is down, the briefing may be built from the Naver news search API instead (「네이버 대체판 — 본문 미확인」).
+This is an official API called with the user's own keys. It is not the Naver news site, which stays blocked as above.
+
+- **The `description` field is never read or stored.** Only the title, the link, the outlet and the date are kept.
+  There is no body, so there is no summary, no tone comparison and no content judgment. The report is a list.
+- The links go to the outlet's original page. The 7 papers are matched by that original address, so affiliates are left out.
+  Editorials are picked by the 「[사설]」 title tag only (확인 필요: an untagged editorial is missed).
+- The source is stated as 「출처: 네이버 뉴스 검색 API」, never as BigKinds.
+- The API keys are read from the environment only. Never print, store or pass them in a command.
+- Calls are few and spaced: 12 queries, the page cap of the API and a gap between requests. A 4xx answer stops the run; nothing is retried.
+- The Naver API terms on storage, display and attribution: **확인 필요.** Until they are checked, keep only what is listed above.
+- A fallback briefing is provisional. It is marked 「다시 모아야 함」 (`recollect_required`).
+  When BigKinds is back, collect that date again through the normal path.
+
 ## Known limits
 
 What the renderer states automatically so that a briefing discloses its own limits, and what a person must know.
@@ -83,6 +100,7 @@ What the renderer states automatically so that a briefing discloses its own limi
 | An outlet that did not comment on that issue that day | `⊘ 표본 내 미포착`, automatic (per issue) |
 | A category with 0 editorials | `🕳️ 공백`, with editorial and column described separately, automatic |
 | Manual category correction | `⟳`, automatic |
+| Naver fallback: no body, newest ~1,100 articles per query | `네이버 대체판 — 본문 미확인` header, per-query table, `못 찾음`, automatic |
 
 What a person must know:
 

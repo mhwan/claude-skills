@@ -21,8 +21,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common  # noqa: E402
 from lib import dates, envelope, paths  # noqa: E402
 from run_search import KNOWN_PROVIDER_CODES  # noqa: E402
+from lib.naver_news import STATUS_LABELS  # noqa: E402
 
 SOURCE = 'bigkinds'
+NAVER_SOURCE = 'naver'
+NAVER_NOTICE = '네이버 대체판 — 본문 미확인'
+NAVER_CREDIT = '출처: 네이버 뉴스 검색 API'
+EVIDENCE_SHOWN = 80
 TITLE_LABEL = '뉴스 검색 결과'
 CHECKED_WHAT = '숫자·날짜·영문·직함 앞 이름·따옴표 구절'
 
@@ -155,6 +160,66 @@ def build_markdown(job, rows_doc, rows, summaries, checked, warnings):
     return '\n'.join(out) + '\n'
 
 
+def build_naver_markdown(job, rows_doc, rows, warnings):
+    """The Naver fallback report: titles, links, outlets and dates only, with the limits stated up front."""
+    start, end, query = job['start'], job['end'], job['query']
+    period = '%s~%s' % (start, end)
+    fallback = rows_doc.get('fallback') or {}
+    matched, listed = rows_doc['matched'], len(rows)
+    evidence = squash(fallback.get('evidence'))
+    if len(evidence) > EVIDENCE_SHOWN:
+        evidence = evidence[:EVIDENCE_SHOWN] + '…'
+    out = ['# %s — %s (%s) · %s' % (TITLE_LABEL, query, period, NAVER_NOTICE), '']
+    out.append('> **%s.** 빅카인즈를 쓸 수 없어 네이버 뉴스 검색 API로 기사 제목·링크·매체·날짜만 모았습니다. '
+               '본문을 보지 않았으므로 요약이 없습니다. 빅카인즈가 돌아오면 다시 모아야 합니다.' % NAVER_NOTICE)
+    out.append('')
+    out.append('- 스킬: %s %s · 만든 시각: %s' % (common.SKILL, common.VERSION, dates.now_iso()))
+    names = outlet_names(job)
+    out.append('- 요청: 검색어 "%s", 기간 %s%s' % (query, period, ', 매체 ' + ', '.join(names) if names else ''))
+    out.append('- 자료원: 네이버 뉴스 검색 API (빅카인즈 대체, 사유: %s · 검색 %d회)'
+               % (fallback.get('reason_label') or '확인 필요', rows_doc['requests']))
+    out.append('- 빅카인즈에서 본 것: %s' % (evidence or '확인 필요'))
+    out.append('- 요약: 없음. 본문을 확인하지 않아 기사 내용에 대한 문장을 쓰지 않았습니다.')
+    if names:
+        out.append('- 매체 고르기: 원문 주소(도메인)로 골랐습니다. 계열사·자회사 주소(예: 경제·스포츠 자매지)는 뺐고, '
+                   '주소가 바뀐 기사는 빠졌을 수 있습니다(확인 필요).')
+    else:
+        out.append('- 매체: 원문 주소로 알아낸 이름입니다. 7개 주요 일간지가 아니면 주소를 그대로 적었습니다.')
+    out += ['', '## 검색별 결과', '', '| 네이버 검색어 | 찾은 기사 | 어디까지 봤나 |', '|---|---|---|']
+    for q in fallback.get('queries') or []:
+        found = q.get('found') or 0
+        out.append('| %s | %s | %s |' % (squash(q.get('query')).replace('|', '\\|'),
+                                         '%d건' % found if found else '못 찾음',
+                                         STATUS_LABELS.get(q.get('status'), '확인 필요')))
+    notes = fallback.get('notes') or []
+    if notes:
+        out += ['', '검색식 바꾼 점 (확인 필요):'] + ['- %s' % squash(n) for n in notes]
+    out += ['', '## 한눈에', '']
+    out.append('- 찾은 기사 **%d건**' % matched if matched else '- 찾은 기사 **0건** (못 찾음)')
+    if matched > listed:
+        out.append('- 목록에는 최신 %d건만 실었습니다(한 보고서에 최대 %d건).' % (listed, common.CAPS['list']))
+    if rows_doc.get('incomplete'):
+        out.append('- 기간 끝까지 닿지 못한 검색이 있어 일부만 모았습니다. 기간을 좁히거나 빅카인즈가 돌아온 뒤 다시 찾아 주세요.')
+    if rows:
+        out += overview(rows)
+    else:
+        out.append('- 네이버 검색에서 이 기간에 맞는 기사를 못 찾았습니다. 없다고 단정할 수 없습니다.')
+    out += ['', '## 기사 목록 (최신순)', '']
+    for i, row in enumerate(rows, 1):
+        parts = [row['date']]
+        if row['outlet']:
+            parts.append(row['outlet'])
+        parts.append('[원문 보기](%s)' % md_url(row['url']) if row['url'] else '링크 없음')
+        out += ['### %d. %s' % (i, squash(row['title'])), '', '- ' + ' · '.join(parts),
+                '- 본문 미확인: 제목만 있습니다.', '']
+    out.append('---')
+    out.append('다시 모아야 함: 이 보고서는 대체판입니다. 빅카인즈가 돌아오면 같은 검색어·기간으로 다시 찾아 주세요.')
+    out.append(NAVER_CREDIT)
+    if warnings:
+        out += ['', '경고:'] + ['- %s' % squash(w) for w in warnings]
+    return '\n'.join(out) + '\n'
+
+
 def next_history(stem):
     n = 1
     while paths.history_path(common.SKILL, stem, n, skill_dir=common.SKILL_DIR).exists():
@@ -181,11 +246,23 @@ def render(run):
     if reason:
         return None, reason
     rows = rows_doc['rows']
-    summaries = load_summaries(run, set(r['id'] for r in rows))
+    naver = rows_doc.get('source') == 'naver'
+    # Naver fallback: no article text, so no summary is ever shown (verify already refuses any).
+    summaries = {} if naver else load_summaries(run, set(r['id'] for r in rows))
     verified = common.read_json(run / 'work' / 'verified.json')
     warnings = list(rows_doc.get('warnings') or [])
     if rows_doc['matched'] > len(rows):
         warnings.append('검색 결과 %d건 중 최신 %d건만 목록에 넣었습니다.' % (rows_doc['matched'], len(rows)))
+    if naver:
+        fallback = rows_doc.get('fallback') or {}
+        warnings.insert(0, '%s: 빅카인즈를 쓸 수 없어(%s) 네이버 뉴스 검색 API로 목록만 만들었습니다. 요약은 없습니다.'
+                        % (NAVER_NOTICE, fallback.get('reason_label') or '사유 확인 필요'))
+        warnings.insert(1, '다시 모아야 함: 빅카인즈가 돌아오면 같은 검색어·기간으로 다시 검색해 이 보고서를 바꿔야 합니다.')
+        for q in fallback.get('queries') or []:
+            if q.get('status') != 'complete':
+                warnings.append('네이버 검색 "%s": %s' % (q.get('query'), STATUS_LABELS.get(q.get('status'), '확인 필요')))
+        for note in fallback.get('notes') or []:
+            warnings.append('검색식 변환: %s' % note)
 
     period = '%s~%s' % (job['start'], job['end'])
     data_rows = []
@@ -195,11 +272,17 @@ def render(run):
             item['summary'] = summaries[r['id']][0]
         data_rows.append(item)
     sources = [{'source': SOURCE, 'status': status, 'requests': int(rows_doc.get('requests') or 0)}]
+    if naver:
+        sources = [{'source': NAVER_SOURCE, 'status': status, 'requests': int(rows_doc.get('requests') or 0),
+                    'error': '%s (빅카인즈 대체: %s)' % (NAVER_NOTICE, fallback.get('reason') or 'unknown')}]
     try:
         env = envelope.make_envelope(common.SKILL, period, sources, data_rows, warnings)
     except envelope.EnvelopeError as e:
         return None, 'the data file would not be valid: %s' % e
-    text = build_markdown(job, rows_doc, rows, summaries, verified.get('checked') or 0, env['warnings'])
+    if naver:
+        text = build_naver_markdown(job, rows_doc, rows, env['warnings'])
+    else:
+        text = build_markdown(job, rows_doc, rows, summaries, verified.get('checked') or 0, env['warnings'])
 
     stem = paths.make_name(period=(job['start'], job['end']), topic=topic_of(job['query']))
     report = paths.report_path(common.SKILL, stem, 'md', skill_dir=common.SKILL_DIR)
@@ -213,7 +296,10 @@ def render(run):
     write_text(report, text)
     envelope.write_envelope(data, env)
     common.record_step(run, 'render', report=str(report), data=str(data))
-    common.emit({'report': str(report), 'data': str(data), 'status': env['status'], 'rows': len(env['rows'])})
+    result = {'report': str(report), 'data': str(data), 'status': env['status'], 'rows': len(env['rows'])}
+    if naver:
+        result.update({'source': NAVER_SOURCE, 'notice': NAVER_NOTICE, 'recollect_required': True})
+    common.emit(result)
     return envelope.exit_code(env), None
 
 

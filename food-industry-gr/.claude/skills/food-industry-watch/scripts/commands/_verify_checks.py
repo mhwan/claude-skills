@@ -12,7 +12,7 @@ import re
 import unicodedata
 from datetime import date
 
-from lib import dates, entities, evidence, korean, runview
+from lib import dates, entities, evidence, from_envelope, korean, runview
 
 # the completion words (finished / wrapped up / completed) (a stage-limited completion written as whole) and the joint words (together / jointly) (a joint act the source does not
 # state) were added after the M8 run 1 review. "together" is also an ordinary adverb ("cost and margin must be looked at together"),
@@ -154,6 +154,12 @@ class Verifier:
         if bk is not None:
             outlets |= {it['outlet'] for it in bk['items'] if it.get('outlet')}
         self.outlets = sorted(outlets, key=lambda o: (-len(o), o))
+        # Naver substitute rows: title and link only, so nothing in the summary may rest on them (E18).
+        self.fallback_keys = {r['key'] for r in todo.get('fallback_rows') or []}
+        fb = [it for it in (bk or {}).get('items', []) if from_envelope.is_fallback(it['id'])]
+        fb += [a for r in todo.get('fallback_rows') or [] for a in r['articles']]
+        self.fallback_urls = {a['url'] for a in fb if a['url']}
+        self.fallback_titles = {a['title'] for a in fb if len(a['title']) >= 8}
 
     def _add_article(self, a):
         self.refs[a['ref']] = {'title': a['title'], 'body': a['body'], 'text': a['title'] + '\n' + a['body'],
@@ -476,6 +482,45 @@ class Verifier:
         self.notices()
         self.e11()
         self.e15()
+        self.e18()
+
+    def e18(self):
+        """No summary text, quote or number may come from a Naver substitute row (no body was read)."""
+        if not (self.fallback_keys or self.fallback_urls):
+            return
+        why = 'Naver substitute rows (title and link only, body unverified) are listed, never summarised'
+        for i, tl in enumerate(self.summary['three_lines']):
+            if tl['issue'] in self.fallback_keys:
+                self.find(f'three_lines[{i}]', 'E18', f'{tl["issue"]}: {why}')
+        for iss in self.summary['issues']:
+            if iss['key'] in self.fallback_keys:
+                self.find(iss['key'], 'E18', why)
+        for m in self.summary['market']:
+            if m['topic'] in self.fallback_keys:
+                self.find(f'market:{m["topic"]}', 'E18', why)
+        for a in [a for i in self.todo['issues'] for a in i['articles']] + \
+                 [a for m in self.todo['market'] for a in m['articles']]:
+            if from_envelope.is_fallback(a['id']):
+                self.find(a['ref'], 'E18', f'todo article {a["id"]} has no body — {why}')
+        for ref, url in self.ref_url.items():
+            if url in self.fallback_urls:
+                self.find(ref, 'E18', f'cites a Naver substitute link {url}')
+
+        def texts(obj, where):
+            if isinstance(obj, dict):
+                for k, v in obj.items():
+                    yield from texts(v, f'{where}.{k}')
+            elif isinstance(obj, list):
+                for n, v in enumerate(obj):
+                    yield from texts(v, f'{where}[{n}]')
+            elif isinstance(obj, str):
+                yield where, obj
+
+        for where, text in texts(self.summary, 'summary'):
+            hit = next((u for u in self.fallback_urls if u in text), None) or \
+                next((t for t in self.fallback_titles if t in text), None)
+            if hit:
+                self.find(where, 'E18', f'repeats a Naver substitute row: {hit[:40]}')
 
     def e15(self):
         """Every todo body is whole: no cut-looking end, and the length prepare recorded (M8 0-C j)."""

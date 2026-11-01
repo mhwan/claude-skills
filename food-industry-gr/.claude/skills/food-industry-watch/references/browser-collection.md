@@ -13,7 +13,7 @@ The job is a JavaScript file evaluated on a BigKinds page; results come back to 
 
 ## Procedure
 
-The job is `bigkinds_bodies`. It runs when `prepare` exits `3` and writes `work/body_requests.json` (the article ids it still needs); repeat until `prepare` stops asking.
+The job is `bigkinds_bodies`. It runs when `prepare` exits `3` and writes `work/body_requests.json` (the article ids it still needs); repeat until `prepare` stops asking. Rows of the Naver substitute (ids `naver-…`) are never requested: when `prepare` exits `3` only with 「뉴스(네이버 대체판) 확인 필요」 lines and no `body_requests.json`, there is nothing to fetch — carry on. Never open a Naver or outlet page to get such a body.
 
 0. Once per run, before the job: open `https://www.bigkinds.or.kr/robots.txt` in the browser and check the job's paths are not disallowed (the constraints reference, § robots.txt — per host). If a path is disallowed, skip the job and report it. Hosts the scripts request (`linkcheck`) need no browser check: `lib/net.py` `RobotsCache` reads each `scheme://host`'s robots.txt once per run before the first request there (404/410 = no robots, any other non-200 = refuse), unless `assets/defaults/link_policy.json` gives the host `never_request`/`no_check` (no request) or `robots_seed` (the recorded robots.txt is used); a refused URL is reported, never retried another way.
 1. `PY "<skill>/scripts/fiw.py" browser-script bigkinds_bodies` prints `page:` (a page of the site), `script:` and `export:` (absolute paths), and `chunk:` (the chunk size `doctor` verified for this app).

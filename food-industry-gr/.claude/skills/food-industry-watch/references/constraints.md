@@ -13,7 +13,7 @@ Boundaries this skill keeps, and limits the report must state about itself.
 
 ## What the skill never does
 
-- **Collect directly from news outlet sites.** Many outlets disallow AI crawlers in robots.txt. News comes only through BigKinds (Korea Press Foundation). The user obtained the foundation's permission for this use; record only that fact, do not re-open the question.
+- **Collect directly from news outlet sites.** Many outlets disallow AI crawlers in robots.txt. News comes through BigKinds (Korea Press Foundation) — 정상은 빅카인즈, 점검 시에 한해 네이버 대체판, 표시 의무. The user obtained the foundation's permission for this use; record only that fact, do not re-open the question. Only while BigKinds is under maintenance may the news come from the 「네이버 대체판」 of `korean-news-search` (Naver news search API, title and link only, 「본문 미확인」), and the report must say so in the header, a ⚠ note and the credit. The user approved that such articles may appear in 대관 reports marked 「확인 필요」.
 - **Change or blank the User-Agent.** Requests use the default Python UA. `lib/net.fetch` rejects a `User-Agent` header. Disguising the UA is the same as ignoring robots.txt (and it does not help: an outlet once answered `Mozilla/5.0` with 403 and an honest UA with 200).
 - **Retry after a 4xx by changing the request shape.** Stop at the first 4xx and report it.
 - **Use RSS feeds.**
@@ -39,7 +39,7 @@ When a milestone or a fix adds a new host, check and record its robots.txt first
 
 ## Sources and attribution
 
-The renderer adds the source credits automatically: BigKinds (Korea Press Foundation), the National Assembly open data portal (its terms require attribution), the National Participation Legislation Center, and the government briefing site (KOGL type 1).
+The renderer adds the source credits automatically: BigKinds (Korea Press Foundation), the National Assembly open data portal (its terms require attribution), the National Participation Legislation Center, and the government briefing site (KOGL type 1). When a run used the Naver substitute, the credit adds 「네이버 뉴스 검색 API(네이버 대체판 — 본문 미확인)」 and drops BigKinds if it sent no row; never credit BigKinds for substitute rows.
 
 ## Known limits
 

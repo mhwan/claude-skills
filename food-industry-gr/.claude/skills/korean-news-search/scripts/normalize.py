@@ -126,14 +126,19 @@ def normalize(run):
     if not isinstance(total, int) or isinstance(total, bool):
         total = len(items)
     incomplete = bool(raw.get('truncated'))
-    if incomplete:
+    naver = raw.get('source') == 'naver'
+    if incomplete and naver:
+        warnings.append('네이버 검색은 검색어 하나에 최신 기사 약 1,100건까지만 보여 줍니다. 기간 끝까지 닿지 못한 검색이 있어 '
+                        '일부만 모았습니다. 빅카인즈가 돌아오면 다시 모아야 합니다.')
+    elif incomplete:
         warnings.append('검색 결과가 %d건이라 한 번에 가져올 수 있는 한도(2,000건)를 넘었습니다. 일부만 수집했습니다. '
                         '기간을 나누어 다시 찾아야 빠짐없이 볼 수 있습니다.' % total)
 
     start = int(job.get('summary_from') or 0)
-    chosen = listed[start:start + caps['summaries']]
+    # The Naver fallback has no article text at all: nothing is summarized and no body file is read.
+    chosen = [] if naver else listed[start:start + caps['summaries']]
     bodies_path = run / 'raw' / 'bodies.json'
-    bodies_present = bodies_path.is_file()
+    bodies_present = bodies_path.is_file() and not naver
     articles, no_body = [], []
     if bodies_present:
         try:
@@ -153,12 +158,19 @@ def normalize(run):
            'listed': len(listed), 'truncated': matched > len(listed), 'incomplete': incomplete,
            'split': int(raw.get('split') or 0), 'requests': int(raw.get('requests') or 0),
            'warnings': warnings, 'rows': listed}
+    if naver:
+        doc['source'] = 'naver'
+        doc['fallback'] = raw.get('fallback') if isinstance(raw.get('fallback'), dict) else {}
     common.write_json(run / 'work' / 'rows.json', doc)
     common.write_json(run / 'work' / 'articles.json', {'articles': articles})
     common.record_step(run, 'normalize')
-    return {'status': doc['status'], 'rows': len(listed), 'matched': matched, 'total': total,
-            'to_summarize': [r['id'] for r in chosen], 'no_body': no_body, 'bodies_present': bodies_present,
-            'articles': len(articles), 'warnings': warnings}, None
+    result = {'status': doc['status'], 'rows': len(listed), 'matched': matched, 'total': total,
+              'to_summarize': [r['id'] for r in chosen], 'no_body': no_body, 'bodies_present': bodies_present,
+              'articles': len(articles), 'warnings': warnings}
+    if naver:
+        result['source'] = 'naver'
+        result['notice'] = (doc['fallback'].get('notice') or '네이버 대체판 — 본문 미확인')
+    return result, None
 
 
 def main(argv=None):

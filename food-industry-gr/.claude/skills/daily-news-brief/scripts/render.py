@@ -157,6 +157,8 @@ def prepare(date, run):
               f'  {raw.get("pruned_at")} 에 본문이 폐기됐다.\n'
               f'  이 날짜를 다시 만들려면 collect.js 부터 다시 돌릴 것.', file=sys.stderr)
         sys.exit(2)
+    if data.get('source') == 'naver':
+        return prepare_fallback(date, run, data)
     bodies = {a['news_id']: a.get('body', '') for a in raw['articles']}
 
     rows = build_rows(data)
@@ -424,6 +426,8 @@ def build(date, run):
     summ_p = run / 'work' / f'{date}.summary.json'
     with open(todo_p, encoding='utf-8') as f:
         todo = json.load(f)
+    if todo.get('source') == 'naver':
+        return build_fallback(date, run, todo, summ_p)
     if not os.path.exists(summ_p):
         print(f'요약 파일이 없다: {summ_p}\n'
               f'render.py prepare 로 만든 작업지시서를 채운 뒤 다시 실행할 것.',
@@ -594,6 +598,174 @@ def build(date, run):
     print(f'# 브리핑 생성 — {date}')
     print(f'{len(text)}자 (순수 텍스트 {len(re.sub(r"[ \\t]+", " ", plain))}자) · '
           f'링크 {len(lb.order)}개 · 저장 `{dest}`')
+    return 0
+
+
+# --------------------------------------------------------------------------
+# Naver fallback (BigKinds down): lists only, no summary, no tone comparison
+# --------------------------------------------------------------------------
+FALLBACK_NOTICE = '네이버 대체판 — 본문 미확인'
+FALLBACK_SOURCE_LINE = '출처: 네이버 뉴스 검색 API'
+FALLBACK_ROWS_PER_OUTLET = 10
+NOT_FOUND = '못 찾음'
+QUERY_STATUS_LABELS = {'complete': '기간 끝까지 확인', 'truncated': '일부만 확인(잘림)', 'unreached': '기간에 닿지 못함'}
+
+
+def prepare_fallback(date, run, data):
+    """The work order of a Naver fallback run: titles, outlets and links only (no body to summarise)."""
+    arts = sorted(data.get('articles', []), key=lambda a: a.get('published_at', ''), reverse=True)
+    todo = {
+        'target_date': date,
+        'source': 'naver',
+        'fallback': data.get('fallback') or {},
+        'content_judgment': False,
+        'articles': [{'outlet': a['outlet'], 'title': a['title'], 'url': a['url'],
+                      'published_at': a.get('published_at', '')} for a in arts if not a.get('opinion_kind')],
+        'opinions': [{'outlet': a['outlet'], 'title': a['title'], 'url': a['url'], 'kind': a['opinion_kind']}
+                     for a in arts if a.get('opinion_kind')],
+        'categories': {},
+        'lead': [],
+        'schedule': [],
+        'meta': {
+            'collected_at': data.get('collected_at'),
+            'outlet_stats': data.get('outlet_stats', {}),
+            'gates': data.get('gates', []),
+            'article_count': data.get('article_count'),
+            'source': 'naver',
+        },
+    }
+    dest = run / 'work' / f'{date}.todo.json'
+    common.write_json(dest, todo)
+    common.write_run_info(run, date, status='prepared')
+    ed = sum(1 for o in todo['opinions'] if o['kind'] == 'editorial')
+    print(f'# 작업지시서 — {date} · {FALLBACK_NOTICE}')
+    print(f'기사 {len(todo["articles"])}건 · 사설 {ed}건 · 칼럼 {len(todo["opinions"]) - ed}건')
+    print('요약을 쓰지 않는다: summary.json 없이 render.py build 로 목록만 만든다.')
+    print(f'\n저장: {dest}')
+    return 0
+
+
+def build_fallback(date, run, todo, summ_p):
+    """The fallback report. Refuses (writes nothing) when a gate failed or a summary sentence exists."""
+    import verify
+    meta = todo['meta']
+    fb = todo.get('fallback') or {}
+    states = [g.get('status') for g in meta.get('gates', [])]
+    if 'FAIL' in states:
+        failed = [g.get('gate') or g.get('name', '') for g in meta['gates'] if g.get('status') == 'FAIL']
+        print(f'{FALLBACK_NOTICE}: 수집 게이트 FAIL 이라 보고서를 만들지 않는다 — {", ".join(map(str, failed))}',
+              file=sys.stderr)
+        return 1
+    summ = common.read_json(summ_p) if os.path.exists(summ_p) else {}
+    findings = verify.fallback_findings(summ)
+    if findings:
+        print(f'{FALLBACK_NOTICE}: 요약문 {len(findings)}건이 있어 보고서를 만들지 않는다 '
+              f'(본문을 읽지 않은 대체판에는 요약을 쓰지 않는다): '
+              + ', '.join(w for w, _k, _s in findings[:5]), file=sys.stderr)
+        return 1
+
+    worst = 'WARN' if 'WARN' in states else 'PASS' if states else None
+    verdict = GATE_VERDICT.get(worst, '확인 필요')
+    stats = meta.get('outlet_stats', {})
+    got = sum(1 for s in stats.values() if s.get('fetched', 0) > 0)
+    d = datetime.strptime(date, '%Y-%m-%d')
+    dow = '월화수목금토일'[d.weekday()]
+    refs, order = {}, []
+
+    def ref(url, prefix):
+        url = clean_url(url)
+        if url not in refs:
+            refs[url] = f'{prefix}{sum(1 for r in refs.values() if r[0] == prefix) + 1}'
+            order.append((refs[url], url))
+        return refs[url]
+
+    L = [f'# 조간 브리핑 — {date}({dow}) · {FALLBACK_NOTICE}', '']
+    L.append(f'- 스킬: {common.SKILL} {common.VERSION} · 만든 시각: {common.dates.now_iso()}')
+    L.append(f'- 요청: 7개 일간지({ALL_OUTLETS_LABEL}) {date}자')
+    L.append(f'- 자료원: 네이버 뉴스 검색 API(빅카인즈 대체 — 사유: {fb.get("reason_label", "확인 필요")}) '
+             f'— {verdict} (찾음 {got}개사)')
+    L.append('- 요약 검사: 대체판이라 요약을 쓰지 않았습니다(제목·매체·링크만).')
+    L.append(f'{BODY_LINE_PREFIX} 작업용 목록 {len(common.body_files(run, date))}개 파일은 보고서를 만든 뒤 지울 예정입니다.')
+    L.append('')
+    L.append(f'> ⚠️ **{FALLBACK_NOTICE}** — 빅카인즈를 쓸 수 없어(사유: {fb.get("reason_label", "확인 필요")}) '
+             '네이버 뉴스 검색 결과의 제목·매체·날짜·링크만 모았다. 본문을 읽지 않아 요약·논조 비교를 하지 않았고, '
+             '기사를 묶거나 분야로 나누지도 않았다(내용 판단 없음).')
+    if fb.get('evidence'):
+        L.append(f'> 빅카인즈가 보인 것: 「{fb["evidence"][:80]}」')
+    L.append('> 「본문 확보율」 게이트는 이 대체판에서만 기준을 낮췄다(본문 없음(대체 모드)). '
+             '매체 수·건수·날짜 게이트는 평소 기준 그대로다.')
+    L.append('> 검색어마다 최신 기사 약 1,100건까지만 닿는다. 「못 찾음」은 그 매체 기사가 없었다는 뜻이 아니다.')
+    L.append('> 매체는 원문 주소로 골랐고(계열사 주소 제외), 사설은 제목의 [사설] 표시와 주소로만 골랐다 — 확인 필요.')
+    L.append('> **다시 모아야 함(recollect_required)** — 빅카인즈가 돌아오면 이 날짜를 다시 만든다.')
+    L.append('')
+
+    L.append('## 검색별 결과')
+    L.append('')
+    L.append('| 검색어 | 결과 | 찾은 기사(7개 일간지) |')
+    L.append('|---|---|--:|')
+    for q in fb.get('queries', []):
+        found = q.get('found', 0)
+        L.append(f'| {q.get("query", "")} | {QUERY_STATUS_LABELS.get(q.get("status"), "확인 필요")} '
+                 f'| {found if found else NOT_FOUND} |')
+    L.append('')
+
+    L.append('## 매체별 결과')
+    L.append('')
+    L.append('| 매체 | 찾은 기사 |')
+    L.append('|---|--:|')
+    for name in ALL_OUTLETS:
+        n = (stats.get(name) or {}).get('fetched', 0)
+        L.append(f'| {name} | {n if n else NOT_FOUND} |')
+    L.append('')
+
+    L.append('## 사설')
+    L.append('')
+    eds = [o for o in todo.get('opinions', []) if o['kind'] == 'editorial']
+    if eds:
+        L.append('| 제목 | 매체 | 링크 |')
+        L.append('|---|---|---|')
+        for o in eds:
+            L.append(f'| {o["title"][:60]} | {OUTLET_SHORT.get(o["outlet"], o["outlet"])} '
+                     f'| [원문][{ref(o["url"], "o")}] |')
+    else:
+        L.append(f'> {NOT_FOUND} — 제목에 사설 표시가 있는 기사를 찾지 못했다. 사설이 없었다는 뜻은 아니다.')
+    L.append('')
+
+    L.append('## 기사 목록')
+    L.append('')
+    others = [o for o in todo.get('opinions', []) if o['kind'] != 'editorial']
+    pool = todo.get('articles', []) + [dict(o, published_at='') for o in others]
+    rest = []
+    L.append('| 제목 | 매체 | 링크 |')
+    L.append('|---|---|---|')
+    for name in ALL_OUTLETS:
+        mine = [a for a in pool if a['outlet'] == name]
+        for a in mine[:FALLBACK_ROWS_PER_OUTLET]:
+            L.append(f'| {a["title"][:60]} | {OUTLET_SHORT.get(name, name)} | [원문][{ref(a["url"], "n")}] |')
+        if len(mine) > FALLBACK_ROWS_PER_OUTLET:
+            rest.append(f'{OUTLET_SHORT.get(name, name)} {len(mine) - FALLBACK_ROWS_PER_OUTLET}건')
+    L.append('')
+    if rest:
+        L.append(f'> **그 밖** (목록에 싣지 않음) — {" · ".join(rest)}')
+        L.append('')
+
+    L.append('---')
+    L.append('')
+    L.append('> 제목·매체·링크만 옮겼다. 요약·논조 판단은 하지 않았다.')
+    L.append(f'> {FALLBACK_SOURCE_LINE}. 각 기사 링크는 해당 언론사 원문.')
+    L.append('')
+    L.append('<!-- 링크 정의 — 본문의 [원문][id] 가 여기를 가리킨다 -->')
+    L.extend(f'[{rid}]: {url}' for rid, url in order)
+
+    dest = common.report_file(date)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    text = '\n'.join(L) + '\n'
+    with open(dest, 'w', encoding='utf-8', newline='\n') as f:
+        f.write(text)
+    common.write_run_info(run, date, status='built', report=dest.name, source='naver', recollect_required=True)
+    print(f'# 브리핑 생성 — {date} · {FALLBACK_NOTICE}')
+    print(f'{len(text)}자 · 링크 {len(order)}개 · 저장 `{dest}`')
+    print('다시 모아야 함(recollect_required): 빅카인즈가 돌아오면 이 날짜를 다시 만든다.')
     return 0
 
 

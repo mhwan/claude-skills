@@ -23,8 +23,12 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 import common
+from lib import naver_news
 
-OUTLETS = ['조선일보', '중앙일보', '동아일보', '한겨레', '경향신문', '매일경제', '한국경제']
+FALLBACK_G6 = '본문 없음(대체 모드)'
+NOT_FOUND = '못 찾음'
+
+OUTLETS =['조선일보', '중앙일보', '동아일보', '한겨레', '경향신문', '매일경제', '한국경제']
 
 # Gate thresholds
 MIN_COVERAGE_RATIO = 0.8      # lower bound for the share of outlets collected successfully
@@ -106,6 +110,9 @@ def main():
     target = common.check_date(target)
     articles = state.get('articles', [])
     outlets = state.get('outlets', {})
+    # The Naver fallback (collect_naver.py): titles and links only. Every gate keeps its bar except G6,
+    # which cannot be met without bodies and is marked instead; G7 reports the per-query truncation.
+    fallback = state.get('fallback') if state.get('source') == 'naver' else None
 
     gates = []       # (name, status, detail)  status: PASS | WARN | FAIL
     def gate(name, status, detail):
@@ -212,17 +219,31 @@ def main():
             bycount[a['outlet']] = bycount.get(a['outlet'], 0) + 1
         detail += ' (' + ', '.join(f'{k} {v}' for k, v in sorted(
             bycount.items(), key=lambda x: -x[1])) + ')'
-    gate('본문 확보율',
-         'FAIL' if okr < MIN_BODY_RATIO else ('WARN' if empty else 'PASS'),
-         detail)
+    if fallback is None:
+        gate('본문 확보율',
+             'FAIL' if okr < MIN_BODY_RATIO else ('WARN' if empty else 'PASS'),
+             detail)
+    else:
+        gate('본문 확보율', 'WARN',
+             f'{FALLBACK_G6} — 네이버 검색 결과에는 본문이 없어 이 게이트의 기준(본문 있음 '
+             f'{MIN_BODY_RATIO:.0%})을 대체 모드에서만 낮췄다. 요약·논조 판단을 하지 않는다 · {detail}')
 
     # --- G7 truncation notice (no silent truncation) ------------------
-    capped = {n: (outlets[n]['totalCount'], outlets[n]['fetched'])
-              for n in OUTLETS if outlets.get(n, {}).get('capped')}
-    gate('절삭 고지',
-         'WARN' if capped else 'PASS',
-         '상한 적용: ' + ', '.join(f'{n} {f}/{t}건' for n, (t, f) in capped.items())
-         if capped else '절삭 없음')
+    if fallback is None:
+        capped = {n: (outlets[n]['totalCount'], outlets[n]['fetched'])
+                  for n in OUTLETS if outlets.get(n, {}).get('capped')}
+        gate('절삭 고지',
+             'WARN' if capped else 'PASS',
+             '상한 적용: ' + ', '.join(f'{n} {f}/{t}건' for n, (t, f) in capped.items())
+             if capped else '절삭 없음')
+    else:
+        # Naver shows only the newest ~1,100 articles per query, so a query that did not page past the day is cut.
+        cut = [q for q in fallback.get('queries', []) if q.get('status') != 'complete']
+        gate('절삭 고지',
+             'WARN' if cut else 'PASS',
+             '검색별 결과가 끝까지 닿지 않음: ' + ', '.join(
+                 f'{q["query"]}({naver_news.STATUS_LABELS.get(q.get("status"), q.get("status"))})' for q in cut)
+             if cut else '모든 검색이 기간 끝까지 확인됨')
 
     # --- save the normalized result ------------------------------------
     # If ingest.py already created the run folder and put the file in raw/collected.json, use that folder.
@@ -243,6 +264,9 @@ def main():
         'gates': [{'name': n, 'status': s, 'detail': d} for n, s, d in gates],
         'articles': articles,
     }
+    if fallback is not None:
+        out['source'] = 'naver'
+        out['fallback'] = fallback
     dest = run / 'raw' / f'{target}.json'
     common.write_json(dest, out)
     if intake:
@@ -250,10 +274,17 @@ def main():
         Path(src).unlink()
     worst ='FAIL' if any(s == 'FAIL' for _, s, _ in gates) else \
             ('WARN' if any(s == 'WARN' for _, s, _ in gates) else 'PASS')
-    common.write_run_info(run, target, status='collected', collect_verdict=worst)
+    if fallback is None:
+        common.write_run_info(run, target, status='collected', collect_verdict=worst)
+    else:
+        common.write_run_info(run, target, status='collected', collect_verdict=worst, source='naver',
+                              fallback_reason=fallback.get('reason'), recollect_required=True)
 
     # --- report --------------------------------------------------------
     icon = {'PASS': '✅', 'WARN': '⚠️', 'FAIL': '❌'}
+
+    if fallback is not None:
+        return fallback_report(target, gates, worst, icon, dest, run, articles, outlets, fallback)
 
     print(f'# 수집 리포트 — {target}')
     print(f'\n**종합 판정: {icon[worst]} {worst}** · 총 {len(articles)}건 · 저장 `{dest}`\n')
@@ -280,6 +311,41 @@ def main():
         for e in state['errors'][:10]:
             print(f'- {e}')
 
+    return 1 if worst == 'FAIL' else 0
+
+
+def fallback_report(target, gates, worst, icon, dest, run, articles, outlets, fallback):
+    """The collection report of a Naver fallback run: marked as such on top, never as a normal briefing."""
+    notice = fallback.get('notice', '네이버 대체판 — 본문 미확인')
+    print(f'# 수집 리포트 — {target} · {notice}')
+    print(f'\n**종합 판정: {icon[worst]} {worst} (대체판)** · 총 {len(articles)}건 · 저장 `{dest}`\n')
+    print(f'> 빅카인즈를 쓸 수 없어(사유: {fallback.get("reason_label", "확인 필요")}) 네이버 뉴스 검색 결과로 제목·링크만 모았다. '
+          f'본문·요약·논조 판단 없음. 빅카인즈가 돌아오면 이 날짜를 다시 모아야 함(recollect_required).')
+    print(f'> 빅카인즈가 보인 것: 「{fallback.get("evidence", "")[:80]}」 · '
+          f'{fallback.get("source_line", "출처: 네이버 뉴스 검색 API")}\n')
+    if worst == 'FAIL':
+        print('**대체판 수집 실패** — 게이트 FAIL 이라 브리핑을 만들지 않는다. 원인을 사용자에게 그대로 알릴 것.\n')
+    print(f'실행 폴더: `{run}`  (다음 단계 명령에 `--run` 으로 넘기지 않으면 {target} 의 가장 최근 실행 폴더를 쓴다)\n')
+
+    print('## 검증 게이트\n')
+    print('| 게이트 | 판정 | 내용 |')
+    print('|---|---|---|')
+    for name, status, detail in gates:
+        shown = f'{icon[status]} {FALLBACK_G6}' if name == '본문 확보율' else f'{icon[status]} {status}'
+        print(f'| {name} | {shown} | {detail} |')
+
+    print('\n## 검색별 결과 (네이버는 검색어 하나에 최신 약 1,100건까지만 보여 준다)\n')
+    print('| 검색어 | 결과 | 찾은 기사(7개 일간지) |')
+    print('|---|---|---|')
+    for q in fallback.get('queries', []):
+        label = naver_news.STATUS_LABELS.get(q.get('status'), q.get('status'))
+        print(f'| {q.get("query")} | {label} | {q.get("found") or NOT_FOUND} |')
+
+    print('\n## 매체별 (원문 주소로 골랐고 계열사 주소는 뺐다)\n')
+    print('| 매체 | 찾은 기사 |')
+    print('|---|---|')
+    for n in OUTLETS:
+        print(f'| {n} | {outlets.get(n, {}).get("fetched", 0) or NOT_FOUND} |')
     return 1 if worst == 'FAIL' else 0
 
 

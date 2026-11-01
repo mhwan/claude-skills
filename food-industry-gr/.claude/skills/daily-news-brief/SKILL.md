@@ -1,6 +1,6 @@
 ---
 name: daily-news-brief
-description: "Builds a morning briefing of seven Korean dailies (조선·중앙·동아·한겨레·경향·매경·한경) for one date: collects the articles from BigKinds, writes an issue table per category and an editorial tone comparison, and checks every summary sentence against the source text. Use for \"조간 브리핑\", \"오늘 뉴스 정리\", \"신문 요약\", \"뉴스 브리핑\", \"논조 비교\", \"사설 비교\", for the press coverage of a given date, for how the papers differ in tone, or to redo or fix a briefing this skill made. Not for a keyword news search (use korean-news-search) and not for a food-industry trend report (use food-industry-watch)."
+description: "Builds a morning briefing of seven Korean dailies (조선·중앙·동아·한겨레·경향·매경·한경) for one date: collects the articles from BigKinds, writes an issue table per category and an editorial tone comparison, and checks every summary sentence against the source text. While BigKinds is under maintenance it falls back to the Naver news search API (title and link only, body unverified, marked 네이버 대체판). Use for \"조간 브리핑\", \"오늘 뉴스 정리\", \"신문 요약\", \"뉴스 브리핑\", \"논조 비교\", \"사설 비교\", for the press coverage of a given date, for how the papers differ in tone, or to redo or fix a briefing this skill made. Not for a keyword news search (use korean-news-search) and not for a food-industry trend report (use food-industry-watch)."
 ---
 
 # Daily news brief
@@ -98,15 +98,58 @@ The article bodies are discarded here as a matter of principle, not disk space.
 The retrieval chunks from step 2 sit outside the pipeline and must go too. The app made them, so **show the user the list first and delete only after they answer "예"**.
 Read `references/cleanup.md` for what prune deletes and keeps, its options and the chunk list command.
 
+## When BigKinds is down (`네이버 대체판`)
+
+If BigKinds cannot be used in step 1, do not stop at once. Use the same switch rules as `korean-news-search`:
+
+- A block sign (a 4xx answer, login, block or captcha) means stop. Report it and do not work around it.
+- A timeout, maintenance notice, 5xx answer or connection failure means switch to the Naver news search API.
+- Anything else means stop.
+
+`collect_naver.py` makes this decision from what BigKinds showed. Never switch silently:
+
+- Tell the user in the conversation that the briefing is a `네이버 대체판 — 본문 미확인` and why.
+- The report header and `run.json` carry the same mark.
+
+```bash
+PY "<skill>/scripts/collect_naver.py" --date YYYY-MM-DD --evidence "<what BigKinds showed>"
+PY "<skill>/scripts/normalize.py" "<collected printed above>"
+PY "<skill>/scripts/cluster.py" YYYY-MM-DD
+PY "<skill>/scripts/render.py" prepare YYYY-MM-DD
+PY "<skill>/scripts/render.py" build YYYY-MM-DD
+PY "<skill>/scripts/verify.py" YYYY-MM-DD --lint
+PY "<skill>/scripts/prune.py" YYYY-MM-DD
+```
+
+The exit codes:
+
+- `collect_naver.py` exits 0 when it switched, 1 when it stopped (it prints `switched: false` and the reason, and makes no run folder) and 2 on a usage error.
+- `normalize.py` exits 1 on a gate FAIL. Stop there and show the reason; write no report.
+
+Fallback rules:
+
+- **No summary, no tone comparison.** Skip step 4: write no `summary.json`.
+  - A summary is a FAIL of the evidence gate, and `build` refuses to write the report.
+  - Editorials are listed by title and link. Articles are listed by title, outlet and link.
+- **No clustering.** `cluster.py` only lists the articles. It records that no content judgment was made.
+- **Gate bars stay as they are**, except the body gate, which reads `본문 없음(대체 모드)`.
+  - An outlet with 0 articles shows `못 찾음`.
+  - A per-query table shows each query as complete, truncated or unreached.
+  - Naver reaches only the newest ~1,100 articles per query, so a past date can come back truncated or unreached.
+- The report says `출처: 네이버 뉴스 검색 API`, never BigKinds, and marks `다시 모아야 함` (`recollect_required`).
+  - When BigKinds is back, collect that date again and rebuild through the normal steps.
+
+How each gate behaves in this mode is in `references/verification.md`. The terms and copyright limits are in `references/constraints.md`.
+
 ## References
 
 | File | Read when |
 |---|---|
 | `references/collection.md` | running steps 1 and 2 (required) |
 | `references/summary-schema.md` | writing the summary in step 4 (required) |
-| `references/verification.md` | a gate returns FAIL, or before changing a gate, a script or the tests |
+| `references/verification.md` | a gate returns FAIL, a Naver fallback run, or before changing a gate, a script or the tests |
 | `references/cleanup.md` | running step 6, or changing `prune.py` |
-| `references/constraints.md` | adding sources, considering automation, or writing the limits into a briefing |
+| `references/constraints.md` | adding sources, considering automation, a Naver fallback run, or writing the limits into a briefing |
 | `references/korean-text.md` | **before changing any regex or pattern in the pipeline** |
 | `references/rendering-rules.md` | you need the report layout rules: table structure, scores, links, length caps |
 

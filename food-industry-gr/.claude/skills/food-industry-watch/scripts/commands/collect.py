@@ -71,6 +71,9 @@ def main(args) -> int:
                     print(f'  {r["target"]}: {r["status"]}')
             if env['error']:
                 print(f'  error: {env["error"]}')
+            if env.get('fallback'):
+                print(f'  fallback: Naver substitute (no body) for {env["fallback"]["days"]}'
+                      f' ({env["fallback"]["reason"]}) — collect again once BigKinds is back')
         for note in notes:
             print(f'  note: {note}')
     if args.json:

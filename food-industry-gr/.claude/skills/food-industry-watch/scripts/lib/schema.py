@@ -241,6 +241,8 @@ def _collect_check(obj, path):
     errs = []
     if 'basis' in obj and src != 'foodsafety':
         errs.append(f'{path}.basis: only allowed for source foodsafety')
+    if 'fallback' in obj and src != 'bigkinds':
+        errs.append(f'{path}.fallback: only allowed for source bigkinds')
     item_spec = COLLECT_ITEMS.get(src) if isinstance(src, str) else None
     items = obj.get('items')
     if item_spec is not None and isinstance(items, list):
@@ -317,6 +319,8 @@ _register('fiw.collect/1', {
     'requests': List({'target': 'str', 'query?': Or('str', 'null'), 'total': Or('int', 'null'),
                       'received': 'int', 'pages': 'int', 'status': Enum('ok', 'partial', 'failed')}),
     'basis?': Map('str'),
+    # news read from the Naver substitute while BigKinds was down: titles and links only, no body
+    'fallback?': {'reason': 'str', 'days': 'str', 'recollect_required': 'bool'},
     'error': Or('str', 'null'),
     'items': List('any'),
 }, check=_collect_check)
@@ -362,6 +366,10 @@ _register('fiw.todo/1', {
                     'locks': {'rename': Or('str', 'null'), 'pin_section': Or('str', 'null')}}),
     'excluded_no_link': List({'title': 'str', 'outlets': List('str')}),
     'excluded_no_body?': List({'title': 'str', 'outlets': List('str')}),
+    # issues whose only linked news came from the Naver substitute: listed, never summarised
+    'fallback_rows?': List({'key': 'str', 'section': SECTION4,
+                            'articles': List({'id': 'str', 'title': 'str', 'outlet': 'str', 'date': 'date',
+                                              'url': 'str'})}),
     'market': List({'topic': 'str', 'articles': List(ARTICLE)}),
     'lwf_mentions': Map('bool'),
 })
@@ -453,7 +461,9 @@ _register('fiw.state.runs/1', {
                   'period_source': Enum('plan', 'incremental', 'explicit'),
                   'report': Or('str', 'null'), 'gates': Map('int'),
                   # summary issue key -> state id, written by publish (new:c0003 -> I-0007)
-                  'issue_ids?': Map('str')}),
+                  'issue_ids?': Map('str'),
+                  # news of this run came partly from the Naver substitute: collect again once BigKinds is back
+                  'recollect_required?': 'bool'}),
 })
 
 _register('fiw.state.coverage/1', {'sources': Map(List(PERIOD))})

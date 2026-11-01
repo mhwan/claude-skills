@@ -569,6 +569,8 @@ def main():
               f'  이 날짜를 다시 만들려면 collect.js 부터 다시 돌릴 것.',
               file=sys.stderr)
         return 2
+    if raw.get('source') == 'naver':
+        return fallback_list(date, run, raw)
     all_articles = raw['articles']
 
     series_ids = detect_series(all_articles)
@@ -688,6 +690,44 @@ def main():
     for cat, n in by_cat.most_common():
         arts = sum(c['size'] for c in clusters if c['category'] == cat)
         print(f'| {cat} | {n} | {arts} |')
+    print(f'\n저장: {dest}')
+    return 0
+
+
+def fallback_list(date, run, raw):
+    """A Naver fallback run has titles only: no body, category or similarity vector, so no clustering.
+
+    Clustering on titles alone would be a content judgment this skill cannot back with evidence. The
+    articles are passed on one by one; only the title and address rules of classify_opinion mark
+    editorials and columns."""
+    articles = [{
+        'outlet': a['outlet'],
+        'title': a['title'],
+        'url': a['url'],
+        'published_at': a.get('published_at', ''),
+        'opinion_kind': classify_opinion(a.get('title', ''), a.get('url'), a.get('is_editorial', False)),
+        'news_id': a['news_id'],
+    } for a in raw.get('articles', [])]
+    out = {
+        'target_date': date,
+        'collected_at': raw.get('collected_at'),
+        'source': 'naver',
+        'fallback': raw.get('fallback') or {},
+        'content_judgment': False,
+        'outlet_stats': raw.get('outlet_stats', {}),
+        'gates': raw.get('gates', []),
+        'article_count': len(articles),
+        'cluster_count': 0,
+        'noise_count': 0,
+        'articles': articles,
+    }
+    dest = run / 'work' / f'{date}.clusters.json'
+    common.write_json(dest, out)
+    ed = sum(1 for a in articles if a['opinion_kind'] == 'editorial')
+    co = sum(1 for a in articles if a['opinion_kind'] == 'column')
+    print(f'# 목록 정리 — {date} · 네이버 대체판 — 본문 미확인')
+    print(f'기사 {len(articles)}건 · 사설 {ed}건 · 칼럼 {co}건 (제목·주소 표시로만 골랐다)')
+    print('묶기·분야 분류를 하지 않았다: 제목만 있어 내용 판단을 할 수 없다.')
     print(f'\n저장: {dest}')
     return 0
 

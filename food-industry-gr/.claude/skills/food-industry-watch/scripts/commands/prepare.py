@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import sys
 
-from lib import accum, cli, evidence, gates, korean, layout, runview, schema
+from lib import accum, cli, evidence, from_envelope, gates, korean, layout, runview, schema
 
 from . import collect as collect_cmd
 
@@ -133,6 +133,8 @@ def main(args) -> int:
     cut = sorted(aid for aid, b in bodies.items()
                  if aid not in failed and evidence.cut_suspect(b['body'], b.get('chars')))
     failed |= set(cut)
+    # Naver substitute rows have no body anywhere: never request one, never choose one as evidence.
+    failed |= {aid for aid in arts if from_envelope.is_fallback(aid)}
     cut_line = f'{len(cut)} bodies look cut — skipped: {", ".join(cut)}' if cut else None
 
     issue_groups, market_groups = build_groups(clusters, relevance, state)
@@ -162,8 +164,16 @@ def main(args) -> int:
 
     excluded_no_body = []
     lost_by_section = {}
+    fallback_rows, listed_only = [], set()
     for group in kept_issues + kept_market:
-        if not group['chosen']:
+        fb = [aid for aid in group['cands'] if from_envelope.is_fallback(aid)]
+        if not group['chosen'] and fb:
+            # listed as title / link rows marked for checking, not lost to a body failure
+            fallback_rows.append({'key': group.get('key') or group['topic'], 'section': group.get('section', 'market'),
+                                  'articles': [{k: arts[aid][k] for k in ('id', 'title', 'outlet', 'date', 'url')}
+                                               for aid in fb[:limit]]})
+            listed_only.add(id(group))
+        elif not group['chosen']:
             excluded_no_body.append(excluded_entry(group, by_cid, arts))
             if 'section' in group:
                 lost_by_section[group['section']] = lost_by_section.get(group['section'], 0) + 1
@@ -196,7 +206,8 @@ def main(args) -> int:
             if linked['corrections']:
                 prior['corrections'] = [c['diff'] for c in linked['corrections']]
         else:
-            rest = [aid for aid in group['core'] if arts[aid]['url'] and aid not in group['chosen']]
+            rest = [aid for aid in group['core'] if arts[aid]['url'] and aid not in group['chosen']
+                    and not from_envelope.is_fallback(aid)]
             flow = [{'ref': f'{group["cids"][0]}:f{n}', 'title': arts[aid]['title'], 'date': arts[aid]['date'],
                      'url': arts[aid]['url'], 'excerpt': arts[aid]['excerpt'], 'outlet': arts[aid]['outlet']}
                     for n, aid in enumerate(rest[:MAX_FLOW_CANDIDATES], 1)]
@@ -204,8 +215,9 @@ def main(args) -> int:
         todo_issues.append({
             'key': group['key'], 'section': group['section'], 'articles': articles_of(group),
             # the cluster core, as the report's outlets/articles tag counts it
-            'coverage': {'outlets': len({arts[aid]['outlet'] for aid in group['core']}),
-                         'articles': len(group['core'])},
+            'coverage': {'outlets': len({arts[aid]['outlet'] for aid in group['core']
+                                         if not from_envelope.is_fallback(aid)}),
+                         'articles': len([aid for aid in group['core'] if not from_envelope.is_fallback(aid)])},
             'flow_candidates': flow, 'prior': prior,
             'locks': {'rename': lock_value(linked, 'rename'), 'pin_section': lock_value(linked, 'pin_section')},
         })
@@ -213,17 +225,20 @@ def main(args) -> int:
 
     todo = {'schema': 'fiw.todo/1', 'issues': todo_issues, 'excluded_no_link': excluded_no_link,
             'excluded_no_body': excluded_no_body, 'market': todo_market, 'lwf_mentions': lwf_mentions}
+    if fallback_rows:
+        todo['fallback_rows'] = fallback_rows
     (rd / 'work').mkdir(exist_ok=True)
     schema.dump(rd / 'work' / 'todo.json', todo, 'fiw.todo/1')
 
     # Exit 1 when some section had issue groups and every one of them was lost to body failures.
     totals = {}
     for group in issue_groups:
-        totals[group['section']] = totals.get(group['section'], 0) + 1
+        if id(group) not in listed_only:
+            totals[group['section']] = totals.get(group['section'], 0) + 1
     emptied = [s for s in ISSUE_SECTIONS if totals.get(s) and lost_by_section.get(s) == totals[s]]
     if emptied:
         code = cli.EXIT_FAIL
-    elif excluded_no_body or cut:
+    elif excluded_no_body or cut or fallback_rows:
         code = cli.EXIT_WARN
     else:
         code = cli.EXIT_OK
@@ -236,6 +251,8 @@ def main(args) -> int:
               f'{len(excluded_no_link)} excluded (no link), {len(excluded_no_body)} excluded (no body)')
         for e in excluded_no_body:
             print(f'근거 본문 미수신: {e["title"]} ({"·".join(e["outlets"])})')
+        for e in fallback_rows:
+            print(f'{from_envelope.FALLBACK_LABEL} 확인 필요: {e["key"]} — {len(e["articles"])} title/link rows, no body')
         if cut_line:
             print(cut_line)
         if emptied:

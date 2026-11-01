@@ -11,7 +11,7 @@ from __future__ import annotations
 import re
 from datetime import date
 
-from lib import accum, dates, entities, gates, layout, notices, runview, schema
+from lib import accum, dates, entities, from_envelope, gates, layout, notices, runview, schema
 
 WARN_SOURCES = (('bigkinds', '빅카인즈'), ('korea_kr', '정책브리핑'), ('lawmaking_web', '국민참여입법센터'),
                 ('mfds_notice', '식약처 예고 게시판'), ('ftc_notice', '공정위 예고 게시판'),
@@ -171,7 +171,8 @@ class Expected:
                             key=lambda c: self.cidx.get(c, 10 ** 9))
 
     def core_ids(self, cids):
-        ids = {i for c in cids for i in self.cmap.get(c, {}).get('core_ids', []) if i in self.news}
+        ids = {i for c in cids for i in self.cmap.get(c, {}).get('core_ids', [])
+           if i in self.news and not from_envelope.is_fallback(i)}
         return sorted(ids, key=lambda i: (self.news[i]['date'], i))
 
     def stats(self, it):
@@ -602,7 +603,7 @@ class Expected:
         q = len(self.envs['bigkinds']['requests']) if self.st('bigkinds') in GOOD else 0
         kr = self.rows_of('korea_kr')
         h = self.hygiene_counts()
-        return (f'뉴스 {len(bk)}건(빅카인즈 {len(set(a["outlet"] for a in bk))}개 매체, 검색어 {q}개) → '
+        return (f'{from_envelope.news_header(bk, q, self.fallback())} → '
                 f'묶음 {self.cl["rule_stage"]["clusters"]}개 → 대관 쟁점 {len(self.todo["issues"])}개 · '
                 f'부처 보도자료 {len(kr)}건(식품 관련 {len([i for i in kr if self.inc("korea_kr", i["id"])])}) · '
                 f'입법·행정예고 {len(self.notice_table)}건 · 법안 {len(self.bill_list())}건 · '
@@ -628,7 +629,11 @@ class Expected:
             elif e['status'] == 'partial':
                 bad = [r for r in e['requests'] if r['status'] != 'ok']
                 if src == 'bigkinds':
-                    lines.append('> ⚠ 일부 검색어 실패: ' + ', '.join(r.get('query') or r['target'] for r in bad))
+                    if self.fallback():
+                        lines.append(from_envelope.fallback_note(self.fallback()))
+                        bad = [r for r in bad if r['target'] != from_envelope.FALLBACK_SOURCE]
+                    if bad:
+                        lines.append('> ⚠ 일부 검색어 실패: ' + ', '.join(r.get('query') or r['target'] for r in bad))
                 else:
                     lines.append(f'> ⚠ 일부 수집 실패 — {label}: ' + ', '.join(r['target'] for r in bad))
         return lines
@@ -640,7 +645,13 @@ class Expected:
             if xs:
                 out.append(f'> {word} {len(xs)}건: ' + ' · '.join(x['title'] + '(' + '·'.join(x['outlets']) + ')'
                                                                for x in xs))
+        for row in self.todo.get('fallback_rows') or []:
+            out += [from_envelope.fallback_line(self.md(a['date']), a['title'], lk(a['outlet'] or '기사', a['url']))
+                    for a in row['articles']]
         return out
+
+    def fallback(self):
+        return (self.envs.get('bigkinds') or {}).get('fallback')
 
     def accumulated(self):
         """(carried section or None, dormant (N, lines) or None) — addendum §D."""
@@ -690,4 +701,5 @@ class Expected:
             sections.append(carried)
         return {'title': f'# 식품업계 대관 현황판 — {self.m["period"]["from"]} ~ {self.end}',
                 'header': self.header(), 'notes': self.top_notes(), 'sections': sections,
-                'tail': self.tail_notes(), 'dormant': dormant}
+                'tail': self.tail_notes(), 'dormant': dormant,
+                'credit': from_envelope.credit(CREDIT, self.rows_of('bigkinds'), self.fallback())}

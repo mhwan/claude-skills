@@ -7,9 +7,9 @@
 설치·처음 설정·업데이트 요청, MCP 도구가 안 보이거나 failed, 키 오류, 프로그램이 없다는 오류가 나면 [INSTALL.md](INSTALL.md) 를 읽고 그대로 따른다.
 
 ## 도구
-- MCP: `law` 법령·판례, `dart` 기업 공시, `assembly` 국회(법안·회의록·표결·일정), `kordoc` HWP·PDF 등 문서 읽기·작성. 문서는 사용자에게 이 폴더에 넣어 달라고 한다.
+- MCP: `law` 법령·판례, `dart` 기업 공시, `assembly` 국회(법안·회의록·표결·일정), `kordoc` HWP·PDF 등 문서 읽기·작성, `naver-search` 네이버 뉴스 등 검색(이 PC 전용 등록, INSTALL.md 2단계). 문서는 사용자에게 이 폴더에 넣어 달라고 한다.
 - 스킬(`.claude/skills/`) 8개: `food-industry-watch`(대관 동향 종합), `daily-news-brief`(조간 브리핑), `korean-news-search`(뉴스 검색), `gov-notice-watch`(부처 보도자료·입법예고), `assembly-bill-tracker`(법안 추적), `assembly-hearing-watch`(국회 일정·회의·국감), `assembly-member-research`(의원 발언·발의), `food-safety-records`(회수·행정처분).
-- 신문 기사는 `daily-news-brief`·`korean-news-search`·`food-industry-watch` 스킬로만 모은다.
+- 신문 기사는 `daily-news-brief`·`korean-news-search`·`food-industry-watch` 스킬로만 모은다. 예외 1: 빅카인즈 점검(점검 화면·접속 실패·시간 초과)이면 세 스킬이 네이버 뉴스 검색 API 로 「네이버 대체판 — 본문 미확인」을 만든다. 제목·매체·날짜·링크만 쓰고 요약·논조 비교는 하지 않으며 발췌는 읽지도 저장하지도 않는다. 사용자에게 대체판임을 알리고, 대관 보고서에도 「확인 필요」 행으로만 넣는다. 빅카인즈가 돌아오면 그 기간을 정식으로 다시 수집한다. 차단(4xx)·로그인 문제는 우회하지 않고 멈춘다. 스킬 밖에서 단독으로 쓰는 비상 목록은 `scripts/naver_list.py` ([scripts/naver_list.md](scripts/naver_list.md)). 예외 2: 사용자가 특정 주제의 기사 검색을 대화 중에 직접 부탁하면 `naver-search` 의 뉴스 검색을 쓴다. 제목·매체·날짜·원문 링크 위주로 답하고, 검색 결과의 발췌는 저장하지 않으며 본문을 확인한 사실처럼 옮겨 적지 않는다. 정식 브리핑·보고서에 합치지 않는다.
 
 ## 규칙
 - API 키 값을 묻거나 출력하거나 파일·명령에 적지 않는다. 들어 있는지만 INSTALL.md 3단계 스크립트로 확인한다. `.mcp.json` 에 키나 `env` 를 적지 않는다.

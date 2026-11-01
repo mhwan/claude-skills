@@ -13,6 +13,10 @@ Rules of the conversion:
   * days of the run period that no ok envelope covers are listed as one failed request, so the source
     is partial instead of looking complete
   * no overlapping envelope at all: nothing is written and check.py reports the source as not collected
+  * news only: an envelope whose only news source is the Naver substitute (korean-news-search while
+    BigKinds is down) adds title / link rows with ids starting 'naver-'. Its requests are partial, its
+    days are not counted as read (no coverage, no dormancy) but not as unread either, a BigKinds result
+    for the same day wins, and the file gets a `fallback` block (the report says so; collect again later)
 """
 from __future__ import annotations
 
@@ -46,6 +50,13 @@ DETAIL_URL = {
     'unfit': 'https://www.foodsafetykorea.go.kr/layer/testUnfitDetail.do?rtrvldsuse_seq={seq}',
 }
 GOOD = ('ok', 'empty')
+# The Naver substitute of korean-news-search (references/sources.md): rows carry no body and no summary.
+FALLBACK_SOURCE = 'naver'
+FALLBACK_PREFIX = 'naver-'
+FALLBACK_LABEL = '뉴스(네이버 대체판)'
+FALLBACK_MARK = '네이버 대체판 — 본문 미확인'
+FALLBACK_CREDIT = '출처: 네이버 뉴스 검색 API'
+_REASON_RE = re.compile(r'빅카인즈 대체:\s*([^)]+)\)')
 UPCOMING_DAYS = 28
 _SPAN_RE = re.compile(r'^(\d{4}-\d{2}-\d{2})(?:~(\d{4}-\d{2}-\d{2}))?$')
 
@@ -80,6 +91,41 @@ def _span(text):
         return None
     a, b = _day(m.group(1)), _day(m.group(2) or m.group(1))
     return (a, b) if a and b and a <= b else None
+
+
+def is_fallback(article_id) -> bool:
+    """True for a news row of the Naver substitute (title and link only, never a body)."""
+    return str(article_id).startswith(FALLBACK_PREFIX)
+
+
+# Report text of the Naver substitute, shared by render and lint so both build the same strings.
+def news_header(items, queries, fallback) -> str:
+    """The news part of the report header; unchanged when the run has no Naver substitute."""
+    if not fallback:
+        return f'뉴스 {len(items)}건(빅카인즈 {len({a["outlet"] for a in items})}개 매체, 검색어 {queries}개)'
+    bk = [a for a in items if not is_fallback(a['id'])]
+    nv = len(items) - len(bk)
+    return (f'뉴스 {len(items)}건(빅카인즈 {len(bk)}건 {len({a["outlet"] for a in bk})}개 매체 · '
+            f'{FALLBACK_LABEL} {nv}건 본문 미확인, 검색어 {queries}개)')
+
+
+def fallback_note(fallback) -> str:
+    return (f'> ⚠ {FALLBACK_MARK} (빅카인즈 대체: {fallback["reason"]}) {fallback["days"]}'
+            f' · 빅카인즈 복귀 뒤 정식 재수집 필요 · {FALLBACK_CREDIT}')
+
+
+def fallback_line(day, title, link) -> str:
+    """One title / link row of the substitute, at the end of the report."""
+    return f'> {FALLBACK_LABEL} 확인 필요: {day} {" ".join(str(title).split())} {link}'.rstrip()
+
+
+def credit(base, items, fallback) -> str:
+    """The footer credit: names the Naver API for substitute rows and drops BigKinds when it sent none."""
+    if not fallback:
+        return base
+    if not any(not is_fallback(a['id']) for a in items):
+        base = base.replace('한국언론진흥재단 빅카인즈 · ', '')
+    return f'{base} · 네이버 뉴스 검색 API({FALLBACK_MARK})'
 
 
 def _text(v) -> str:
@@ -210,9 +256,30 @@ def build(source, period, run_id, today, companies=()):
     frm, to, now = _day(period['from']), _day(period['to']), _day(today)
     window = _days(now, now + timedelta(days=UPCOMING_DAYS)) if incl == 'upcoming_4w' else _days(frm, to)
     items, requests, reasons, statuses, covered = {}, [], [], [], set()
+    fb_items, fb_reqs, fb_reasons = {}, [], []
     for path, env, (a, b) in load_envelopes(skill, notes):
         span = _days(a, b) & window
         mine = [s for s in env['sources'] if s['source'].startswith(prefixes)]
+        if source == 'bigkinds' and not mine:
+            fb = [s for s in env['sources'] if s['source'] == FALLBACK_SOURCE]
+            if span and fb and all(s['status'] in GOOD for s in fb):
+                keys = set()
+                for row in env['rows']:
+                    item, key = _news(row, topic=_topic(path))
+                    if not is_fallback(key) or not inclusion.included(incl, item, frm, to, now):
+                        continue
+                    if key in fb_items:
+                        item['queries'] = sorted(set(fb_items[key]['queries']) | set(item['queries']))
+                    fb_items[key] = item
+                    keys.add(key)
+                fb_reqs.append((span, keys, {'target': FALLBACK_SOURCE, 'query': env['period'], 'total': None,
+                                             'received': 0, 'pages': sum(s.get('requests', 0) for s in fb),
+                                             'status': 'partial'}))
+                for s in fb:
+                    m = _REASON_RE.search(s.get('error') or '')
+                    fb_reasons.append(m.group(1).strip() if m else '확인 필요')
+                continue
+            mine = fb
         if not span or not mine:
             continue
         before = len(items)
@@ -237,9 +304,17 @@ def build(source, period, run_id, today, companies=()):
                              'status': 'ok' if s['status'] in GOOD else 'failed'})
             if s['status'] not in GOOD:
                 reasons.append(f'{s["source"]} ({path.name}): {s["status"]}' + (f' — {s["error"]}' if s.get('error') else ''))
+    # A BigKinds result for a day replaces the substitute's rows of that day.
+    fb_days = set()
+    for span, keys, req in fb_reqs:
+        if span - covered:
+            fb_days |= span - covered
+            req['received'] = sum(1 for k in keys if k in fb_items and _day(fb_items[k]['date']) not in covered)
+            requests.append(req)
+    fb_items = {k: v for k, v in fb_items.items() if _day(v['date']) not in covered}
     if not requests:
         return None, None, None, notes
-    gap = window - covered
+    gap = window - covered - fb_days
     if gap:
         requests.append({'target': f'미조회 구간 {_ranges(gap)}', 'query': None, 'total': None, 'received': 0,
                          'pages': 0, 'status': 'failed'})
@@ -247,20 +322,25 @@ def build(source, period, run_id, today, companies=()):
     good = [r for r in requests if r['status'] == 'ok']
     if len(good) == len(requests):
         status = 'ok'
-    elif good:
+    elif good or fb_days:
         status = 'partial'
     else:
         status = 'no_key' if statuses and set(statuses) == {'no_key'} else 'failed'
     out = {'schema': 'fiw.collect/1', 'source': source, 'run_id': run_id,
            'period': {'from': period['from'], 'to': period['to']}, 'inclusion': incl, 'method': 'script',
            'status': status, 'probe': None, 'requests': requests, 'error': None,
-           'items': [] if status in ('failed', 'no_key') else list(items.values())}
+           'items': [] if status in ('failed', 'no_key') else list(items.values()) + list(fb_items.values())}
     if source == 'foodsafety':
         out['basis'] = dict(BASIS)
+    if fb_days:
+        out['fallback'] = {'reason': ', '.join(dict.fromkeys(fb_reasons)), 'days': _ranges(fb_days),
+                           'recollect_required': True}
     if status in ('failed', 'no_key'):
         out['error'] = '; '.join(reasons)[:300]
         return out, None, None, notes
     if incl == 'upcoming_4w':
         return out, period['from'], period['to'], notes
     days = covered & window
+    if not days:
+        return out, None, None, notes
     return out, dates.fmt(min(days)), dates.fmt(max(days)), notes

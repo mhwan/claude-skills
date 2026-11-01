@@ -94,6 +94,10 @@ class Plan:
         except Exception as e:
             self.acts.append(('건너뜀', raw_path, 0, f'읽기 실패: {e}'))
             return False
+        if data.get('source') == 'naver':
+            # A Naver fallback list is not a BigKinds headline set: G4 must never compare against it.
+            self.acts.append(('건너뜀', dest, 0, '네이버 대체판 — 스테일 비교 기록을 남기지 않음'))
+            return False
         arts = data.get('articles', [])
         # Record exactly what disappears. With a separate denylist, a field the collector adds
         # later would be dropped silently and leave no trace in the record.
@@ -152,7 +156,9 @@ def rewrite_body_line(plan, report, n_deleted):
     lines = text.split('\n')
     for i, line in enumerate(lines):
         if line.startswith(BODY_LINE_PREFIX) and '지울 예정' in line:
-            lines[i] = f'{BODY_LINE_PREFIX} 작업용 본문 {n_deleted}개 파일은 보고서를 만든 뒤 지웠습니다.'
+            # A Naver fallback report names its work files a list, not bodies: they never held a body.
+            noun = '목록' if '작업용 목록' in line else '본문'
+            lines[i] = f'{BODY_LINE_PREFIX} 작업용 {noun} {n_deleted}개 파일은 보고서를 만든 뒤 지웠습니다.'
             plan.note('머리말 갱신', report, f'본문 {n_deleted}개 삭제를 기록')
             if not plan.dry:
                 with open(str(report), 'w', encoding='utf-8', newline='') as fh:

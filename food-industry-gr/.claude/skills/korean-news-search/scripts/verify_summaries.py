@@ -116,6 +116,21 @@ def verify(run):
             extra.append({'id': key, 'ok': False, 'problems': ['duplicate: two summaries for the same article']})
         elif key is not None:
             by_id[key] = entry
+    rows_path = run / 'work' / 'rows.json'
+    try:
+        no_text_source = rows_path.is_file() and common.read_json(rows_path).get('source') == 'naver'
+    except (ValueError, AttributeError):
+        no_text_source = False
+    if no_text_source:
+        # Naver fallback: there is no article text, so no sentence about an article can be checked or allowed.
+        results = [{'id': key, 'ok': False,
+                    'problems': ['no_body: the Naver fallback has no article text, so no summary may be written']}
+                   for key in by_id] + extra
+        doc = dict(base)
+        doc['results'] = results
+        doc['ok'] = not given
+        write_result(run, doc)
+        return doc, None
     known = set()
     for art in articles:
         aid = art['id']

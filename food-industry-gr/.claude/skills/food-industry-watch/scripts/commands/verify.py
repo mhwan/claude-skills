@@ -1,4 +1,4 @@
-"""fiw.py verify — evidence gate E over work/summary.json (checks E0–E17 and the structure check)."""
+"""fiw.py verify — evidence gate E over work/summary.json (checks E0–E18 and the structure check)."""
 from __future__ import annotations
 
 from lib import accum, cli, gates, layout, runview

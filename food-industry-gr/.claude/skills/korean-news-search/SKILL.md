@@ -1,6 +1,6 @@
 ---
 name: korean-news-search
-description: "Searches Korean news on BigKinds for a query and a period and writes a report with an article list, a short summary per article and an original link. Use for \"설탕 담합 기사 찾아줘\", \"지난달 라면 가격 관련 기사 정리해줘\", \"조선일보 중앙일보에서 식품 안전 기사 찾아줘\". Not for the morning newspaper briefing (use daily-news-brief) and not for a food-industry trend report across many sources (use food-industry-watch)."
+description: "Searches Korean news on BigKinds for a query and a period and writes a report with an article list, a short summary per article and an original link. While BigKinds is under maintenance it falls back to the Naver news search API (title and link only, body unverified, marked 네이버 대체판). Use for \"설탕 담합 기사 찾아줘\", \"지난달 라면 가격 관련 기사 정리해줘\", \"조선일보 중앙일보에서 식품 안전 기사 찾아줘\". Not for the morning newspaper briefing (use daily-news-brief) and not for a food-industry trend report across many sources (use food-industry-watch)."
 ---
 
 # Korean News Search
@@ -8,12 +8,12 @@ description: "Searches Korean news on BigKinds for a query and a period and writ
 Takes a search query and a period, searches BigKinds (the Korean press archive) and writes a report: article list (newest first), a one- or two-sentence summary per article, and the original link. The user is a non-developer: answer in Korean, plain words, conclusion first.
 
 ## Rules that always apply
-- Never open a news outlet's own site. Articles come only from BigKinds, through `scripts/search_bigkinds.js` in the built-in browser. Before the first BigKinds request of a session, read `https://www.bigkinds.or.kr/robots.txt` in the browser; if it disallows `/api/` or `/news/`, stop and tell the user. Never change the User-Agent, never use RSS, and on any 4xx answer stop: do not retry or work around it.
+- Never open a news outlet's own site. Articles come from BigKinds, through `scripts/search_bigkinds.js` in the built-in browser. The one exception is the 「네이버 대체판」 (see "When BigKinds is down"): a list of titles and links from the Naver news search API, made only by `scripts/collect_naver.py`. Before the first BigKinds request of a session, read `https://www.bigkinds.or.kr/robots.txt` in the browser; if it disallows `/api/` or `/news/`, stop and tell the user. Never change the User-Agent, never use RSS, and on any 4xx answer stop: do not retry or work around it.
 - Pass the user's query to BigKinds exactly as given; do not rewrite it. Seen on the real site (2026-10-29, one query, one period): a space is AND, `-word` is NOT, quotes are an exact phrase, `OR` or `,` is OR. `|` is NOT OR there: it gave 0 articles. If the user wants "A or B", ask whether to write `A OR B`; an empty answer to a `|` query is not proof that there are no articles. Details: `references/bigkinds.md`.
 - The article text lives only in `runs/korean-news-search/<run>/raw/` and `work/`. It is never copied into the report, the data file, `state/` or `history/`. Delete it right after the report (step 9).
 - Summaries are written by you from the article text, never from memory. Every number, date, English word, name in front of a title word, and quoted phrase must be in the text. A quote is at most 40 characters, word for word, with the link. Rules: `references/summary-rules.md`.
 - Only these things are checked by the script (`verify_summaries.py`): numbers and dates, English words, names in front of a title word (`대표`, `회장`, `장관` ...), quotes, long copies, length. Any other claim in a summary is not checked. Never tell the user the summaries were "verified" without saying this.
-- A search that could not be read is reported as 「읽지 못함」, never as "no articles". Do not make a report for it.
+- A search that could not be read is reported as 「읽지 못함」, never as "no articles". Do not make a report for it, except the 「네이버 대체판」 report when BigKinds is down for maintenance, a connection failure or a timeout (see "When BigKinds is down").
 - Never ask for, print or write API keys. A fact not seen in the article text or the list is written as 「확인 필요」.
 
 ## Steps
@@ -54,6 +54,18 @@ Takes a search query and a period, searches BigKinds (the Korean press archive) 
    For a run that gave no report add `--abandon`. Then see "Leftover files" below.
 10. Tell the user: the conclusion in one or two lines (how many articles were found, how many summarized), the report path, and every warning in plain words.
 
+## When BigKinds is down (「네이버 대체판」)
+Use this only when step 3 fails with a maintenance notice (「점검」), a connection failure (`Failed to fetch`, `net::ERR_...`, `[object Object]`) or a timeout. Never switch silently, and never switch for a 403, a 429, any other 4xx, a login page or a block sign: then stop and tell the user, with no workaround. Details and the measured limits: `references/naver-fallback.md`.
+1. Tell the user first: 「빅카인즈가 (사유) 상태라 네이버 대체판(본문 미확인)으로 목록만 만듭니다」.
+2. With the run folder from step 2 (no `raw/list.json` from BigKinds), run:
+   ```
+   PY SKILL_DIR/scripts/collect_naver.py --run RUN_DIR --evidence "WHAT BIGKINDS SHOWED"
+   ```
+   `--evidence` is the collector's `status().error` or the words of the notice. It decides: exit 0 list written; exit 1 stopped, nothing written (a block sign, an unknown sign, missing keys, or a Naver error such as a wrong key or the daily limit: say so and stop, do not retry); exit 2 the request cannot be done on Naver (an outlet outside the 7, too many `OR` parts).
+3. Run step 5 (`normalize.py`), then step 7 with no `summaries.json` (nothing is summarized: there is no article text), then steps 8 and 9. Skip step 6. Never write a summary: `verify_summaries.py` fails every summary of a fallback run.
+4. Tell the user, with every line of the report header: 「네이버 대체판 — 본문 미확인」, that there is no summary, the per-query table (「못 찾음」 for 0), each 「확인 필요」 note about the query, that outlets were chosen by the original address, 「출처: 네이버 뉴스 검색 API」, and that the period must be collected again on BigKinds when it is back (a later BigKinds report of the same name moves the fallback report to `history/`).
+Limits: one Naver query sees only the newest ~1,100 articles, so a busy word may not reach a period a few days back (「기간에 닿지 못함」, 「일부만 확인(잘림)」). The query is translated, not passed as is: `OR`/`,` become separate searches, `AND` a space; `-word`, quotes, `|` and brackets are passed as they are and marked 「확인 필요」. The excerpt of a Naver answer is never kept.
+
 ## Limits and what to say
 - One report lists at most 200 articles and summarizes at most 30. When more were found, the report says so; for the rest say 「나머지도 요약해줘」 and run again from step 2 with `--summary-from 30` (then 60 ...), same query and period. A new run collects the list again.
 - BigKinds answers at most 2,000 articles per request. The collector halves the period (up to 3 times) when the count is higher. If it still cannot read all, the report says 「일부만 수집」: offer to narrow the period or the query.
@@ -72,3 +84,4 @@ The browser export is saved by the app as files in a `tool-results` folder next 
 - `references/bigkinds.md`: read before step 3. The browser procedure, request and answer fields, limits, what is 「미확인」.
 - `references/outlets.md`: read when the user names an outlet.
 - `references/summary-rules.md`: read before step 7.
+- `references/naver-fallback.md`: read before switching to the 「네이버 대체판」.

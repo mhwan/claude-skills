@@ -102,7 +102,10 @@ def main(args) -> int:
 
     segment = manifest['plan_segment']
     segs = [s for s in (plan or {}).get('segments', []) if s['index'] == segment]
-    if segment is not None and segs:
+    if segment is not None and segs and (data.env.get('bigkinds') or {}).get('fallback'):
+        # Naver substitute rows are title / link only: the segment stays open so the plan offers it again.
+        notes.append(f'plan segment {segment} not marked done — news came from the Naver substitute')
+    elif segment is not None and segs:
         segs[0]['status'] = 'done'
         schema.dump(layout.state_dir() / period_cmd.PLAN_FILE, plan, 'fiw.plan/1')
     elif segment is not None:
@@ -117,6 +120,8 @@ def main(args) -> int:
         runs_state['runs'].append(entry)
     entry['report'] = accum.report_ref(manifest['run_id'])
     entry['gates'] = {name: objs[name]['exit'] for name, _ in GATE_EXITS}
+    if (data.env.get('bigkinds') or {}).get('fallback'):
+        entry['recollect_required'] = True
 
     now, run_id = dates.now_iso(), manifest['run_id']
     periods = accum.bigkinds_periods(coverage)
@@ -153,5 +158,7 @@ def main(args) -> int:
         for note in notes:
             print(f'publish: note — {note}')
         print(f'publish: recorded {entry["report"]}')
+        if entry.get('recollect_required'):
+            print('publish: news came partly from the Naver substitute — collect this period again once BigKinds is back')
         print(f'publish: exit {cli.EXIT_OK}')
     return cli.EXIT_OK

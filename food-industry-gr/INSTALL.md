@@ -51,6 +51,7 @@
 | `LAW_OC` | 국가법령정보 공동활용 | 법령 MCP | 신청 후 승인 1~2일 |
 | `DART_API_KEY` | OpenDART | 공시 MCP (키가 없으면 시작하지 않음) | 개인회원은 즉시 |
 | `ASSEMBLY_API_KEY` | 열린국회정보 | 국회 MCP | 로그인 후 버튼 한 번 |
+| `NCP_APIGW_API_KEY_ID`, `NCP_APIGW_API_KEY` (선택) | 네이버 클라우드 NAVER API HUB | 빅카인즈 점검 때 뉴스 스킬 3개의 네이버 대체판, 네이버 검색 MCP(`naver-search`), 비상 기사 목록(`scripts/naver_list.md`) | 「미확인」 |
 
 진행 방법:
 - 승인을 기다려야 하는 법령부터 신청하게 한다. 이미 받은 키는 건너뛴다.
@@ -74,6 +75,22 @@
 1. https://member.assembly.go.kr/member/join/joinSelectPage.do 를 연다. **일반회원** → 약관 동의 → 본인인증 → 정보 입력으로 국회 통합회원 가입.
 2. https://open.assembly.go.kr/portal/openapi/openApiActKeyIssPage.do (Open API → 인증키 발급)를 연다. 로그인 창이 나오면 방금 만든 계정으로 로그인. 발급 화면에서 무엇을 묻는지는 「미확인」(로그인해야 보인다).
 3. 키는 https://open.assembly.go.kr/portal/openapi/openApiActKeyPage.do (인증키 발급내역)에서 본다.
+
+### 네이버 `NCP_APIGW_API_KEY_ID`, `NCP_APIGW_API_KEY` (선택)
+빅카인즈 점검 때 뉴스 스킬 3개(조간 브리핑·뉴스 검색·대관 동향)가 만드는 「네이버 대체판」, 네이버 검색 MCP, 비상 기사 목록을 쓸 때만 필요하다. 없어도 다른 기능은 모두 돈다. 점검이 아닐 때는 쓰지 않는다.
+1. 네이버 클라우드 콘솔에 로그인한다. **Services → Application Services → NAVER API HUB** 로 들어간다. 가입 절차는 「미확인」.
+2. **Application 등록** 후 **인증 정보**에서 Client ID 와 Client Secret 을 본다. Client ID 가 `NCP_APIGW_API_KEY_ID`, Client Secret 이 `NCP_APIGW_API_KEY` 이다.
+3. 요금, 결제수단 등록 여부, AI 활용·저장 조건은 공식 문서에서 확인하지 못했다(「미확인」). 사용자가 발급 화면과 약관에서 직접 확인하고 진행 여부를 정한다.
+   - Mac 에서는 사용자가 터미널에서 `python3 "<이 폴더>/scripts/set_naver_key.py"` 를 직접 실행해 두 값을 넣을 수 있다. 입력은 화면에 나오지 않고 `~/.zshrc` 에 저장된다. 그 뒤 앱을 Cmd+Q 로 종료했다가 다시 연다.
+   - Windows 는 아래 3단계의 환경 변수 창으로 넣는다. 이 입력 프로그램은 Mac 전용이다.
+4. 네이버 검색 MCP는 공유 파일 `.mcp.json` 이 아니라 PC마다 이 폴더 전용(local) 설정으로 등록한다. 사용자 승인을 받고 이 폴더에서 실행한다. 키는 명령에 적지 않는다. Windows 에서 서버가 failed 로 뜨면 "문제가 생기면"의 `cmd /c` 형태로 등록한다.
+   ```
+   claude mcp add --scope local naver-search -- npx -y @isnow890/naver-search-mcp@1.0.54
+   ```
+   Mac 에서는 앱이 띄운 MCP가 `~/.zshrc` 의 키를 물려받지 못해 위 명령으로는 failed 가 된다. 키를 직접 읽는 시작 파일로 등록한다.
+   ```
+   claude mcp add --scope local naver-search -- /bin/zsh "<이 폴더>/scripts/naver_mcp.sh"
+   ```
 
 ## 3. 키 넣기 (사용자가 직접)
 

@@ -13,7 +13,7 @@ from collections import Counter
 from datetime import timedelta
 from pathlib import Path
 
-from lib import accum, cli, dates, entities, gates, korean, layout, runview, schema
+from lib import accum, cli, dates, entities, from_envelope, gates, korean, layout, runview, schema
 from . import _verify_checks as vc
 from . import linkcheck, lint, render
 from ._render_model import SOURCE_LABELS, Run
@@ -192,6 +192,12 @@ class Merge:
         env = {k: v for k, v in newest.items() if k != 'schema'}
         env.update(period={'from': self.a, 'to': self.b}, status=status, requests=requests, items=items,
                    error='; '.join(errors) if errors and status != 'ok' else None)
+        # Any raw that used the Naver substitute keeps the period report marked (collect again later).
+        fbs = [e['fallback'] for _r, e in envs if e.get('fallback')]
+        env.pop('fallback', None)
+        if fbs:
+            env['fallback'] = {'reason': ', '.join(dict.fromkeys(f['reason'] for f in fbs)),
+                               'days': ', '.join(dict.fromkeys(f['days'] for f in fbs)), 'recollect_required': True}
         return env
 
     # ------------------------------------------------------------------ refs
@@ -434,6 +440,17 @@ class Select:
                 'excluded_no_link': excluded['excluded_no_link']}
         if excluded['excluded_no_body']:
             todo['excluded_no_body'] = excluded['excluded_no_body']
+        fallback_rows = {}
+        for r in mg.raws:
+            for row in mg.work[r['idx']]['todo'].get('fallback_rows') or []:
+                kept = [a for a in row['articles'] if _inside(a['date'], mg.a, mg.b)]
+                have = fallback_rows.setdefault(row['key'], {'key': row['key'], 'section': row['section'],
+                                                             'articles': []})
+                seen = {a['id'] for a in have['articles']}
+                have['articles'] += [a for a in kept if a['id'] not in seen]
+        fallback_rows = [v for v in fallback_rows.values() if v['articles']]
+        if fallback_rows:
+            todo['fallback_rows'] = fallback_rows
         summary = {'three_lines': [], 'issues': out_sum, 'notices': notices, 'market': mk_sum}
         return todo, summary
 
@@ -603,7 +620,7 @@ def three_lines_brief(todo, summary, articles, clusters, relevance):
         cids = ([key[4:]] if key.startswith('new:') else []) + [
             c['cid'] for c in relevance['clusters']
             if c['verdict'] == 'issue' and c['section'] != 'market' and c['issue_link'] == key]
-        core = {i for cid in cids for i in core_ids.get(cid, []) if i in articles}
+        core = {i for cid in cids for i in core_ids.get(cid, []) if i in articles and not from_envelope.is_fallback(i)}
         outlets = {articles[i]['outlet'] for i in core}
         out.append({'issue': s['key'], 'section': it['section'], 'title': s['title']['text'],
                     'outlets': len(outlets), 'articles': len(core),
